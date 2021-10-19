@@ -4,3 +4,5 @@ logo: /assets/img/logo.png
 
 title: Masa CMS Documentation
 description: MASA CMS is an Enterprise Content Management platform based on open source technology. MASA CMS allows you, quickly and efficiently, to deliver personalised internet and intranet sites and mobile applications. It allows for easy deployment on your infrastructure of choice (AWS, Azure, own hardware). MASA CMS is ideally suited to organisations looking to be compliant with privacy laws such as GDPR.
+
+show_downloads: false
