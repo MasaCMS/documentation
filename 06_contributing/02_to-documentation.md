@@ -11,9 +11,9 @@ permalink: /contributing/to-documentation/
 
 Thank you for showing interest to contribute to the Masa CMS documentation. In this section we'll explain how you can help completing this documentation.
 
-You have the option to make your changes cirectly on GitHub, [in your browser](#in-your-browser). This is ideal for small contributions.
+You have the option to make your changes directly on GitHub, [in your browser](#in-your-browser). This is ideal for small contributions.
 
-For larger contributions, it's easier to locally, [in your code editor](#in-your-code-editor). But this will require some work setting up the project locally.
+For larger contributions, it's easier to make your changes locally, [in your code editor](#in-your-code-editor). But this will require some work setting up the project locally.
 
 ## In your browser
 
@@ -50,6 +50,8 @@ Now you can review your changes and create a pull request.
 
 ![open a pull request](/assets/06_contributing/to-documentation/open-a-pull-request.png)
 
+Don't forget to sign the contributor agreement, the first time you create a pull request. You can do this by clicking the "CLA not signed yet"-button or by following the instructions in the email you'll receive.
+{: .alert .alert-warning }
 
 ## In your code editor
 
