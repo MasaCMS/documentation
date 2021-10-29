@@ -1,13 +1,4 @@
----
-layout: default
-title: To documentation
-nav_order: 2
-parent: Contributing
-last_modified_date: 20-10-2021 13:00
-permalink: /contributing/to-documentation/
----
-
-# Contribute to documentation
+# Contributing
 
 Thank you for showing interest to contribute to the Masa CMS documentation. In this section we'll explain how you can help completing this documentation.
 
@@ -19,16 +10,11 @@ For larger contributions, it's easier to make your changes locally, [in your cod
 
 In the footer of every page in this documentation, you'll find a link to 'Edit this page on GitHub'. By clicking this link you'll be directed to GitHub, where you can edit the page (in Markdown).
 
-![contribute in your browser](/assets/06_contributing/to-documentation/in-your-browser.png)
-
 ### Editing
 
 GitHub provides an in browser file editor you can use to make your changes. The Masa CMS documentation uses [Markdown](https://daringfireball.net/projects/markdown/) as formating syntax.
 
 Don't forget to update the `last_modified_date` in the configuration block at the top of the page.
-{: .alert .alert-info }
-
-![editing](/assets/06_contributing/to-documentation/editing.png)
 
 ### Preview
 
@@ -36,22 +22,15 @@ Just above your code editor, you'll find a tab 'preview'. When you open this tab
 
 Now you are ready to commit your changes.
 
-![preview](/assets/06_contributing/to-documentation/preview.png)
-
 ### Commit changes
 
 Below the file editor, you'll see a form. Please provide a title and a description for your changes. Choose which email address to associate with this commit and select the option to 'Create a new branch for this commit and start a pull request.'.
-
-![commit changes](/assets/06_contributing/to-documentation/commit-changes.png)
 
 ### Open a pull request
 
 Now you can review your changes and create a pull request.
 
-![open a pull request](/assets/06_contributing/to-documentation/open-a-pull-request.png)
-
 Don't forget to sign the contributor agreement, the first time you create a pull request. You can do this by clicking the "CLA not signed yet"-button or by following the instructions in the email you'll receive.
-{: .alert .alert-warning }
 
 ## In your code editor
 
