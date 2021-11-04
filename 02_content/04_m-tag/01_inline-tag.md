@@ -4,7 +4,7 @@ title: Inline tag
 nav_order: 1
 grand_parent: Content
 parent: M-tag
-last_modified_date: 20-10-2021 13:00
+last_modified_date: 04-11-2021 14:00
 permalink: /content/m-tag/inline-tag/
 ---
 
