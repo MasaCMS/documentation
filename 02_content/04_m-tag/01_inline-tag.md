@@ -13,3 +13,5 @@ permalink: /content/m-tag/inline-tag/
 ## Examples
 
 ## Permissions
+
+Any user that can edit content, can use the `[masa]` tag.
