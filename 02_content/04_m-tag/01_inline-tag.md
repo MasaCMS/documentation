@@ -11,7 +11,7 @@ permalink: /content/m-tag/inline-tag/
 # Inline tag
 
 When creating content in Masa CMS you use the `[masa]` tag for rendering dynamic content.
-This is very powerfull way to
+This is very powerfull way to acces CFML and Masa functionality.
 
 ## Examples
 You can use CFML functions inside your `[masa]` tag:
