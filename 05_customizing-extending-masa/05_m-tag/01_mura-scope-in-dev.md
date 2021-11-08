@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Masa scope in dev
+title: Mura scope in dev
 nav_order: 1
 grand_parent: Customizing/Extending Masa
 parent: M-tag
 last_modified_date: 20-10-2021 13:00
-permalink: /customizing-extending-masa/m-tag/masa-scope-in-dev/
+permalink: /customizing-extending-masa/m-tag/mura-scope-in-dev/
 ---
 
-# Masa scope in dev
+#  scope in dev
 
-When developing Masa Themes or Plugins the `m`  scope is available. This is referred to as the 'Masa Scope'.
+When developing Masa Themes or Plugins the `m`  scope is available. This is referred to as the 'Mura Scope'.
 This scope exists next to the familiair `$` scope ('dollar scope').
 
 ## Examples

@@ -18,7 +18,7 @@ You can use CFML functions inside your `[mura]` tag:
 
     [mura]TimeFormat(Now(), 'hh:mm:ss tt')[/mura]
     
-You can also call Masa specific functions that are available through the Masa scope:
+You can also call Masa specific functions that are available through the Mura scope:
     
     [mura]m.dspInclude('custom_file_path/inc/includeFile.cfm')[/mura]
 
