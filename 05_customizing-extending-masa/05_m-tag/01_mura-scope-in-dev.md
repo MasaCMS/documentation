@@ -17,10 +17,13 @@ This scope exists next to the familiair `$` scope ('dollar scope').
 
 You can use the `m` scope in your template like so:
 
+```cfscript
     m.siteConfig('assetPath')
+```
 
 Or
 
+```cfscript
      m.dspCarouselByFeedName(
 			feedName='Slideshow'
 			, showCaption=true
@@ -29,11 +32,14 @@ Or
 			, interval=5000
 			, autoStart=true
 		)
+```
 
-This example is using the MuraBootstrap5 Theme; The function `dspCarouselByFeedName` in the `contentRenderer.cfc` is called via the `m` scope. 
+This example is using the [MasaBootstrap4](https://github.com/MasaCMS/MasaBootstrap4) Theme; The function `dspCarouselByFeedName` in the `contentRenderer.cfc` is called via the `m` scope. 
 
 Also the function available through Masa Plugins are available:
 
+```cfscript
     m.muraLocations.dspFindLocationsForm()
+```
 
-This example is using the MuraLocations Plugin. The function `dspFindLocationsForm` in the `Eventhandler.cfc` is called via the `m` scope.
+This example is using the [MuraLocations Plugin](https://github.com/stevewithington/MuraLocations). The function `dspFindLocationsForm` in the `Eventhandler.cfc` is called via the `m` scope.

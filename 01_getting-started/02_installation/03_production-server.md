@@ -13,7 +13,7 @@ permalink: /getting-started/installation/production-server/
 ## Requirements
 - Must have ColdFusion 10+, Lucee 4.5.1.000+, installed
 - Access to a MySQL 5+, PostgreSQL 8+, Microsoft SQL 2000+ or Oracle 10g+ database server and the ability to add a new database
-- Ability to add a Datasource (DSN) to ColdFusion, Lucee, Administrator
+- Ability to add a Datasource (DSN) to ColdFusion/Lucee administrator
 
 ## Installation
 Installing Masa CMS couldn't be easier. Follow the instructions below and you'll be up and running in minutes.
@@ -21,7 +21,9 @@ Installing Masa CMS couldn't be easier. Follow the instructions below and you'll
 1. Create an empty database (e.g., dbMasaCMS).
 
 2. Copy the contents of the Masa CMS .zip file into your webroot (the directory where your site will live).
-  1. NOTE: Do NOT place the files into a directory named "mura" since this is already used as a ColdFusion mapping and may cause issues.
+
+  NOTE: Do NOT place the files into a directory named "mura" since this is already used as a ColdFusion mapping and may cause issues.  
+  {: .alert .alert-warning }
 
 3. Go to the ColdFusion or Lucee Administrator, and create a Datasource (DSN) connecting to the database you created in the step above (e.g., dsnMasaCMS). While creating the DSN, also complete the following under Advanced Settings:
   1. Enable CLOB (enable long text retrieval)
@@ -34,6 +36,8 @@ Installing Masa CMS couldn't be easier. Follow the instructions below and you'll
 6. Login to the Masa CMS admin using the username and password chosen in the Masa CMS Set Up page. It is highly recommended you utilize a complex password.
 
 7. If you would like to send scheduled emails or have scheduled content publishing when caching is turned on (caching is highly recommended for increased performance) you must change the "Ping" attribute in the \config\setting.ini.cfm to 1. On start up, Masa CMS will attempt to create a scheduled task to check for event reminders, scheduled emails and to flush its cache for scheduled content.
-  1. NOTE: Enabling this scheduled task may cause performance problems in some shared hosting environments.
+
+  NOTE: Enabling this scheduled task may cause performance problems in some shared hosting environments.      
+  {: .alert .alert-warning }
 
 8. You're done installing Masa CMS. Enjoy!

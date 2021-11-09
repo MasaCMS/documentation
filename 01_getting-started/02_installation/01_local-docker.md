@@ -24,7 +24,10 @@ Prerequisite: [Docker](https://www.docker.com/) must be installed.
 
 4. Goto the subfolder of the database you want to use.
 
-5. Start the Docker image by typing `docker-compose up`. A Docker image will now be created and started, with the database of you choice.
+5. Start the Docker image by typing `docker-compose up`. Two Docker containers will start, one for the database and one for Masa CMS.
+
+    NOTE: Mac users will have to change the port number for the database container, since that port is already in use by the OS itself.
+    {: .alert .alert-warning }
 
 6. Goto [http://localhost:8080](http://localhost:8080) to visit your local Masa site.
 
