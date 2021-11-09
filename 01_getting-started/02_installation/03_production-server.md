@@ -22,8 +22,8 @@ Installing Masa CMS couldn't be easier. Follow the instructions below and you'll
 
 2. Copy the contents of the Masa CMS .zip file into your webroot (the directory where your site will live).
 
-  NOTE: Do NOT place the files into a directory named "mura" since this is already used as a ColdFusion mapping and may cause issues.  
-  {: .alert .alert-warning }
+    NOTE: Do NOT place the files into a directory named "mura" since this is already used as a ColdFusion mapping and may cause issues.
+    {: .alert .alert-warning }
 
 3. Go to the ColdFusion or Lucee Administrator, and create a Datasource (DSN) connecting to the database you created in the step above (e.g., dsnMasaCMS). While creating the DSN, also complete the following under Advanced Settings:
   1. Enable CLOB (enable long text retrieval)
