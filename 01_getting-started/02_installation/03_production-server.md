@@ -37,7 +37,7 @@ Installing Masa CMS couldn't be easier. Follow the instructions below and you'll
 
 7. If you would like to send scheduled emails or have scheduled content publishing when caching is turned on (caching is highly recommended for increased performance) you must change the "Ping" attribute in the \config\setting.ini.cfm to 1. On start up, Masa CMS will attempt to create a scheduled task to check for event reminders, scheduled emails and to flush its cache for scheduled content.
 
-  NOTE: Enabling this scheduled task may cause performance problems in some shared hosting environments.      
-  {: .alert .alert-warning }
+    NOTE: Enabling this scheduled task may cause performance problems in some shared hosting environments.      
+    {: .alert .alert-warning }
 
 8. You're done installing Masa CMS. Enjoy!
