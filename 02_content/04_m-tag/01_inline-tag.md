@@ -17,34 +17,34 @@ This is very powerfull way to acces CFML and Masa functionality.
 You can use CFML functions inside your `[mura]` tag:
 
 ```cfscript
-    [mura]TimeFormat(Now(), 'hh:mm:ss tt')[/mura]
+[mura]TimeFormat(Now(), 'hh:mm:ss tt')[/mura]
 ```
     
 You can also call Masa specific functions that are available through the Mura scope:
     
 ```cfscript
-    [mura]m.dspInclude('custom_file_path/inc/includeFile.cfm')[/mura]
+[mura]m.dspInclude('custom_file_path/inc/includeFile.cfm')[/mura]
 ```
 
 Or
 
 ```cfscript
-    [mura]m.siteConfig('assetPath')[/mura]
+[mura]m.siteConfig('assetPath')[/mura]
 ```
 
 Thus you can also call your own functions you've created in your `contentRenderer.cfc` in your Theme:
 
 ```cfscript
-    [mura]
-    m.dspCarouselByFeedName(
-			feedName='Slideshow'
-			, showCaption=true
-			, cssID='myCarousel'
-			, size='carouselimage'
-			, interval=5000
-			, autoStart=true
-		)
-    [/mura]
+[mura]
+m.dspCarouselByFeedName(
+        feedName='Slideshow'
+        , showCaption=true
+        , cssID='myCarousel'
+        , size='carouselimage'
+        , interval=5000
+        , autoStart=true
+    )
+[/mura]
 ```
 
 This example is using the MuraBootstrap5 Theme.
@@ -52,7 +52,7 @@ This example is using the MuraBootstrap5 Theme.
 Also the function available through Masa Plugins are available:
 
 ```cfscript
-    [mura]m.muraLocations.dspFindLocationsForm()[/mura]
+[mura]m.muraLocations.dspFindLocationsForm()[/mura]
 ```
 
 This example is using the MuraLocations Plugin.
