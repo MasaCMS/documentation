@@ -29,8 +29,8 @@ Prerequisite: [Docker](https://www.docker.com/) must be installed.
     NOTE: Mac users will have to change the port number for the database container, since that port is already in use by the OS itself.
     {: .alert .alert-warning }
 
-6. Goto [http://localhost:8080](http://localhost:8080) to visit your local Masa site.
+6. Goto [http://localhost:8080](http://localhost:8080) to visit your local Masa CMS site.
 
-7. Goto [http:/localhost:8080/admin](http:/localhost:8080/admin) to visit the Masa Adminstator. You can login with the following credentials:
+7. Goto [http:/localhost:8080/admin](http:/localhost:8080/admin) to visit the Masa CMS Adminstator. You can login with the following credentials:
     * Username: `admin`
     * Password: `admin`
