@@ -13,8 +13,7 @@ permalink: /getting-started/configuration/global-configuration/
 ## The "config" Directory
 This directory contains the majority of Masa's configuration files. There are a handful of editable files outlined below.
 
-![](/assets/03_configuration/04_global-configuration/editable-core-files.png)
-
+![](/assets/01_getting-started/03_configuration/04_global-configuration/editable-core-files.png)
 
 
 | Directory                                                                                                                                     | Editable | Description                                                                                                                                                                                                                                                                                                                                                                                                |
