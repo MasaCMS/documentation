@@ -14,6 +14,8 @@ To add a new Masa site, follow the instructions below.
 
 1. From the back-end administration area of Masa, select **Global Settings** from the main navigation, and click **Add New Site**.
 
+    ![](/assets/03_managing-masa/03_adding_site/adding_site_1.png)
+
 2. The only required form field is the **"Site ID"** field. Please keep in mind the text you enter here will become the directory name under Masa's {context}, and as such, you should not use any spaces, punctuation, dots, or file delimiters here.
 
 3. At a minimum, you'll probably also want to enter a **"Site Name"** and **"Primary Domain"** in order to identify, and access the site.
