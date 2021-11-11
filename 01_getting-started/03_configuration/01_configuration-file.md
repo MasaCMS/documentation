@@ -8,9 +8,9 @@ last_modified_date: 20-10-2021 13:00
 permalink: /getting-started/configuration/configuration-file/
 ---
 # Configuration file
-You can find all the mura settings in `/config/setting.ini.cfm`. You can find a template for all the settings in `/core/templates/settings.template.cfm`
+You can find all the Masa settings in `/config/setting.ini.cfm`. You can find a template for all the settings in `/core/templates/settings.template.cfm`
 ## The "settings.ini.cfm" File
-This extremely important file contains many configuration settings for Mura. The ".ini" file format is an informal standard for configuration files. It's a simple text file with a basic structure composed of sections with key-value pairs.
+This extremely important file contains many configuration settings for Masa. The ".ini" file format is an informal standard for configuration files. It's a simple text file with a basic structure composed of sections with key-value pairs.
 
 ### Example
 ```markdown
@@ -23,14 +23,14 @@ Semicolons (;) at the beginning of the line indicate a comment. Comment lines ar
 
 
 ## Reference
-A reference for Mura's configuration settings is outlined below.
+A reference for Masa's configuration settings is outlined below.
 
 ### Settings Section
 
 | Key          | Type   | Default    | Description                                                                                                                                                                                                                                                                                              |
 | ------------ | ------ | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | appreloadkey | string | appreload  | The URL variable used to trigger Mura to reload the entire application. For security purposes, it is highly recommended to change this setting for production environments.                                                                                                                              |
-| mode         | string | production | Sets the mode per the appropriate settings in the section defined as \[production\], \[development\], etc. A complete set of key-value pairs is required for each mode. Duplicate the default production set, and edit as necessary. Valid options: production, development, staging |
+| mode         | string | production | Sets the mode per the appropriate settings in the section defined as \[production\], \[development\], etc. A complete set of key-value pairs is required for each mode. Duplicate the default production set, and edit as necessary. Valid options: {::nomarkdown}<ul><li>production</li><li>development</li><li>staging</li></ul>{:/} |
 
 
 ### Production Section
