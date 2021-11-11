@@ -76,25 +76,7 @@ A reference for Masa's configuration settings is outlined below.
 | hashurls                            | boolean | false                                                    | If `true`, Mura will generate URLs with directory names as hashes.                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | haslockablenodes                    | boolean | false                                                    | If `true`, when a content manager is editing content, other content managers will be unable to edit the same content.                                                                                                                                                                                                                                                                                                                                                                                                  |
 | hstsmaxage                          | integer | 1200                                                     | View [https://en.wikipedia.org/wiki/<br>HTTP\_Strict\_Transport\_Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) for more information.                                                                                                                                                                                                                                                                                                                                                         |
-| imageinterpolation                  | string  | highQuality                                              | Specify a specific interpolation algorithm by name, by image quality, or by performance. See [ImageResize](https://helpx.adobe.com/coldfusion/cfml-reference/coldfusion-functions/functions-h-im/imageresize.html) for more information. Valid options:
-
-*   highestQuality
-*   highQuality
-*   mediumQuality
-*   highestPerformance
-*   highPerformance
-*   mediumPerformance
-*   nearest
-*   bilinear
-*   bicubic
-*   bessel
-*   blackman
-*   hamming
-*   hanning
-*   hermite
-*   lanczos
-*   mitchell
-*   quadratic |
+| imageinterpolation                  | string  | highQuality                                              | Specify a specific interpolation algorithm by name, by image quality, or by performance. See [ImageResize](https://helpx.adobe.com/coldfusion/cfml-reference/coldfusion-functions/functions-h-im/imageresize.html) for more information. Valid options: {::nomarkdown} <ul> <li>highestQuality</li> <li>highQuality</li> <li>mediumQuality</li> <li>highestPerformance</li> <li>highPerformance</li> <li>mediumPerformance</li> <li>nearest</li> <li>bilinear</li> <li>bicubic</li> <li>bessel</li> <li>blackman</li> <li>hamming</li> <li>hanning</li> <li>hermite</li> <li>lanczos</li> <li>mitchell</li> <li>quadrati</li> </ul> {:/} |
 | indexfileinurls                     | boolean | true                                                     | Controls whether or not "/index.cfm" appears in Mura-generated URLs. Valid options:
 
 *   false
