@@ -30,7 +30,7 @@ GET https://yourdomain.com/{context}/index.cfm/_api/json/v1/?method=findone&site
 | entityname | The entityname being searched. For example: "`content`", "`user`", "`feed`", etc.   |
 | id         | The object ID of the entity being searched for.                                     |
 
-### Example Response
+## Example Response
 The `data` object will contain the entity's keys and corresponding values.
 
 ```json

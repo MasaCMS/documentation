@@ -8,7 +8,6 @@ last_modified_date: 12-11-2021 13:00
 permalink: /customizing-extending-masa/masa-api/JSON-API-FindMany/
 ---
 
-
 # FindMany
 Get multiple entities.
 
@@ -30,7 +29,7 @@ GET https://yourdomain.com/{context}/index.cfm/_api/json/v1/?method=findmany&sit
 | entityname | The entity's name.                                                                  |
 | ids        | A comma-delimited list of entity IDs.                                               |
 
-### Example Response
+## Example Response
 If multiple entities are found, an items array will be present in the data object.
 
 ```json
