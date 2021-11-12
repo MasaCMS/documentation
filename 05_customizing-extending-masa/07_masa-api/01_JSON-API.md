@@ -36,6 +36,55 @@ https://yourDomain.com/{context}/index.cfm/_api/json/v1/
 | GET,POST | [/{siteid}/login/?username={username}&password={password}](https://fix-this-url.com/json-api/login/)                                                               | [Login](https://fix-this-url.com/json-api/login/)                           | [data](https://fix-this-url.com/json-api/login/)                      |
 | GET,POST | [/{siteid}/logout](https://fix-this-url.com/json-api/logout/)                                                                                                      | [Logout](https://fix-this-url.com/json-api/logout/)                         | [data](https://docs.murasoftware.com/v7/mura-developers/mura-rendering/json-api/logout/)                     |
 
+
+## Response Format
+On success, the HTTP status code in the response header is 200 OK and the response body contains a data object in JSON format. On error, the header status code is an error code and the response body contains an error object.
+
+### Example Response
+```json
+{
+    "data": {
+    "key": "value"
+    }
+}
+```
+
+## Response Status Codes
+The JSON API uses the following response status codes:
+
+| Status Code | Description                                                                                                                                                                                                                                               |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 200         | OK - The request has succeeded. The client can read the result of the request in the body and the headers of the response.                                                                                                                                |
+| 400         | Bad Request - The request could not be understood by the server due to malformed syntax. The message body will contain more information; see **Error Handling**, below.                                                                                       |
+| 401         | Unauthorized - The request requires user authentication or, if the request included authoriation credentials, authorization has been refused for those credentials. Also, the JSON API feature may not be enabled for the site; see **How To Enabl**, above. |
+| 403         | Forbidden - The server understood the request, but is refusing to fulfill it. For example, requestor does not have permission to a requested method.                                                                                                      |
+| 404         | Not Found - The requested resource could not be found. This error can be due to a temporary or permanent condition.                                                                                                                                       |
+
+## Error Handling
+When an error occurs, the response data attribute will not exist. The response will instead contan an error attribute.
+
+### Example Error Response
+```json
+{
+    "error": {
+        "message": "Insufficient Account Permissions"
+    }
+}
+```
+
+### Example Response Handler
+```js
+    $.getJSON('/index.cfm/json/v1/default/content/').then(
+        function( resp ) {
+            if ( 'error' in resp ) {
+            //handle error
+            } else {
+            //do stuff
+            }
+        }
+    });
+```
+
 ## Masa ORM
 
 
