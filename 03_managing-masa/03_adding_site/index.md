@@ -1,37 +1,32 @@
 ---
 layout: default
-title: How to Add a New Site
+title: Adding a New Site
 nav_order: 3
 parent: Managing Masa CMS
 last_modified_date: 20-10-2021 13:00
 permalink: /managing-masa/adding-site/
 ---
-# How to Add a New Site
+# Adding a New Site
 
-Masa can host multiple websites under a single installation. This makes it easy to host both a public-facing website, and a company-facing intranet, and/or additional web properties owned and managed by your organization.
+Follow the next steps to add an new MasaCMS webiste.
 
-To add a new Masa site, follow the instructions below.
-
-1. From the back-end administration area of Masa, select **Global Settings** from the main navigation, and click **Add New Site**.
+1. Goto the MasaCMS Admin, then goto **Global Settings** from the left menu, and choose **Add New Site**.
 
     ![](/assets/03_managing-masa/03_adding_site/adding_site_1.png)
 
-2. The only required form field is the **"Site ID"** field. Please keep in mind the text you enter here will become the directory name under Masa's {context}, and as such, you should not use any spaces, punctuation, dots, or file delimiters here.
+2. Now a form is displayed; **"Site ID"** is the only mandatory field. The Site ID will be a created as a directory in the Masa {context}.
+So keep it simple and just create a siteID which isn't to complex.
     
     ![](/assets/03_managing-masa/03_adding_site/adding_site_2.png)
 
-3. At a minimum, you'll probably also want to enter a **"Site Name"** and **"Primary Domain"** in order to identify, and access the site.
+3. Its a good practice to also fill in the fields **"Site Name"** and **"Primary Domain"** so the site has a label and a domain is linked to the site.
 
     ![](/assets/03_managing-masa/03_adding_site/adding_site_3.png)
 
-4. Remember, when adding a new site, all directories and files located under `{context}/default/` will be copied and placed into the new SiteID directory.
-
-5. Additional information about adding a new site can be found in the Installation and Setup Guide (coming soon).
-
-6. When you're finished, click the **Add** button, to create your new site.
+4. Click the **Add** button. A new site is now created. All  the directories and files in `{context}/default/` are copied into the new directory with the Site ID.
 
     ![](/assets/03_managing-masa/03_adding_site/adding_site_4.png)
 
-7. You should now see your new site in the listing of sites on the **Global Settings** screen.
+5. Under **Global Settings** you can now see your newly created site!
 
     ![](/assets/03_managing-masa/03_adding_site/adding_site_5.png)
