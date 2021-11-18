@@ -8,10 +8,3 @@ permalink: /getting-started/
 ---
 
 # Getting started
-
-## Quick Start
-
-This guide will help you to get started with Masa CMS in just a few simple steps.
-
-
-1. 
