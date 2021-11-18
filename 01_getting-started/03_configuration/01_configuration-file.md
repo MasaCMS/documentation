@@ -10,7 +10,7 @@ permalink: /getting-started/configuration/configuration-file/
 # Configuration file
 All the the Masa settings can be found in `/config/setting.ini.cfm`. A template for this file is available in`/core/templates/settings.template.cfm`
 ## The "settings.ini.cfm" File
-This file contaitns the configuration setting for Masa.
+This file contains the configuration setting for Masa CMS.
 
 ### Example
 ```markdown
@@ -19,7 +19,7 @@ adminemail=info@masacms.com
 dbtype=mysql
 yourOwnKey=Your Value
 ```
-You can use a secmiconlon (;) to comment a line. This line is then ignored.
+You can use a semicolon (;) to comment a line. This line is then ignored.
 
 ## Reference
 You can find a reference for this configuration file below.

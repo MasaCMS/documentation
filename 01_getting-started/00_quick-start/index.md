@@ -12,12 +12,12 @@ permalink: /getting-started/quick-start/
 
 Follow this guide to have a Masa CSM instance running in no time.
 
-1. Dowload and install [Docker](https://www.docker.com/get-started), if you not already have done so.
+1. Download and install [Docker](https://docs.docker.com/get-started/), if you not already have done so.
 
 2. Download Masa CMS from this direct [download](https://github.com/MasaCMS/MasaCMS/archive/refs/heads/main.zip) link.
 A .zip file is now being download.
 
-3.  Unzip the .zip file into a directory of you choice. We will refer in this guide to this as the `MasaCMSRootDir`.
+3. Unzip the .zip file into a directory of you choice. We will refer in this guide to this as the `MasaCMSRootDir`.
 
 4. Goto your `MasaCMSRootDir` in a terminal window.
 

@@ -10,11 +10,11 @@ permalink: /getting-started/installation/local-docker/
 
 # Local: Docker
 
-Prerequisite: [Docker](https://www.docker.com/) must be installed.
+Prerequisite: [Docker](https://docs.docker.com/get-started/) must be installed.
 
-1. Clone the MasaCMS repository from [GitHub](https://github.com/MasaCMS/MasaCMS) to you local machine.
+1. Clone the Masa CMS repository from [GitHub](https://github.com/MasaCMS/MasaCMS) to you local machine.
 
-2. Goto the directory in which you cloned the MasaCMs Repository with a commandline tool (like Bash).
+2. Goto the directory in which you cloned the Masa CMS Repository with a commandline tool (like Bash).
 
 3. Goto the subfolder `\core\docker\`. In this folder you can find several Docker configurations for different database flavours.
     * `local-mssql`  for Microsoft SQL Server

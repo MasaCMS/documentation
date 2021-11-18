@@ -8,9 +8,9 @@ permalink: /managing-masa/adding-site/
 ---
 # Adding a New Site
 
-Follow the next steps to add an new MasaCMS webiste.
+Follow the next steps to add an new Masa CMS webiste.
 
-1. Goto the MasaCMS Admin, then goto **Global Settings** from the left menu, and choose **Add New Site**.
+1. Goto the Masa CMS Admin, then goto **Global Settings** from the left menu, and choose **Add New Site**.
 
     ![](/assets/03_managing-masa/03_adding_site/adding_site_1.png)
 
@@ -23,7 +23,7 @@ So keep it simple and just create a siteID which isn't to complex.
 
     ![](/assets/03_managing-masa/03_adding_site/adding_site_3.png)
 
-4. Click the **Add** button. A new site is now created. All  the directories and files in `{context}/default/` are copied into the new directory with the Site ID.
+4. Click the **Add** button. A new site is now created. All the directories and files in `{context}/default/` are copied into the new directory with the Site ID.
 
     ![](/assets/03_managing-masa/03_adding_site/adding_site_4.png)
 
