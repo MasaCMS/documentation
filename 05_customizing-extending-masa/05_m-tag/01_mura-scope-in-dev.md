@@ -8,9 +8,9 @@ last_modified_date: 20-10-2021 13:00
 permalink: /customizing-extending-masa/m-tag/mura-scope-in-dev/
 ---
 
-#  scope in dev
+# Scope in dev
 
-When developing Masa CMS Themes or Plugins the `m`  scope is available. This is referred to as the 'Mura Scope'.
+When developing Masa CMS Themes or Plugins the `m` scope is available. This is referred to as the 'Mura Scope'.
 This scope exists next to the familiair `$` scope ('dollar scope').
 
 ## Examples
