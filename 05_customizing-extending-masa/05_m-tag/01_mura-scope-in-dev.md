@@ -35,7 +35,6 @@ m.dspCarouselByFeedName(
 ```
 
 This example is using the [MasaBootstrap5](https://github.com/MasaCMS/MasaBootstrap5) Theme; The function `dspCarouselByFeedName` in the `contentRenderer.cfc` is called via the `m` scope. 
-
 Also the function available through Masa Plugins are available:
 
 ```cfscript

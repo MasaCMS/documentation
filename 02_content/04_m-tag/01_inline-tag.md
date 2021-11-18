@@ -35,6 +35,7 @@ Or
 Thus you can also call your own functions you've created in your `contentRenderer.cfc` in your Theme:
 
 ```cfscript
+
 [m]
 m.dspCarouselByFeedName(
         feedName='Slideshow'

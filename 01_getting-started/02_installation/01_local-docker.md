@@ -31,6 +31,6 @@ Prerequisite: [Docker](https://docs.docker.com/get-started/) must be installed.
 
 6. Goto [http://localhost:8080](http://localhost:8080) to visit your local Masa CMS site.
 
-7. Goto [http:/localhost:8080/admin](http:/localhost:8080/admin) to visit the Masa CMS Adminstator. You can login with the following credentials:
+7. Goto [http:/localhost:8080/admin](http:/localhost:8080/admin) to visit the Masa CMS Administrator. You can login with the following credentials:
     * Username: `admin`
     * Password: `admin`
