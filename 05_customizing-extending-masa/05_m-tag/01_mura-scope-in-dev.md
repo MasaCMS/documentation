@@ -8,9 +8,9 @@ last_modified_date: 20-10-2021 13:00
 permalink: /customizing-extending-masa/m-tag/mura-scope-in-dev/
 ---
 
-#  scope in dev
+# Scope in dev
 
-When developing Masa Themes or Plugins the `m`  scope is available. This is referred to as the 'Mura Scope'.
+When developing Masa CMS Themes or Plugins the `m` scope is available. This is referred to as the 'Mura Scope'.
 This scope exists next to the familiair `$` scope ('dollar scope').
 
 ## Examples
@@ -34,8 +34,7 @@ m.dspCarouselByFeedName(
 )
 ```
 
-This example is using the [MasaBootstrap4](https://github.com/MasaCMS/MasaBootstrap4) Theme; The function `dspCarouselByFeedName` in the `contentRenderer.cfc` is called via the `m` scope. 
-
+This example is using the [MasaBootstrap5](https://github.com/MasaCMS/MasaBootstrap5) Theme; The function `dspCarouselByFeedName` in the `contentRenderer.cfc` is called via the `m` scope. 
 Also the function available through Masa Plugins are available:
 
 ```cfscript

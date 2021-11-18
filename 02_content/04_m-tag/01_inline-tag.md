@@ -10,32 +10,33 @@ permalink: /content/m-tag/inline-tag/
 
 # Inline tag
 
-When creating content in Masa CMS you use the `[mura]` tag for rendering dynamic content.
+When creating content in Masa CMS you use the `[m]` tag for rendering dynamic content.
 This is very powerfull way to acces CFML and Masa functionality.
 
 ## Examples
-You can use CFML functions inside your `[mura]` tag:
+You can use CFML functions inside your `[m]` tag:
 
 ```cfscript
-[mura]TimeFormat(Now(), 'hh:mm:ss tt')[/mura]
+[m]TimeFormat(Now(), 'hh:mm:ss tt')[/m]
 ```
     
-You can also call Masa specific functions that are available through the Mura scope:
+You can also call Masa CMS specific functions that are available through the Mura scope:
     
 ```cfscript
-[mura]m.dspInclude('custom_file_path/inc/includeFile.cfm')[/mura]
+[m]m.dspInclude('custom_file_path/inc/includeFile.cfm')[/m]
 ```
 
 Or
 
 ```cfscript
-[mura]m.siteConfig('assetPath')[/mura]
+[m]m.siteConfig('assetPath')[/m]
 ```
 
 Thus you can also call your own functions you've created in your `contentRenderer.cfc` in your Theme:
 
 ```cfscript
-[mura]
+
+[m]
 m.dspCarouselByFeedName(
         feedName='Slideshow'
         , showCaption=true
@@ -44,18 +45,18 @@ m.dspCarouselByFeedName(
         , interval=5000
         , autoStart=true
     )
-[/mura]
+[/m]
 ```
 
-This example is using the MuraBootstrap5 Theme.
+This example is using the [MasaBootstrap5](https://github.com/MasaCMS/MasaBootstrap5) Theme.
 
-Also the function available through Masa Plugins are available:
+Also the function available through Masa CMS Plugins are available:
 
 ```cfscript
-[mura]m.muraLocations.dspFindLocationsForm()[/mura]
+[m]m.muraLocations.dspFindLocationsForm()[/m]
 ```
 
 This example is using the MuraLocations Plugin.
 ## Permissions
 
-Any user that can edit content, can use the `[mura]` tag.
+Any user that can edit content, can use the `[m]` tag.

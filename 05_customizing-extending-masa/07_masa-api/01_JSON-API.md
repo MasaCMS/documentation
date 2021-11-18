@@ -10,6 +10,6 @@ permalink: /customizing-extending-masa/masa-api/JSON-API/
 
 # JSON API
 
-## Structure
-
 ## Masa ORM
+
+

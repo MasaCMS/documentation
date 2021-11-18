@@ -10,11 +10,11 @@ permalink: /getting-started/installation/local-docker/
 
 # Local: Docker
 
-Prerequisite: [Docker](https://www.docker.com/) must be installed.
+Prerequisite: [Docker](https://docs.docker.com/get-started/) must be installed.
 
-1. Clone the MasaCMS repository from [GitHub](https://github.com/MasaCMS/MasaCMS) to you local machine.
+1. Clone the Masa CMS repository from [GitHub](https://github.com/MasaCMS/MasaCMS) to you local machine.
 
-2. Goto the directory in which you cloned the MasaCMs Repository with a commandline tool (like Bash).
+2. Goto the directory in which you cloned the Masa CMS Repository with a commandline tool (like Bash).
 
 3. Goto the subfolder `\core\docker\`. In this folder you can find several Docker configurations for different database flavours.
     * `local-mssql`  for Microsoft SQL Server
@@ -26,11 +26,11 @@ Prerequisite: [Docker](https://www.docker.com/) must be installed.
 
 5. Start the Docker image by typing `docker-compose up`. Two Docker containers will start, one for the database and one for Masa CMS.
 
-    NOTE: Mac users will have to change the port number for the database container, since that port is already in use by the OS itself.
+    NOTE: Mac users will have to change the port number for the database container, since that port is already in use by the OS itself. You can do this by editing the 'docker-compose.yml' file. Change the variables `MURA_DBCONNECTIONSTRING` and `MURA_DBPORT`. Also be sure to change the port number on line 51 for het MySQL Docker container accordingly.
     {: .alert .alert-warning }
 
-6. Goto [http://localhost:8080](http://localhost:8080) to visit your local Masa site.
+6. Goto [http://localhost:8080](http://localhost:8080) to visit your local Masa CMS site.
 
-7. Goto [http:/localhost:8080/admin](http:/localhost:8080/admin) to visit the Masa Adminstator. You can login with the following credentials:
+7. Goto [http:/localhost:8080/admin](http:/localhost:8080/admin) to visit the Masa CMS Administrator. You can login with the following credentials:
     * Username: `admin`
     * Password: `admin`
