@@ -3,7 +3,6 @@ layout: default
 title: Quick Start
 nav_order: 0
 parent: Getting started
-has_children: true
 last_modified_date: 10-11-2021 13:00
 permalink: /getting-started/quick-start/
 ---
