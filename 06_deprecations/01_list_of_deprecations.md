@@ -75,3 +75,19 @@ If you are using a construction where you instantiate the Masa Scope, then upgra
 ```cfscript
 application.serviceFactory.getBean("MasaScope").init('mySiteID');
 ````
+
+## Simple Forms
+Simple Form are deprecated; please use Forms created with the Form Builder instead.
+Migrate existing Simple Forms to Forms created with the Form Builder.
+
+Creating Simple Forms is switched off by default now. You can still maintain existing Simple Forms.
+If you still need to create a Simple Form , you need to change the setting in the `settings.ini.cfm`.
+
+```markdown
+allowSimpleHTMLForms=true
+```
+
+Don't forget to reload Masa.
+The 'Simple Form' option now becomes available again:
+
+![](/assets/06_deprecations/list_of_deprecations/deprecation_simple_forms_2.png)
