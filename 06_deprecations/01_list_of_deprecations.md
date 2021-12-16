@@ -91,3 +91,13 @@ Don't forget to reload Masa.
 The 'Simple Form' option now becomes available again:
 
 ![](/assets/06_deprecations/list_of_deprecations/deprecation_simple_forms_2.png)
+
+
+## Razuna
+Razuna is deprecated. Migrate to different Digital Asset Management system.	
+
+Razuna is switched off by default. If you still need to use it for some reason, you need to change the setting in the `settings.ini.cfm`.
+
+```markdown
+razuna=true
+```
