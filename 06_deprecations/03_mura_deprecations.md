@@ -118,7 +118,7 @@ In the file ``core/mura/configBean.cfc`` the following functions are deprecated:
 Please use the functions in ``core/mura/dbUtility.cfc`` instead.
 
 ### s3.cfc
-The file ``core/mura/content/file/s3.cfc` is` deprecated.
+The file ``core/mura/content/file/s3.cfc`` is deprecated.
 Pleas use different solution for interacting with S3.
 
 ### Deprecated arguments in function ``getAdvancedSearch`` in userGateway.cfc and userManager.cfc
