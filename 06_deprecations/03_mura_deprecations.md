@@ -58,7 +58,7 @@ The file ``core/mura/mailerLimited.cfc``is deprecated. Please use other ways to 
 The file ``core/mura/cacheFactory.cfc``is deprecated. Please use other ways to cache your variables.
 
 
-## All files in ``/core/mura/client/api/soap/v1/``
+## All files in ``core/mura/client/api/soap/v1/``
 All the 7 files in this folder are deprecated. These are:
 
 * bundle.cfc
