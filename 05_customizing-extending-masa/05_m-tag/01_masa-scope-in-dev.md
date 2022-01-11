@@ -11,7 +11,10 @@ permalink: /customizing-extending-masa/m-tag/masa-scope-in-dev/
 # Scope in dev
 
 When developing Masa CMS Themes or Plugins the `m` scope is available. This is referred to as the 'Masa Scope'.
+
+
 The `$` scope ('dollar scope') and `mura` scope are deprecated and should not be used anymore.
+{: .alert .alert-warning }
 
 ## Examples
 

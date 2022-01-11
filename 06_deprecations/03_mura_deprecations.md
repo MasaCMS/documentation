@@ -129,6 +129,6 @@ In the files ``core/mura/user/userGateway.cfc`` and ``core/mura/userGateway.cfc 
 
 Please remove these arguments in your calls to these functions.
 
-# JS
-## Function ``addLoadEvent`` in mura.js
+## JS
+### Function ``addLoadEvent`` in mura.js
 The function addLoadEvent is deprecated in ``admin/assets/js/mura.js``. Please use ``renderClient`` and ``renderServer`` instead.
