@@ -49,3 +49,19 @@ In the overview of content, content can be added to the site in the following wa
 
 5. A new Content Page is now added to your site as you can see in the overview of content:
 ![](/assets/02_content/02_adding_content/02_via-administator/07_new_content.png)
+
+This way you can add differten types of content to your site.
+
+## Editing Content
+In the overview of content, you can edit content in a very simple way.
+
+1. Simple select the row in the content overview of the content you want to edit. The selected row is coloured grey.
+![](/assets/02_content/02_adding_content/02_via-administator/08_select_content.png)
+
+2. Click on the selected row. The detail of the content are now shown. You can edit the text of the page. You can also search for settings in the top right in the input field 'Type to Find Settings'.
+![](/assets/02_content/02_adding_content/02_via-administator/09_edit_content.png)
+
+3. On the right side is a menu with different settings. These are grouped in tabs. Click on a setting category to open them. 
+![](/assets/02_content/02_adding_content/02_via-administator/10_edit_settings.png)
+
+4. After makeing changes, click on the button 'Publish' to save your work.
