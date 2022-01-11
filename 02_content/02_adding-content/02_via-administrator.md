@@ -42,7 +42,7 @@ In the overview of content, content can be added to the site in the following wa
 2. A modal now open with six options for Content Types to add. As you can see there are several Content Types to choose from in Masa CMS: Page, Link, File Folder, Calendar, Quick Upload. These can all be used to build your website in Masa CMS.
 ![](/assets/02_content/02_adding_content/02_via-administator/05_content_types.png)
 
-3. Choose the Content Type 'Page'. A form 'Creeate Content' for a new Page now opens.
+3. Choose the Content Type 'Page'. A form 'Create Content' for a new Page now opens.
 
 4. Fil in the field 'Page Title' with the name of your new page and click on the button 'Publish' on the bottom of the page.
 ![](/assets/02_content/02_adding_content/02_via-administator/06_create_content.png)
@@ -65,3 +65,26 @@ In the overview of content, you can edit content in a very simple way.
 ![](/assets/02_content/02_adding_content/02_via-administator/10_edit_settings.png)
 
 4. After makeing changes, click on the button 'Publish' to save your work.
+
+## Adding Components
+Component are small parts of content that can be placed on parts of the template of a Masa CMS Page. Their power lies in their re-usability; a single Component can be used numerous of times. For example; a Component that resembles a banner can be placed on mulitple templates on your site. When this banner Component is updated, then autmatically the banner is updated on the whole site.
+
+You can add Components as follow:
+
+1. Goto the overview of content. Select 'Component'. An overview of Components is shown.
+![](/assets/02_content/02_adding_content/02_via-administator/11_component_overview.png)
+
+2. Click on the three dots next to Components. 
+![](/assets/02_content/02_adding_content/02_via-administator/12_component_dots.png)
+
+3. A menu now opens; click 'Add Content'.
+![](/assets/02_content/02_adding_content/02_via-administator/13_component_add_content.png)
+
+4. A modal now opens with two options: 'Component' and 'Folder'. The option 'Folder' allows you to organise Components into a folder structure. Choose the option 'Component'.
+![](/assets/02_content/02_adding_content/02_via-administator/14_component_modal.png)
+
+5. A form 'Create Component' for a new Component now opens. Fil in the field 'Component Title' with the name of your new Component and click on the button 'Publish' on the bottom of the page.
+![](/assets/02_content/02_adding_content/02_via-administator/15_component_create.png)
+
+6. A new Comnponent is now added to your site as you can see in the overview of components:
+![](/assets/02_content/02_adding_content/02_via-administator/16_overview_components_2.png)
