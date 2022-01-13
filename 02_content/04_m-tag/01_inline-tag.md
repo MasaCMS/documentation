@@ -20,7 +20,7 @@ You can use CFML functions inside your `[m]` tag:
 [m]TimeFormat(Now(), 'hh:mm:ss tt')[/m]
 ```
     
-You can also call Masa CMS specific functions that are available through the Mura scope:
+You can also call Masa CMS specific functions that are available through the Masa scope:
     
 ```cfscript
 [m]m.dspInclude('custom_file_path/inc/includeFile.cfm')[/m]
