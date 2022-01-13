@@ -22,9 +22,10 @@ permalink: /release-notes/
 
 * New interface for editing content and components in the Masa CMS Administrator
 * New file manager
-* Introducing a deprecation warnings module
+* File Manager enabled by default
+* Introducing a [deprecation warnings module](/deprecations/deprecation_warnings/)
 * Introducing the Masa Scope
-* ORM Assembler is not in BETA
+* ORM Assembler is now in BETA
 * Changed the default theme to [MasaBoostrap5](https://github.com/MasaCMS/MasaBootstrap5)
 
 
@@ -39,9 +40,10 @@ permalink: /release-notes/
 {: .no_toc }
 
 * Deprecated Mura Scope and tag
-* Deprecation warning when setting Razuna
-* Deprecation warning for Simple Forms
-* Created a list of deprecated features inherited from Mura 7.2
+* Deprecated Razuna integration
+* Deprecated Simple Forms
+* [Documented deprecations](/deprecations/list-of_deprecations/)
+* [Documented deprecations inherited from Mura 7.1](/deprecations/mura-deprecations/)
 
 
 ## 7.2.1
