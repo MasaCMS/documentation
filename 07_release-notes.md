@@ -34,6 +34,7 @@ permalink: /release-notes/
 
 * Old, unused code from Advertisement Manager removed from codebase
 * Fixed a tenacious JavaScript console error
+* ORM Scaffolder option list and option values list were incorrectly displayed
 
 
 ### Deprecations
