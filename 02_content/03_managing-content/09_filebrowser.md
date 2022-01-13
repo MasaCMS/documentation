@@ -16,14 +16,6 @@ permalink: /content/managing-content/filebrowser/
 
 - TOC
 {:toc}
-
-## Enabeling File Browser
-By default the File Browser is disabled in Masa CMS.  Goto your `settings.ini.cfm` file and and set the value `filemanagerenabled` to `true`. It should look like this:
-```markdown
-filemanagerenabled=true
-```
-Reload Masa CMS. The File Browser is now available.
-
 ## File Browser Oveview
 With the File Browser enabled in the left menu the 'File Browser' menu item is now available.
 
@@ -92,3 +84,10 @@ In the file overview each folder has a three dots menu item on the left of the f
 
 * Rename; rename the folder.
 * Delete; delete the folder. Note: You can only delete folders which are empty.
+
+## Disabeling File Browser
+By default the File Browser is enabled in Masa CMS.  If you don't want give users acces to the file system via the File Browser, then you can disable this feature. Goto your `settings.ini.cfm` file and and set the value `filemanagerenabled` to `false`. It should look like this:
+```markdown
+filemanagerenabled=false
+```
+Reload Masa CMS to apply the changes. The File Browser is now disabled. It will not be shown in the menu
