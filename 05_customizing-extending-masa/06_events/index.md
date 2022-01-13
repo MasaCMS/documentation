@@ -14,7 +14,7 @@ Masa CMS is extremely customisable and one of the ways to achieve that is throug
 
 ## Lifecycle events
 
-A lifecycle event is an event that gets triggered on every single request, weither it is a front-end request or a request to the Masa CMS administrator.
+A lifecycle event is an event that gets triggered on every single request, wether it is a front-end request or a request to the Masa CMS administrator.
 
 An example of a lifecycle event is `onSiteRequestStart` that is triggered early on every front-end request or the `onPageBodyRender` event that is triggered when the body of a Page is rendered.
 
