@@ -9,3 +9,13 @@ permalink: /content/adding-content/via-administrator/
 ---
 
 # Via administrator
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+
+## Menu and overview of content
