@@ -67,7 +67,7 @@ In the overview of content, you can edit content in a very simple way.
 4. After makeing changes, click on the button 'Publish' to save your work.
 
 ## Adding Components
-Component are small parts of content that can be placed on parts of the template of a Masa CMS Page. Their power lies in their re-usability; a single component can be used numerous of times. For example; a component that resembles a banner can be placed on mulitple templates on your site. When this banner component is updated, then automatically the banner is updated on the whole site.
+Component are small parts of content that can be placed on parts of the template of a Masa CMS Page. Their power lies in their re-usability; a single component can be used numerous of times. For example; a component that resembles a banner can be placed on multiple templates on your site. When this banner component is updated, then automatically the banner is updated on the whole site.
 
 You can add a component as follow:
 
