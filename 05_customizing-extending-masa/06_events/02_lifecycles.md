@@ -9,15 +9,15 @@ permalink: /customizing-extending-masa/events/lifecycles/
 ---
 
 # Lifecycle
-{: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
+A lifecycle is a series of events that get triggerd on every request. Masa CMS has two lifecycle in use:
 
-- TOC
-{:toc}
+* [Front-end lifecyle](/customizing-extending-masa/events/lifecycles/#front-end-lifecycle)
+* [Administrator lifecycle](/customizing-extending-masa/events/lifecycles/#front-end-lifecycle)
 
-## Front-end request lifecycle
+## Front-end lifecycle
+
+The Front-end lifecycle is executed on every request to a site in Masa CMS.
 
 ```
 onGlobalRequestStart
@@ -79,7 +79,7 @@ onGlobalRequestStart
                         onAPIResponse
                         on{Type}APIResponse
                         on{Type}{Subtype}APIResponse
-                        onAPIError  (if an error occurs)
+                        onAPIError (if an error occurs)
 
                     ( else )
                     standardHTMLTranslator
@@ -111,7 +111,9 @@ onGlobalRequestStart
 onGlobalRequestEnd
 ```
 
-## Admin request lifecycle
+## Administrator lifecycle
+
+The Administrator lifecycle is executed on every request to the Masa CMS Administrator.
 
 ```
 onGlobalRequestStart

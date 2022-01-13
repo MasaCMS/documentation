@@ -17,6 +17,35 @@ permalink: /customizing-extending-masa/events/event-hooks/
 - TOC
 {:toc}
 
+Event hooks allow you to replace or extend Masa CMS's logic and functionality. They are written as a function that is part of an [event handler](/customizing-extending-masa/events/event-handlers/).
+
+```
+public any function onEvent(m) {
+  // write logic/functionality here
+}
+```
+
+Inside the function, the [Masa Scope](front-end-layout-manager/m-tag/masa-scope/) is available as a argument.
+
+## Event hook naming
+
+The name of an event hook is descriptive and already gives away a lot of information regarding it's purpose.
+
+### Event prefixes
+
+* _standard_{Event}: these events **replace** existing logic or functionality.
+* _on_{Event}: these events allow for you to **add** logic or functionality.
+
+### Global or Site
+
+* _onGlobal_{Event}: these events are triggered throughout the **entire instance of Masa CMS**.
+* _onSite_{Event}: these events are only triggered **in relation to the site** they are registered to.
+
+### Before or After
+
+* _onBefore_{Event}: these events are triggered **before** Masa CMS executes it's functionality.
+* _onAfter_{Event}: these events are triggered **after** Masa CMS executes it's functionality.
+
 ## Standard events
 
 | Event                           | Description |
@@ -368,3 +397,21 @@ permalink: /customizing-extending-masa/events/event-hooks/
 | onMFAAttemptChallenge     |             |
 
 ## Custom events
+
+When developing for Masa CMS, you can create your own event hooks. This might allow for nicely structured code or even opening up your functionality to other developers.
+
+### Announcing events
+
+Annoucing an event informs Masa CMS that something specific occured and it will look up the corresponding event hooks in the registered event handlers.
+
+```
+m.announceEvent('onYourEvent', m);
+```
+
+### Rendering events
+
+If you want your event to render to the browser, make sure your event hook returns it and call the event using the `renderEvent` method. 
+
+```
+m.renderEvent('YourEvent');
+```
