@@ -13,7 +13,7 @@ Do you speak a language other than English and you're willing to help out [trans
 
 We've setup a Crowdin project to collaborate together on translating the Masa CMS interface into as much languages as possible: [https://translations.masacms.com](https://translations.masacms.com).
 
-![Crowdin project for Masa CMS](/assets/07_contributing/to-translations/crowdin.png)
+![Crowdin project for Masa CMS](/assets/08_contributing/to-translations/crowdin.png)
 
 On the home page of the project, select the language you want to help out with. For each language we have two files:
 
@@ -24,18 +24,18 @@ On the home page of the project, select the language you want to help out with. 
 
 Next to the file you want to translate, click on the 'three dots'-icon and select the "translate" option.
 
-![Translate](/assets/07_contributing/to-translations/translate.png)
+![Translate](/assets/08_contributing/to-translations/translate.png)
 
 The translating interface opens up for the language and file selected.
 
-![Translation interface](/assets/07_contributing/to-translations/translate-interface.png)
+![Translation interface](/assets/08_contributing/to-translations/translate-interface.png)
 
 ## Proofread
 
 Next to the file you want to proofread, click on the 'three dots'-icon and select the "proofread" option.
 
-![Proofread](/assets/07_contributing/to-translations/proofread.png)
+![Proofread](/assets/08_contributing/to-translations/proofread.png)
 
 The proofreading interface opens up for the language and file selected.
 
-![Proofread interface](/assets/07_contributing/to-translations/proofread-interface.png)
+![Proofread interface](/assets/08_contributing/to-translations/proofread-interface.png)
