@@ -20,11 +20,11 @@ permalink: /release-notes/
 ### New features
 {: .no_toc }
 
-* New interface for editing content and components in the Masa CMS Administrator
-* New file manager
-* File Manager enabled by default
+* New interface for editing content and components in the [Masa CMS Administrator](/content/adding-content/via-administrator/)
+* New [File Browser](/content/managing-content/filebrowser/)
+* File Browser enabled by default
 * Introducing a [deprecation warnings module](/deprecations/deprecation_warnings/)
-* Introducing the Masa Scope
+* Introducing the [Masa Scope](/front-end-layout-manager/m-tag/masa-scope/)
 * ORM Assembler is now in BETA
 * Changed the default theme to [MasaBoostrap5](https://github.com/MasaCMS/MasaBootstrap5)
 
@@ -35,7 +35,6 @@ permalink: /release-notes/
 * Old, unused code from Advertisement Manager removed from codebase
 * Fixed a tenacious JavaScript console error
 * ORM Scaffolder option list and option values list were incorrectly displayed
-
 
 ### Deprecations
 {: .no_toc }
