@@ -9,6 +9,8 @@ permalink: /content/adding-content/via-administrator/
 ---
 
 # Via administrator
+New in 7.3
+{: .label .label-orange }
 {: .no_toc }
 
 ## Table of contents
