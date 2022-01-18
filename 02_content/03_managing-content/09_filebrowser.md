@@ -9,6 +9,8 @@ permalink: /content/managing-content/filebrowser/
 ---
 
 # File Browser
+New in 7.3
+{: .label .label-orange }
 {: .no_toc }
 
 ## Table of contents
