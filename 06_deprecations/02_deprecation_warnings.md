@@ -8,6 +8,8 @@ permalink: /deprecations/deprecation_warnings/
 ---
 
 # Deprecation Warnings
+New in 7.3
+{: .label .label-orange }
 For the functionalities that are deprecated, a warning is written into a seperate log file.
 This way you can collect en review the deprecations that apply to your Masa CMS installation.
 Deprecation warnings are enabled by default and written into `deprecations.log` file.
