@@ -9,3 +9,12 @@ permalink: /front-end-layout-manager/m-tag/masa-scope/
 ---
 
 # Masa scope
+New in 7.3
+{: .label .label-orange }
+
+The Masa scope is the successor of the Mura Scope.
+You can access various functions and variables in Masa CMS through the Masa Scope, like so:
+
+```cfscript
+#m.content('title')#
+```
