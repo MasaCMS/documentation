@@ -15,7 +15,7 @@ Follow the next steps to add an new Masa CMS webiste.
     ![](/assets/03_managing-masa/03_adding_site/adding_site_1.png)
 
 2. Now a form is displayed; **"Site ID"** is the only mandatory field. The Site ID will be created as a directory in the Masa {context}.
-Best practice is to keep it simple and just create a siteID which isn't too long or complex.
+Best practice is to keep it simple and create a siteID which isn't too long or complex.
     
     ![](/assets/03_managing-masa/03_adding_site/adding_site_2.png)
 
