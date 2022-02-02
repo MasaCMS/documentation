@@ -11,7 +11,7 @@ permalink: /contributing/to-translations/
 
 Do you speak a language other than English and you're willing to help out [translating](#translate) or [proofreading](#proofread)? You're welcome to help us out!
 
-We've setup a Crowdin project to collaborate together on translating the Masa CMS interface into as much languages as possible: [https://translations.masacms.com](https://translations.masacms.com).
+We've setup a Crowdin project to collaborate together on translating the Masa CMS interface into as many languages as possible: [https://translations.masacms.com](https://translations.masacms.com).
 
 ![Crowdin project for Masa CMS](/assets/08_contributing/to-translations/crowdin.png)
 

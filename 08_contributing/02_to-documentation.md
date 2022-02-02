@@ -9,9 +9,9 @@ permalink: /contributing/to-documentation/
 
 # Contribute to documentation
 
-Thank you for showing interest to contribute to the Masa CMS documentation. In this section we'll explain how you can help completing this documentation.
+Thank you for showing interest to contribute to the Masa CMS documentation. In this section we'll explain how you can help completing the documentation.
 
-You have the option to make your changes directly on GitHub, [in your browser](#in-your-browser). This is ideal for small contributions.
+You have the option to make changes directly on GitHub, [in your browser](#in-your-browser). This is ideal for small contributions.
 
 For larger contributions, it's easier to make your changes locally, [in your code editor](#in-your-code-editor). But this will require some work setting up the project locally.
 
