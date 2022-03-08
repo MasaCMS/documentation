@@ -22,13 +22,13 @@ permalink: /release-notes/
 
 * Improved extended attributes UI in the content manager
 * Adobe ColdFusion compatibility fixes
-* Improve customUI tab labels [https://github.com/MasaCMS/MasaCMS/issues/56](issue 56)
+* Improve customUI tab labels [issue 56](https://github.com/MasaCMS/MasaCMS/issues/56)
 * bug fixes for 
-  * [https://github.com/MasaCMS/MasaCMS/issues/41](issue 41)
-  * [https://github.com/MasaCMS/MasaCMS/issues/43](issue 43)
-  * [https://github.com/MasaCMS/MasaCMS/issues/44](issue 44)
-  * [https://github.com/MasaCMS/MasaCMS/issues/45](issue 45)
-  * [https://github.com/MasaCMS/MasaCMS/issues/51](issue 51)
+  * [issue 41](https://github.com/MasaCMS/MasaCMS/issues/41)
+  * [issue 43](https://github.com/MasaCMS/MasaCMS/issues/43)
+  * [issue 44](https://github.com/MasaCMS/MasaCMS/issues/44)
+  * [issue 45](https://github.com/MasaCMS/MasaCMS/issues/45)
+  * [issue 51](https://github.com/MasaCMS/MasaCMS/issues/51)
 
 
 ## 7.3
