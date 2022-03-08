@@ -15,6 +15,22 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.3.1
+
+### Bug fixes
+{: .no_toc }
+
+* Improved extended attributes UI in the content manager
+* Adobe ColdFusion compatibility fixes
+* Improve customUI tab labels #56
+* bug fixes for 
+  * [https://github.com/MasaCMS/MasaCMS/issues/41](https://github.com/MasaCMS/MasaCMS/issues/41)
+  * [https://github.com/MasaCMS/MasaCMS/issues/43](https://github.com/MasaCMS/MasaCMS/issues/43)
+  * [https://github.com/MasaCMS/MasaCMS/issues/44](https://github.com/MasaCMS/MasaCMS/issues/44)
+  * [https://github.com/MasaCMS/MasaCMS/issues/45](https://github.com/MasaCMS/MasaCMS/issues/45)
+  * [https://github.com/MasaCMS/MasaCMS/issues/51](https://github.com/MasaCMS/MasaCMS/issues/51)
+
+
 ## 7.3
 
 ### New features
@@ -27,7 +43,6 @@ permalink: /release-notes/
 * Introducing the [Masa Scope](/front-end-layout-manager/m-tag/masa-scope/)
 * ORM Assembler is now in BETA
 * Changed the default theme to [MasaBoostrap5](https://github.com/MasaCMS/MasaBootstrap5)
-
 
 ### Bug fixes
 {: .no_toc }
