@@ -21,13 +21,13 @@ To install Masa CMS as a dependancy for your project, use one of the commands be
 
 ### Latest stable version
 
-``` bash
+```console
 CommandBox> install MasaCMS
 ```
 
 ### Specific version
 
-``` bash
+```console
 CommandBox> install MasaCMS@7.3.1
 ```
 
@@ -35,7 +35,7 @@ CommandBox> install MasaCMS@7.3.1
 
 You can use Forgebox for the dependancy management of your plugins and modules.
 
-``` bash
+```console
 CommandBox> install MasaGoogleSitemaps
 ```
 
