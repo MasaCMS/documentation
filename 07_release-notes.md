@@ -15,6 +15,16 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.3.2
+
+### Bug fixes
+{: .no_toc }
+
+* bug fixes for 
+  * [issue 65](https://github.com/MasaCMS/MasaCMS/issues/65)
+  * [issue 66](https://github.com/MasaCMS/MasaCMS/issues/66)
+  * [issue 70](https://github.com/MasaCMS/MasaCMS/issues/70)
+
 ## 7.3.1
 
 ### Bug fixes
