@@ -19,7 +19,7 @@ permalink: /getting-started/
 Install Masa CMS using the Commandbox CLI and Forgebox (package manager).
 
 ```console
-CommandBox> install coldbox
+CommandBox> install MasaCMS
 ```
 
 ## Start
