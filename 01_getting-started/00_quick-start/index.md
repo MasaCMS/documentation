@@ -21,8 +21,8 @@ A .zip file is now being download.
 4. Goto your `MasaCMSRootDir` in a terminal window.
 
 5. CD in the following subdirectory:
-    * `\core\docker\local-mysql` for Windows and Mac
-    * `/core/docker/local-mysql` for Linux 
+    * `/core/docker/local-mysql` for Unix and Mac
+    * `\core\docker\local-mysql` for Windows
 
 6.  Type in the following command:  `docker-compose up`.
 Two Docker containers will start, one for the database and one for Masa CMS.
