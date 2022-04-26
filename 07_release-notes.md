@@ -15,6 +15,16 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.3.3
+
+### Bug fixes
+{: .no_toc }
+
+* bug fixes for 
+  * [issue 75](https://github.com/MasaCMS/MasaCMS/issues/75)
+  * JS error when publishing a page with an undefined canonicalurl
+  * JS error when starting inline editing
+
 ## 7.3.2
 
 ### Bug fixes
