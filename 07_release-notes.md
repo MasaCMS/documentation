@@ -15,6 +15,16 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+
+## 7.3.5
+
+### Bug fixes
+{: .no_toc }
+
+* bug fixes for 
+  * [issue 74](https://github.com/MasaCMS/MasaCMS/issues/74)
+  * fixes for integration with s3 in File Browser
+
 ## 7.3.4
 
 ### Security Vulnerability Fix
