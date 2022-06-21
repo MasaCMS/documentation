@@ -15,6 +15,32 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.3.4
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+
+We've been informed of a XSS security vulnerability in the Masa CMS administrator.  
+
+#### What is fixed ?
+{: .no_toc }
+
+Additional protection against XSS attacks is implemented to further secure the Masa CMS administrator.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2 and 7.3 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+If you’re on Masa CMS 7.3, you should update to version 7.3.4 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+
+
 ## 7.3.3
 
 ### Bug fixes
@@ -79,6 +105,31 @@ permalink: /release-notes/
 * Deprecated Simple Forms
 * [Documented deprecations](/deprecations/list-of_deprecations/)
 * [Documented deprecations inherited from Mura 7.1](/deprecations/mura-deprecations/)
+
+## 7.2.2
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+
+We've been informed of a XSS security vulnerability in the Masa CMS administrator.  
+
+#### What is fixed ?
+{: .no_toc }
+
+Additional protection against XSS attacks is implemented to further secure the Masa CMS administrator.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2 and 7.3 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+If you’re on Masa CMS 7.3, you should update to version 7.3.4 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
 
 
 ## 7.2.1
