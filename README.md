@@ -5,7 +5,7 @@
 
 ### Prerequisites
 
-Before you can the Masa CMS Documentation site locally, you must:
+Before you can use the Masa CMS Documentation site locally, you must:
 
 * [install Jekyll](https://jekyllrb.com/docs/installation/)
 * clone this repository: `git clone git@github.com:MasaCMS/documentation.git`
