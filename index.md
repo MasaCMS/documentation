@@ -24,7 +24,7 @@ The roots of MASA CMS lie in the last version of Mura&trade; CMS which was avail
 ---
 
 ## About the project
-Masa CMS Documentation is © 2021 by [We Are Orange BV](https://www.weareorange.eu).
+Masa CMS Documentation is © 2021 by [We Are North Groep BV](https://www.wearenorth.eu).
 
 ### License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />
