@@ -17,7 +17,7 @@ The tags `[mura]` and `[sava]` can be used in content for dynamic expression, li
 [mura]TimeFormat(Now(), 'hh:mm:ss tt')[/mura]
 ```
     
-This use of these tag is deprecated. Please use the '[m]' tag instead, like so:
+This use of these tags is deprecated. Please use the '[m]' tag instead, like so:
 
 ```cfscript
 [m]TimeFormat(Now(), 'hh:mm:ss tt')[/m]
@@ -77,11 +77,11 @@ application.serviceFactory.getBean("MasaScope").init('mySiteID');
 ````
 
 ## Simple Forms
-Simple Form are deprecated; please use Forms created with the Form Builder instead.
+Simple Forms are deprecated; please use Forms created with the Form Builder instead.
 Migrate existing Simple Forms to Forms created with the Form Builder.
 
 Creating Simple Forms is switched off by default now. You can still maintain existing Simple Forms.
-If you still need to create a Simple Form , you need to change the setting in the `settings.ini.cfm`.
+If you still need to create a Simple Form, you need to change the setting in the `settings.ini.cfm`.
 
 ```markdown
 allowSimpleHTMLForms=true
