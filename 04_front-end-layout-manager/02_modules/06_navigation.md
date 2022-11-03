@@ -9,3 +9,4 @@ permalink: /front-end-layout-manager/modules/navigation/
 ---
 
 # Navigation
+The Navigation module allows you to place a navigation block onto the page. There are numerous types of custom navigation available via the "Select Navigation" Configurator option, and you should be able to find one that suits your specific need.
