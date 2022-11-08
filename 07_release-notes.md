@@ -16,6 +16,170 @@ permalink: /release-notes/
 {:toc}
 
 
+## 7.3.9
+
+### What's Changed
+
+* Update filebrowser.cfc by @jimblesphere in #128
+* fix empty admin minified JS files
+* replace We Are Orange with We Are North (https://www.wearenorth.eu/updates/we-are-north-now-not-orange-heres-why/)
+
+Full Changelog: [7.3.8...7.3.9](https://github.com/MasaCMS/MasaCMS/compare/7.3.8...7.3.9)
+
+
+## 7.4.0-beta.2
+
+fixed an issue with empty generated javascript files
+
+
+## 7.4.0-beta.1
+
+This is a pre-release version of 7.4 including the follow updates:
+
+* update for the default theme
+* new setting showextensionsindefault to show the basic tab extended attributes below the editor
+* new search module
+* new primarynav module
+* new gotofirstchild module
+* new nextprevnav module
+
+
+## 7.3.8
+
+Bug fixes for:
+
+* [#99](https://github.com/MasaCMS/MasaCMS/issues/99)
+* [#116](https://github.com/MasaCMS/MasaCMS/issues/116)
+* [#117](https://github.com/MasaCMS/MasaCMS/issues/117)
+
+and CKEditor update to version 4.19.1
+
+
+## 7.4.0-alpha.2
+
+This is a pre-release version of 7.4 including the follow updates:
+
+* new Gatted Asset module
+* reviewed Navigation module
+
+
+## 7.3.7
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+
+We've been informed of a path traversal vulnerability in Masa CMS [CVE-2021-42183](https://nvd.nist.gov/vuln/detail/CVE-2021-42183).
+
+#### What is fixed ?
+{: .no_toc }
+
+The mentioned vulnerability has been fixed.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2 and 7.3 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+If you’re on Masa CMS 7.2, you should update to version 7.2.4 immediately. This can be done by applying a manual update.
+
+
+## 7.2.4
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+
+We've been informed of a path traversal vulnerability in Masa CMS [CVE-2021-42183](https://nvd.nist.gov/vuln/detail/CVE-2021-42183).
+
+#### What is fixed ?
+{: .no_toc }
+
+The mentioned vulnerability has been fixed.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2 and 7.3 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+If you’re on Masa CMS 7.2, you should update to version 7.2.4 immediately. This can be done by applying a manual update.
+
+
+## 7.3.6
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+
+We've been informed of a XSS security vulnerability in the Masa CMS administrator.
+
+#### What is fixed ?
+{: .no_toc }
+
+Additional protection against XSS attacks is implemented to further secure the Masa CMS administrator.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2 and 7.3 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+If you’re on Masa CMS 7.2, you should update to version 7.2.3 immediately. This can be done by applying a manual update.
+
+
+## 7.2.3
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+
+We've been informed of a XSS security vulnerability in the Masa CMS administrator.
+
+#### What is fixed ?
+{: .no_toc }
+
+Additional protection against XSS attacks is implemented to further secure the Masa CMS administrator.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2 and 7.3 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+If you’re on Masa CMS 7.2, you should update to version 7.2.3 immediately. This can be done by applying a manual update.
+
+
+## 7.4.0-alpha.1
+
+This is a pre-release version of 7.4 including the follow updates:
+
+* updated mura.js to the latest version
+* new Button module
+* new Info module
+* new Media module
+* reviewed Form module
+* reviewed Image module
+* reviewed CTA module
+
+
 ## 7.3.5
 
 ### Bug fixes
@@ -24,6 +188,7 @@ permalink: /release-notes/
 * bug fixes for 
   * [issue 74](https://github.com/MasaCMS/MasaCMS/issues/74)
   * fixes for integration with s3 in File Browser
+
 
 ## 7.3.4
 
