@@ -19,6 +19,7 @@ permalink: /release-notes/
 ## 7.3.9
 
 ### What's Changed
+{: .no_toc }
 
 * Update filebrowser.cfc by @jimblesphere in #128
 * fix empty admin minified JS files
