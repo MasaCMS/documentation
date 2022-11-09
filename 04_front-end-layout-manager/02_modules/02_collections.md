@@ -10,7 +10,7 @@ permalink: /front-end-layout-manager/modules/collections/
 
 # Collection
 
-A Collection Module places a Masa "Collection" onto the page. Collections are generated in a number of ways within Masa CMS, each type being available under the "Content Source" Configurator dropdown. Depending upon which Content Source is selected, a selection of related options will appear within the Configurator.
+A Collection Module places a "Collection" onto the page. Collections are generated in a number of ways within Masa CMS, each type being available under the "Content Source" Configurator dropdown. Depending upon which Content Source is selected, a selection of related options will appear within the Configurator.
 
 ## Types (Content Source)
 
