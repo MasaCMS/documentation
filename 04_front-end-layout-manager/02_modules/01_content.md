@@ -21,10 +21,10 @@ To edit content inline, simply double-click on the text. For block content, a si
 A Content module can also be dragged onto the page. These allow you to create content blocks of three types: Custom, Component, and Bound Attribute. You can select this via the Text Module's "Content Source" setting it it's Configurator.
 
 ### Custom
-Custom content is similar to the page's "body" content, in that you use the Masa HTML editor to create a new content block. By selecting "Custom" as the Content Source, and then clicking on the "Edit" button, an Editor modal will appear in which you can create or edit the content.
+Custom content is similar to the page's "body" content, in that you use the Masa CMS HTML editor to create a new content block. By selecting "Custom" as the Content Source, and then clicking on the "Edit" button, an Editor modal will appear in which you can create or edit the content.
 
 ### Component
-Component allows you to select or create a new Masa Component. Components are shared, reusable content blocks, so remember that editing an existing component will change the content wherever it is displayed.
+Component allows you to select or create a new Masa CMS Component. Components are shared, reusable content blocks, so remember that editing an existing component will change the content wherever it is displayed.
 
 ### Bound Attribute
 Bound Attributes are attributes such as the page's Title or Credits, or any text-type Extended Attributes bound to the current page.

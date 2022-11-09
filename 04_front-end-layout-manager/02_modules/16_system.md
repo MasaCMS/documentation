@@ -9,7 +9,7 @@ permalink: /front-end-layout-manager/modules/system/
 ---
 
 # System
-System places one of the Masa "system" Modules onto the page.
+System places one of the Masa CMS "system" Modules onto the page.
 
 ## Comment Form
 A comment form and comment list (managed/moderated via the administrator).

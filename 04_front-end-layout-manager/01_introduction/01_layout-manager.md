@@ -14,11 +14,11 @@ The Layout Manager is the front-end tool for composing the layout of pages, ente
 
 ## Concept
 
-Instead of relying upon hard-coded, code-based layout templates, the Layout Manager allows you to drag-and-drop highly configurable "Modules"  onto a page. Each Module (depending upon it's type and location) will have an associated "configurator" that allows further customization, such as functional settings (feed source, form name, etc.) and layout (alignment/width, associated CSS classes/styles, etc.). In this way, the editor is allowed a great deal of flexibility when laying out each page, seeing the results immeditately and without having to edit or create hard-coded templates.
+Instead of relying upon hard-coded, code-based layout templates, the Layout Manager allows you to drag-and-drop highly configurable "Modules" onto a page. Each Module (depending upon it's type and location) will have an associated "configurator" that allows further customization, such as functional settings (feed source, form name, etc.) and layout (alignment/width, associated CSS classes/styles, etc.). In this way, the editor is allowed a great deal of flexibility when laying out each page, seeing the results immeditately and without having to edit or create hard-coded templates.
 
 ## How-to
 
-To enable the Layout Manager, log into Masa with an account that has editing permissions enabled, then from the top editor toolbar choose "Edit (pencil icon) -> Inline Edit". A list of Modules will appear on the right-hand side of the page. Use your mouse to drag this into the content area. You will see a context label appear above an available "drop" container when you drag the Module over it. Releasing the mouse button (aka "dropping" it) will place the Module into the container.
+To enable the Layout Manager, log into Masa CMS with an account that has editing permissions enabled, then from the top editor toolbar choose "Edit (pencil icon) -> Inline Edit". A list of Modules will appear on the right-hand side of the page. Use your mouse to drag this into the content area. You will see a context label appear above an available "drop" container when you drag the Module over it. Releasing the mouse button (aka "dropping" it) will place the Module into the container.
 
 ## Basics of Layout
 
