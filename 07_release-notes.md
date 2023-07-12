@@ -15,6 +15,22 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.4.1
+### What's Changed
+{: .no_toc }
+
+* fix issue with ids in db update script by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#157](https://github.com/MasaCMS/MasaCMS/issues/157)
+* Replace hard-coded references to /admin directory by [@jimblesphere](https://github.com/jimblesphere) in [#177](https://github.com/MasaCMS/MasaCMS/issues/177)
+* Update filebrowser.cfc by [@chexy](https://github.com/chexy) in [#175](https://github.com/MasaCMS/MasaCMS/issues/175)
+* error when related content is scheduled, missing column parentType by [@sejourla](https://github.com/sejourla) in [#174](https://github.com/MasaCMS/MasaCMS/issues/174)
+* Update database driver created by setup for MySQL/Lucee by [@quetwo](https://github.com/quetwo) in [#141](https://github.com/MasaCMS/MasaCMS/issues/141)
+* fixed broken styling on categories tab
+* fixed broken styling on component editing (front-end)
+* fixed StructKeyDelete function by [@ejespersen-AMS](https://github.com/ejespersen-AMS)
+* fixed class extensions in components
+
+Full Changelog: [7.4.0...7.4.1](https://github.com/MasaCMS/MasaCMS/compare/7.4.0...7.4.1)
+
 ## 7.4.0
 ### What's Changed
 {: .no_toc }
