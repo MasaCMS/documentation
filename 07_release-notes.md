@@ -15,6 +15,27 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.4.0
+### What's Changed
+{: .no_toc }
+* updated default theme to the latest version
+* updated mura.js to the latest version
+* new setting showextensionsindefault to show the basic tab extended attributes below the editor
+* new search module
+* new primarynav module
+* new gotofirstchild module
+* new nextprevnav module
+* new gattedasset module
+* new button module
+* new info module
+* new media module
+* reviewed navigation module
+* reviewed form module
+* reviewed image module
+* reviewed CTA module
+
+## 7.4.0-beta.3
+
 ## 7.3.10
 
 ### Security Vulnerability Fix
