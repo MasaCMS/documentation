@@ -15,6 +15,35 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.4.2
+### Security Vulnerability Fix
+{: .no_toc }
+#### What was the issue ?
+{: .no_toc }
+
+We've been informed of multiple vulnerabilities in Masa CMS.
+#### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+* Security fixes from the MuraLabs repository have been copied over to Masa CMS.
+* Multiple dependancies have been updated to their latest releases.
+* Unused dependancies have been removed.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3 and 7.4 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.4, you should update to version 7.4.2 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.11 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.6 immediately. This can be done by applying a manual update.
+
+Full Changelog: [7.4.1...7.4.2](https://github.com/MasaCMS/MasaCMS/compare/7.4.1...7.4.2)
+
 ## 7.3.11
 ### Security Vulnerability Fix
 {: .no_toc }
