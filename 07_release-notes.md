@@ -15,6 +15,180 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.4.2
+### Security Vulnerability Fix
+{: .no_toc }
+#### What was the issue ?
+{: .no_toc }
+
+We've been informed of multiple vulnerabilities in Masa CMS.
+#### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+* Security fixes from the MuraLabs repository have been copied over to Masa CMS.
+* Multiple dependancies have been updated to their latest releases.
+* Unused dependancies have been removed.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3 and 7.4 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.4, you should update to version 7.4.2 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.11 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.6 immediately. This can be done by applying a manual update.
+
+Full Changelog: [7.4.1...7.4.2](https://github.com/MasaCMS/MasaCMS/compare/7.4.1...7.4.2)
+
+## 7.3.11
+### Security Vulnerability Fix
+{: .no_toc }
+#### What was the issue ?
+{: .no_toc }
+
+We've been informed of multiple vulnerabilities in Masa CMS.
+#### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+* Security fixes from the MuraLabs repository have been copied over to Masa CMS.
+* Multiple dependancies have been updated to their latest releases.
+* Unused dependancies have been removed.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3 and 7.4 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.4, you should update to version 7.4.2 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.11 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.6 immediately. This can be done by applying a manual update.
+
+Full Changelog: [7.3.10...7.3.11](https://github.com/MasaCMS/MasaCMS/compare/7.3.10...7.3.11)
+
+## 7.2.6
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+
+We've been informed of multiple vulnerabilities in Masa CMS.
+
+#### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+* Security fixes from the MuraLabs repository have been copied over to Masa CMS.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3 and 7.4 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.4, you should update to version 7.4.2 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.11 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.6 immediately. This can be done by applying a manual update.
+
+Full Changelog: [7.2.5...7.2.6](https://github.com/MasaCMS/MasaCMS/compare/7.2.5...7.2.6)
+
+## 7.4.1
+### What's Changed
+{: .no_toc }
+
+* fix issue with ids in db update script by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#157](https://github.com/MasaCMS/MasaCMS/issues/157)
+* Replace hard-coded references to /admin directory by [@jimblesphere](https://github.com/jimblesphere) in [#177](https://github.com/MasaCMS/MasaCMS/issues/177)
+* Update filebrowser.cfc by [@chexy](https://github.com/chexy) in [#175](https://github.com/MasaCMS/MasaCMS/issues/175)
+* error when related content is scheduled, missing column parentType by [@sejourla](https://github.com/sejourla) in [#174](https://github.com/MasaCMS/MasaCMS/issues/174)
+* Update database driver created by setup for MySQL/Lucee by [@quetwo](https://github.com/quetwo) in [#141](https://github.com/MasaCMS/MasaCMS/issues/141)
+* fixed broken styling on categories tab
+* fixed broken styling on component editing (front-end)
+* fixed StructKeyDelete function by [@ejespersen-AMS](https://github.com/ejespersen-AMS)
+* fixed class extensions in components
+
+Full Changelog: [7.4.0...7.4.1](https://github.com/MasaCMS/MasaCMS/compare/7.4.0...7.4.1)
+
+## 7.4.0
+### What's Changed
+{: .no_toc }
+* updated default theme to the latest version
+* updated mura.js to the latest version
+* new setting showextensionsindefault to show the basic tab extended attributes below the editor
+* new search module
+* new primarynav module
+* new gotofirstchild module
+* new nextprevnav module
+* new gattedasset module
+* new button module
+* new info module
+* new media module
+* reviewed navigation module
+* reviewed form module
+* reviewed image module
+* reviewed CTA module
+
+## 7.4.0-beta.3
+
+## 7.3.10
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+
+We've been informed of an authentication bypass vulnerability in Masa CMS.
+
+#### What is fixed ?
+{: .no_toc }
+
+The mentioned vulnerability has been fixed.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3 and 7.4-beta are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+If you’re on Masa CMS 7.3, you should update to version 7.3.10 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+
+## 7.2.5
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+
+We've been informed of an authentication bypass vulnerability in Masa CMS.
+
+#### What is fixed ?
+{: .no_toc }
+
+The mentioned vulnerability has been fixed.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3 and 7.4-beta are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+If you’re on Masa CMS 7.2, you should update to version 7.2.5 immediately. This can be done by applying a manual update.
 
 ## 7.3.9
 
@@ -186,7 +360,7 @@ This is a pre-release version of 7.4 including the follow updates:
 ### Bug fixes
 {: .no_toc }
 
-* bug fixes for 
+* bug fixes for
   * [issue 74](https://github.com/MasaCMS/MasaCMS/issues/74)
   * fixes for integration with s3 in File Browser
 
@@ -199,7 +373,7 @@ This is a pre-release version of 7.4 including the follow updates:
 #### What was the issue ?
 {: .no_toc }
 
-We've been informed of a XSS security vulnerability in the Masa CMS administrator.  
+We've been informed of a XSS security vulnerability in the Masa CMS administrator.
 
 #### What is fixed ?
 {: .no_toc }
@@ -222,7 +396,7 @@ If you’re on Masa CMS 7.3, you should update to version 7.3.4 immediately. Thi
 ### Bug fixes
 {: .no_toc }
 
-* bug fixes for 
+* bug fixes for
   * [issue 75](https://github.com/MasaCMS/MasaCMS/issues/75)
   * JS error when publishing a page with an undefined canonicalurl
   * JS error when starting inline editing
@@ -232,7 +406,7 @@ If you’re on Masa CMS 7.3, you should update to version 7.3.4 immediately. Thi
 ### Bug fixes
 {: .no_toc }
 
-* bug fixes for 
+* bug fixes for
   * [issue 65](https://github.com/MasaCMS/MasaCMS/issues/65)
   * [issue 66](https://github.com/MasaCMS/MasaCMS/issues/66)
   * [issue 70](https://github.com/MasaCMS/MasaCMS/issues/70)
@@ -245,7 +419,7 @@ If you’re on Masa CMS 7.3, you should update to version 7.3.4 immediately. Thi
 * Improved extended attributes UI in the content manager
 * Adobe ColdFusion compatibility fixes
 * Improve customUI tab labels [issue 56](https://github.com/MasaCMS/MasaCMS/issues/56)
-* bug fixes for 
+* bug fixes for
   * [issue 41](https://github.com/MasaCMS/MasaCMS/issues/41)
   * [issue 43](https://github.com/MasaCMS/MasaCMS/issues/43)
   * [issue 44](https://github.com/MasaCMS/MasaCMS/issues/44)
@@ -290,7 +464,7 @@ If you’re on Masa CMS 7.3, you should update to version 7.3.4 immediately. Thi
 #### What was the issue ?
 {: .no_toc }
 
-We've been informed of a XSS security vulnerability in the Masa CMS administrator.  
+We've been informed of a XSS security vulnerability in the Masa CMS administrator.
 
 #### What is fixed ?
 {: .no_toc }
@@ -317,7 +491,7 @@ If you’re on Masa CMS 7.3, you should update to version 7.3.4 immediately. Thi
 #### What was the issue ?
 {: .no_toc }
 
-We’ve been informed of a security vulnerability that allows any user to request files outside the asset folder from the server. 
+We’ve been informed of a security vulnerability that allows any user to request files outside the asset folder from the server.
 
 #### What is fixed ?
 {: .no_toc }
