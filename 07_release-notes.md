@@ -15,6 +15,31 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.3.10
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+
+We've been informed of an authentication bypass vulnerability in Masa CMS.
+
+#### What is fixed ?
+{: .no_toc }
+
+The mentioned vulnerability has been fixed.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3 and 7.4-beta are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+If you’re on Masa CMS 7.3, you should update to version 7.3.10 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+
 ## 7.2.5
 
 ### Security Vulnerability Fix
