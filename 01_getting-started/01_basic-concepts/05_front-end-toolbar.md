@@ -9,3 +9,11 @@ permalink: /getting-started/basic-concepts/front-end-toolbar/
 ---
 
 # Front-End Toolbar
+
+When you are logged in as user in MasaCMS and then go back to the website, then you can edit each page using the Front-End Toolbar.
+
+![frontendtoolbarexample](/assets/01_getting-started/01_basic-concepts/05_front-end-toolbar/front_end_toolbar_example.png)
+
+This is a very usefull feature for inline editing the content of your website.
+
+Read more about this functionality in the documentation using the following [link](/content/layout-manager/front-end-toolbar/).
