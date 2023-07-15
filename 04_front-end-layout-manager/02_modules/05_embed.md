@@ -9,3 +9,4 @@ permalink: /front-end-layout-manager/modules/embed/
 ---
 
 # Embed
+The Embed Module allows you to embed a block of custom content (such as a youtube script block) onto the page.
