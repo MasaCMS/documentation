@@ -10,18 +10,18 @@ permalink: /getting-started/basic-concepts/local-language/
 
 # Locale/Language
 
-Locale / language setting can be configured in the following place in MasaCMS:
+Locale / language setting can be configured in the following place in Masa CMS:
 
 ## Admin Login
-When logging in the admin section of MasaCMS, you can select the language in which you want to view the admin.
+When logging in the admin section of Masa CMS, you can select the language in which you want to view the admin.
 
 ![admin_login_language_setting](/assets/01_getting-started/01_basic-concepts/03_locale-language/admin_login_language_setting.png)
 
-This can be helpfull to navigate the admin of MasaCMS in a language you are more familiair with.
+This can be helpfull to navigate the admin of Masa CMS in a language you are more familiair with.
 
 ## Site Setting
 
-After logging in the admin section of MasaCMS you can edit the Locale of the website in the Site Settings.
+After logging in the admin section of Masa CMS you can edit the Locale of the website in the Site Settings.
 
 The Site Settings are only available for users with admin permissions.
 {: .alert .alert-warning }
