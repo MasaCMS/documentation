@@ -18,6 +18,10 @@ A comment form and comment list (managed/moderated via the administrator).
 A simple star rater for the page
 
 ## Go To First Child
+New in 7.4
+{: .label .label-orange }
+{: .no_toc }
+
 When placed on a page, visitors will automatically be redirect to the first "child" below this page.
 
 ## Site Map

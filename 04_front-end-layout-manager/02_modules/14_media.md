@@ -9,5 +9,9 @@ permalink: /front-end-layout-manager/modules/media/
 ---
 
 # Media
+New in 7.4
+{: .label .label-orange }
+{: .no_toc }
+
 The Media Module places an external video onto the page. Current sources include Youtube, Vimeo and Daily Motion. Vidoes can be set to auto-play.
 

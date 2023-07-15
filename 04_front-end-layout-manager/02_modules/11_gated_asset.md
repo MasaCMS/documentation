@@ -9,6 +9,9 @@ permalink: /front-end-layout-manager/modules/gatedasset/
 ---
 
 # Gated Asset
+New in 7.4
+{: .label .label-orange }
+{: .no_toc }
 
 The Gated Asset Module gates access to a page or download URL. *Note:* this is a basic content gate, and in no way secures the destination url.
 

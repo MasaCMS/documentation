@@ -9,5 +9,9 @@ permalink: /front-end-layout-manager/modules/sitesearch/
 ---
 
 # Site Search
+New in 7.4
+{: .label .label-orange }
+{: .no_toc }
+
 The Site Search Module places a site search box onto the page.
 

@@ -9,5 +9,8 @@ permalink: /front-end-layout-manager/modules/button/
 ---
 
 # Button
+New in 7.4
+{: .label .label-orange }
+{: .no_toc }
 
 The Button Module places a simple button onto the page, which will act as a navigation link.

@@ -9,6 +9,9 @@ permalink: /front-end-layout-manager/modules/info/
 ---
 
 # Info
+New in 7.4
+{: .label .label-orange }
+{: .no_toc }
 
 The Info Module places selected informational tags onto the page, such as page Credits or Create Date.
 
