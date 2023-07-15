@@ -27,8 +27,8 @@ A .zip file is now being download.
 6.  Type in the following command:  `docker-compose up`.
 Two Docker containers will start, one for the database and one for Masa CMS.
 
-   NOTE: Mac users will have to change the port number for the database container, since that port is already in use by the OS itself. You can do this by editing the 'docker-compose.yml' file. Change the variables `MURA_DBCONNECTIONSTRING` and `MURA_DBPORT`. Also be sure to change the port number on line 51 for het MySQL Docker container accordingly.
-   {: .alert .alert-warning }
+{: .warning}
+NOTE: Mac users will have to change the port number for the database container, since that port is already in use by the OS itself. You can do this by editing the 'docker-compose.yml' file. Change the variables `MURA_DBCONNECTIONSTRING` and `MURA_DBPORT`. Also be sure to change the port number on line 51 for het MySQL Docker container accordingly.
 
 7. Goto [http://localhost:8080](http://localhost:8080) to visit your local Masa CMS site.
 
