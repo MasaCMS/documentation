@@ -37,9 +37,15 @@ A popup opens in which you preview the Page on different devices / screen resolu
 ## Treeview
 Redirects to the Masa CMS Admin to show the Page in the Treeview.
 
-## Change sets
+## Change Sets
 The three menu items are here to manage the Content changes of this Page in a Change Set.
 Change Sets are used for Content Stageing.  
 ![frontendtoolbarchangeset](/assets/01_getting-started/01_basic-concepts/05_front-end-toolbar/front_end_toolbar_change_set_menu.png)  
+
+Read more about Change Sets [here](/content/managing-content/change-sets/).
+## User Info
+On the far right side of the Front-End Toolbar you can see the name of the User that is logged into het Masa CMS Admin.  
+![frontendtoolbarchangeset](/assets/01_getting-started/01_basic-concepts/05_front-end-toolbar/front_end_toolbar_user.png)  
+The button 'Logout' is a convenient way to directly log out of the Masa CMS Admin.
 
 Read more in depth about the Front-End Toolbar functionality in the documentation using the following [link](/content/layout-manager/front-end-toolbar/).
