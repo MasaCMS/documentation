@@ -27,13 +27,19 @@ This is a dropdown with different options:
 3. Delete: will the delete the page and all it's content nested beneath it.
 
 ## Add
+A popup now opens with new Content Types to choose from to add to Masa CMS.
 ## Version History
+Redirects to the Masa CSM Admin to show the Version History of this Page.
 
 ## Multi-Device Preview
+A popup opens in which you preview the Page on different devices / screen resolutions.
 
 ## Treeview
+Redirects to the Masa CMS Admin to show the Page in the Treeview.
 
 ## Change sets
-
+The three menu items are here to manage the Content changes of this Page in a Change Set.
+Change Sets are used for Content Stageing.  
+![frontendtoolbarchangeset](/assets/01_getting-started/01_basic-concepts/05_front-end-toolbar/front_end_toolbar_change_set_menu.png)  
 
 Read more in depth about the Front-End Toolbar functionality in the documentation using the following [link](/content/layout-manager/front-end-toolbar/).
