@@ -29,7 +29,7 @@ This is a dropdown with different options:
 ## Add
 A popup now opens with new Content Types to choose from to add to Masa CMS.
 ## Version History
-Redirects to the Masa CSM Admin to show the Version History of this Page.
+Redirects to the Masa CMS Admin to show the Version History of this Page.
 
 ## Multi-Device Preview
 A popup opens in which you preview the Page on different devices / screen resolutions.

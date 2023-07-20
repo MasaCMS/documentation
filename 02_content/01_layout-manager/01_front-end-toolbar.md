@@ -41,6 +41,43 @@ This menu has the following options:
 4. Cancel: all changes are discarded.
 
 ## Front-end editing
+![frontendtoolbareditmenu](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_edit_menu.png)  
+This option is a dropdown menu with the following options:  
+### Inline Edit
+If you click this option then you can inline edit the page. 
+
+#### Editable fields
+The editable field wil light up with a red fieldname above it:  
+![frontendtoolbarinlineedit](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_inline_edit_red.png)  
+You can edit this part of the page. When you are done editing click 'Done Editing' on the right of the page.  
+![frontendtoolbardoneediting](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_inline_done_editing.png)  
+After editing you also need to save your changes, either by publishing directly, saving to draft or saving to Change Set.
+
+#### Display Regions
+The Display Regions that are used in the template that is configured for this page will also light up in red borders:
+![frontendtoolbardonedisplayregionseditred](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_display_regions_edit_red.png)  
+A menu on the right of the page opens up with all the Modules you can drag and drop into a Display Region.  
+![frontendtoolbardisplaymodules](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_display_modules.png)  
+After dropping a Module into a Display Region, you can change the order of the Modules in the Display Region by drag-and-dropping them.
+When Modules are placed into a Display Region you can edit them by clicking the blue pencil icon.
+A menu on the right of the page opens ups with all the configurable options for this Module.
+
+Example for the Archive Navigation Module:  
+![frontendtoolbarmodulearchiveexample](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_module_archive_example.png)  
+Each Module has different configurable options; e.g. the Module 'Call to Action' has different options than the Module 'Image'.
+After editing you also need to save your changes, either by publishing directly, saving to draft or saving to Change Set.
+
+### Full Edit
+Redirects to the Masa CMS Admin to edit the page there.
+### Delete
+This wil the delete the page and all it's content nested beneath it.
+You need to confirm this action in a popup:  
+![frontendtoolbardeletepopup](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_delete_popup.png)  
+
+## Add
+
+
+## Version History
 
 ## Permissions
 
