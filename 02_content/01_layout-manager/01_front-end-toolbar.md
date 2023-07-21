@@ -54,7 +54,7 @@ You can edit this part of the page. When you are done editing click 'Done Editin
 After editing you also need to save your changes, either by publishing directly, saving to draft or saving to Change Set.
 
 #### Display Regions
-The Display Regions that are used in the template that is configured for this page will also light up in red borders:
+The Display Regions that are used in the template that is configured for this page will also light up in red borders:  
 ![frontendtoolbardonedisplayregionseditred](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_display_regions_edit_red.png)  
 A menu on the right of the page opens up with all the Modules you can drag and drop into a Display Region.  
 ![frontendtoolbardisplaymodules](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_display_modules.png)  
@@ -70,20 +70,22 @@ After editing you also need to save your changes, either by publishing directly,
 ### Full Edit
 Redirects to the Masa CMS Admin to edit the page there.
 ### Delete
-This wil the delete the page and all it's content nested beneath it.
+This will the delete the page and all it's content nested beneath it.
 You need to confirm this action in a popup:  
 ![frontendtoolbardeletepopup](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_delete_popup.png)  
 
 ## Add
-
+When you selecting this option a popup opens with the Content Types to add to the site.  
+![frontendtoolbaraddmenu](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_add_menu.png)  
+When selecting an item from the popup you are directed to the Masa CMS Admin where you can edit the new item.
 
 ## Version History
+When selecting this option you are redirected to the Masa CMS Admin where you can view the Version History of the page:  
+![frontendtoolbarversionhistory](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_version_history.png)  
 
 ## Permissions
-
 Based on your permissions the Front-end Toolbar changes.
 This can be because of Permissions, Approval Chains, etc.
-
 
 ## Media preview
 
