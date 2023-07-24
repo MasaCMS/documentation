@@ -124,7 +124,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd>List of domains of which users are allowed to authenticate using SSO</dd>
+  <dd>List of domains of which users are allowed to authenticate using SSO, if not allowed the user is created but set to inactive</dd>
 </dl>
 
 #### allowedadmingroupemaillist
