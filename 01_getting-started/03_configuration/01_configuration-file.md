@@ -4,7 +4,7 @@ title: Configuration file
 nav_order: 1
 grand_parent: Getting started
 parent: Configuration
-last_modified_date: 15-07-2023 13:00
+last_modified_date: 24-07-2023 13:00
 permalink: /getting-started/configuration/configuration-file/
 ---
 # Configuration file
@@ -94,6 +94,17 @@ You can find a reference for this configuration file below.
   <dd></dd>
 </dl>
 
+#### allowedadmindomain
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Domain of which users set to system users when authenticating using SSO</dd>
+</dl>
+
 #### allowautoupdates
 
 <dl>
@@ -103,6 +114,28 @@ You can find a reference for this configuration file below.
   <dd><code>true</code></dd>
   <dt>Description</dt>
   <dd></dd>
+</dl>
+
+#### alloweddomain
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Domain of which users are allowed to authenticate using SSO</dd>
+</dl>
+
+#### allowedadmingroupemaillist
+
+<dl>
+  <dt>Type</dt>
+  <dd>list</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>List of email addresses of users that are added to admin group when authenticating using SSO</dd>
 </dl>
 
 #### allowedindexfiles
@@ -136,6 +169,17 @@ You can find a reference for this configuration file below.
   <dd><code>true</code></dd>
   <dt>Description</dt>
   <dd></dd>
+</dl>
+
+#### alloweds2emaillist
+
+<dl>
+  <dt>Type</dt>
+  <dd>list</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>List of email addresses of users that are set to super user when authenticating using SSO</dd>
 </dl>
 
 #### assetdir
@@ -191,6 +235,48 @@ You can find a reference for this configuration file below.
   <dd><code>default</code></dd>
   <dt>Description</dt>
   <dd></dd>
+</dl>
+
+#### azureadclientid
+New in 7.4.3
+{: .label .label-orange }
+{: .no_toc }
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Oauth client ID for Azure AD SSO configuration</dd>
+</dl>
+
+#### azureadclientsecret
+New in 7.4.3
+{: .label .label-orange }
+{: .no_toc }
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Oauth client secret for Azure AD SSO configuration</dd>
+</dl>
+
+#### azureadtenantid
+New in 7.4.3
+{: .label .label-orange }
+{: .no_toc }
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Oauth tenant ID for Azure AD SSO configuration</dd>
 </dl>
 
 #### bcryptpasswords
@@ -380,6 +466,17 @@ You can find a reference for this configuration file below.
   <dd></dd>
 </dl>
 
+#### enableoauth
+
+<dl>
+  <dt>Type</dt>
+  <dd>list</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>List of enabled oauth providers.<br>Options: <code>google</code>, <code>facebook</code>, <code>github</code>, <code>azuread</code></dd>
+</dl>
+
 #### encryptionkey
 
 <dl>
@@ -400,6 +497,28 @@ You can find a reference for this configuration file below.
   <dd><code>/muraWRM/config/error.html</code></dd>
   <dt>Description</dt>
   <dd></dd>
+</dl>
+
+#### facebookclientid
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Oauth client ID for Facebook SSO configuration</dd>
+</dl>
+
+#### facebookclientsecret
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Oauth client secret for Facebook SSO configuration</dd>
 </dl>
 
 #### filedir
@@ -444,6 +563,50 @@ You can find a reference for this configuration file below.
   <dd><code>true</code></dd>
   <dt>Description</dt>
   <dd></dd>
+</dl>
+
+#### githubclientid
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Oauth client ID for Github SSO configuration</dd>
+</dl>
+
+#### githubclientsecret
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Oauth client secret for Github SSO configuration</dd>
+</dl>
+
+#### googleclientid
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Oauth client ID for Google SSO configuration</dd>
+</dl>
+
+#### googleclientsecret
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Oauth client secret for Google SSO configuration</dd>
 </dl>
 
 #### hashurls
