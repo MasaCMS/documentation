@@ -98,11 +98,11 @@ You can find a reference for this configuration file below.
 
 <dl>
   <dt>Type</dt>
-  <dd>boolean</dd>
+  <dd>list</dd>
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd>Domain of which users set to system users when authenticating using SSO</dd>
+  <dd>List of domains of which users set to system users when authenticating using SSO</dd>
 </dl>
 
 #### allowautoupdates
@@ -120,11 +120,11 @@ You can find a reference for this configuration file below.
 
 <dl>
   <dt>Type</dt>
-  <dd>string</dd>
+  <dd>list</dd>
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd>Domain of which users are allowed to authenticate using SSO</dd>
+  <dd>List of domains of which users are allowed to authenticate using SSO</dd>
 </dl>
 
 #### allowedadmingroupemaillist
