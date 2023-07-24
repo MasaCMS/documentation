@@ -10,6 +10,7 @@ permalink: /content/layout-manager/front-end-toolbar/
 
 # Front-end toolbar
 
+The Front-end Toolbar is a useful tool for inline editing the content of your page. In the following sections the  different features are described.
 ## Front-end editing
 
 ## Permissions
