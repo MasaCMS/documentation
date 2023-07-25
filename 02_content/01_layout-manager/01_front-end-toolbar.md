@@ -87,6 +87,11 @@ When selecting this option you are redirected to the Masa CMS Admin where you ca
 Based on your permissions the Front-end Toolbar changes.
 This can be because of Permissions, Approval Chains, etc.
 
-## Media preview
+## Multi-device preview
+When you selecting this option a popup opens with the current page in a preview mode.
+You can preview the page on different devices. These devices are Desktop, Tablet, Tablet Landscape, Phone, Phone Landscape.  
+![frontendtoolbarpreview](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_preview.png)  
+This way you can check how a page is displayed on different devices.
+
 
 ## Change sets
