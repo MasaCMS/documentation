@@ -19,13 +19,24 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Masa CMS Documentation
-description: MASA CMS is an Enterprise Content Management platform based on open source technology. MASA CMS allows you, quickly and efficiently, to deliver personalised internet and intranet sites and mobile applications. It allows for easy deployment on your infrastructure of choice (AWS, Azure, own hardware). MASA CMS is ideally suited to organisations looking to be compliant with privacy laws such as GDPR.
+tagline: Documentation site for Masa CMS
+description: Masa CMS is an Enterprise Content Management platform based on open source technology. Masa CMS allows you, quickly and efficiently, to deliver personalised internet and intranet sites and mobile applications. It allows for easy deployment on your infrastructure of choice (AWS, Azure, own hardware). MASA CMS is ideally suited to organisations looking to be compliant with privacy laws such as GDPR.
+url: docs.masacms.com
 
 twitter_username: masacms
 github_username:  masacms
 
+twitter:
+  username: masacms
+  card: summary
+
+social:
+  name: Masa CMS
+  links:
+    - https://twitter.com/masacms
+
 # Build settings
-remote_theme: pmarsceill/just-the-docs
+remote_theme: pmarsceill/just-the-docs@v0.5.3
 logo: /assets/img/logo.png
 show_downloads: false
 
@@ -82,8 +93,39 @@ gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
 
+enable_copy_code_button: true
 
-# plugins:
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: yellow
+  danger:
+    title: Warning
+    color: red
+
+# External navigation links
+nav_external_links:
+  - title: Masa CMS on GitHub
+    url: https://github.com/MasaCMS/MasaCMS
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+  - title: Masa CMS website
+    url: https://www.masascms.com
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+
+
+#plugins:
 #  - jekyll-feed
 
 # Exclude from processing.

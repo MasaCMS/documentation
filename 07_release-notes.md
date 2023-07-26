@@ -2,7 +2,7 @@
 layout: default
 title: Release notes
 nav_order: 7
-last_modified_date: 11-01-2022 11:30
+last_modified_date: 12-07-2023 10:30
 permalink: /release-notes/
 ---
 

@@ -5,9 +5,9 @@ nav_order: 1
 last_modified_date: 20-10-2021 13:00
 ---
 
+{: .highlight }
 The Masa CMS documentation is a work in progress by the community. To contribute, please [read how](/contributing/to-documentation/).
 For the missing parts we would like to refer you to the [Mura&trade; CMS documentation for version 7.1](https://docs.murasoftware.com/v7-1/). However, we are not in any way affiliated with Mura&trade; CMS, or Mura Software, nor are we intending to take any credit for the documentation.
-{: .alert .alert-warning }
 
 # Masa CMS Documentation
 {: .fs-9 }

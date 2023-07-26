@@ -33,8 +33,8 @@ deprecationlogfile=deprecations
 
 By default `deprecationwarningsenabled` is `true`, enabling logging the deprecation warnings.
 
+{: .warning}
 We advise to disable deprecation warnings for production environments.
-{: .alert .alert-warning }
 
 The warnings are written into a log with the name `deprecations.log`. You can find this log in you Lucee / CFML log directory.
 

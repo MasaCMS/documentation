@@ -16,7 +16,7 @@ This is a very useful feature for inline editing the content of your website.
 The Front-End Toolbar has the following items, from left to right:
 
 ## Publish
-I there are changes on the page this will change into a 'Save' item with a dropdown with different options for saving your changes.  
+If there are changes on the page this will change into a 'Save' item with a dropdown with different options for saving your changes.  
 ![frontendtoolbarpublish](/assets/01_getting-started/01_basic-concepts/05_front-end-toolbar/front_end_toolbar_publish.png)
 
 ## Inline Edit
@@ -24,7 +24,7 @@ I there are changes on the page this will change into a 'Save' item with a dropd
 This is a dropdown with different options:
 1. Inline Edit: edit the page inline in a WYSWYG way.
 2. Full Edit: goes to the Masa CMS Admin to edit the page.
-3. Delete: will the delete the page and all it's content nested beneath it.
+3. Delete: will delete the page and all its content nested beneath it.
 
 ## Add
 A popup now opens with new Content Types to choose from to add to Masa CMS.
@@ -42,10 +42,10 @@ The three menu items are here to manage the Content changes of this Page in a Ch
 Change Sets are used for Content Stageing.  
 ![frontendtoolbarchangeset](/assets/01_getting-started/01_basic-concepts/05_front-end-toolbar/front_end_toolbar_change_set_menu.png)  
 
-Read more about Change Sets [here](/content/managing-content/change-sets/).
+[Read more about Change Sets](/content/managing-content/change-sets/).
 ## User Info
-On the far right side of the Front-End Toolbar you can see the name of the User that is logged into het Masa CMS Admin.  
+On the far right side of the Front-End Toolbar you can see the name of the User that is logged into the Masa CMS Admin.  
 ![frontendtoolbarchangeset](/assets/01_getting-started/01_basic-concepts/05_front-end-toolbar/front_end_toolbar_user.png)  
 The button 'Logout' is a convenient way to directly log out of the Masa CMS Admin.
 
-Read more in depth about the Front-End Toolbar functionality in the documentation using the following [link](/content/layout-manager/front-end-toolbar/).
+[Read more in depth about the Front-End Toolbar functionality](/content/layout-manager/front-end-toolbar/).

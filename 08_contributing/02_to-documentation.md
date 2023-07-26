@@ -25,8 +25,8 @@ In the footer of every page in this documentation, you'll find a link to 'Edit t
 
 GitHub provides an in browser file editor you can use to make your changes. The Masa CMS documentation uses [Markdown](https://daringfireball.net/projects/markdown/) as formating syntax.
 
+{: .important}
 Don't forget to update the `last_modified_date` in the configuration block at the top of the page.
-{: .alert .alert-info }
 
 ![editing](/assets/08_contributing/to-documentation/editing.png)
 
@@ -50,8 +50,8 @@ Now you can review your changes and create a pull request.
 
 ![open a pull request](/assets/08_contributing/to-documentation/open-a-pull-request.png)
 
+{: .warning}
 Don't forget to sign the contributor agreement, the first time you create a pull request. You can do this by clicking the "CLA not signed yet"-button or by following the instructions in the email you'll receive.
-{: .alert .alert-warning }
 
 ## In your code editor
 
