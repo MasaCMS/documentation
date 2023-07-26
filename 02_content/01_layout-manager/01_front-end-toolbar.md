@@ -93,5 +93,23 @@ You can preview the page on different devices. These devices are Desktop, Tablet
 ![frontendtoolbarpreview](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_preview.png)  
 This way you can check how a page is displayed on different devices.
 
+## Change Sets
+These options are used for viewing changes that are in a Change Set.
+Change Sets are helpfull for bulk updating the content of your website. 
+All changes to your content are put in one Change Set, which can be published all at once.  
 
-## Change sets
+### Managing Change Sets
+Change Sets themselves are managed in the Masa CMS Admin. In het left menu goto the second item 'Staging'.  
+![frontendtoolbaradminstaging](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_admin_staging.png)  
+An overview of all your Change Sets are shown.   
+
+### Adding changes to Change Sets
+Changes are put into the Change Set by saving the changes to a Change set, rather than publishing them directly or saving them as draft.  
+![frontendtoolbarsavechangeset](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_save_change_set.png) 
+
+### View changes in Change Set
+By selecting a Change Set in the dropdown you can see the proposed changes applied to the content of the current page.
+![frontendtoolbarchangesets](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_changesets.png)  
+The second menu item 'Assignments' shows a dropdown of all the changed content items in the current Change Set.
+![frontendtoolbarassignments](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_assignments.png)  
+The third item is an indicator to show if the current page is already in the current Change Set or not.
