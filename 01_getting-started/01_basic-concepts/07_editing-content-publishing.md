@@ -38,10 +38,14 @@ In this menu are all the configuration options for that particulair Module. Each
 
 Display Regions that are now shown on the page (because they are not part of the current template for instance) can still be edited via the "Additional Display Regions" button.
 
-### Saving, Publishing, etc..
+### Saving changes
+After making changes there are different options to save them.  
+![editcontentsavemenu](/assets/01_getting-started/01_basic-concepts/07_editing_content/editing_content_save_menu.png)  
+1. Publish: changes are directly applied and visible.
+2. Save Draft: changes are saved as a 'draft' for you to edit further another time. Changes are not applied.
+3. Save to Change Set: changes are saved as part of a Change Set. Changes are part of a bigger set of changes which can be applied all at once.
 
+Some of the options might not be availble to your current user, because you have insufficient rights. 
 
 ## Full Edit
-
-To fully edit the Content of your site you need to go to the Masa CMS Admin.
-
+When selecting this option from the Front-End Toolbar you are redirected to the Masa CMS Admin. Here you can fully edit your page.
