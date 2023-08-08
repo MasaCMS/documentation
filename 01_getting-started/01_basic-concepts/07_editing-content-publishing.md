@@ -25,14 +25,23 @@ Both field can be edited by double-clicking on them. When you are done editing t
 ![editcontentdoneediting](/assets/01_getting-started/01_basic-concepts/07_editing_content/editing_content_done_editing.png)  
 You can now see the result of your edit. These changes are not saved yet.
 
-### Dispaly Regions
-Also the different Display Regions light up in red.
+### Display Regions
+Also the different Display Regions light up in red.  
+On the right side a menu opens with all the available Modules. A Module is a small item of functionality you can use on a page, like an image or a calendar.  
+![editcontentmodulesoverview](/assets/01_getting-started/01_basic-concepts/07_editing_content/editing_content_modules_overview.png)  
+You can drag-and-drop the Modules in to a Display Regions to add new Modules to a page. You can also drag-and-drop the different Modules within a Display Region to change the order.  
+When hovering over an existing Module in a Display Region a pencil icon is shown.  
+![editcontentmodulesedit](/assets/01_getting-started/01_basic-concepts/07_editing_content/editing_content_modules_edit.png)  
+When clicking this icon a menu opens on the right side.  
+![editcontentmodulesconfig](/assets/01_getting-started/01_basic-concepts/07_editing_content/editing_content_modules_config.png)  
+In this menu are all the configuration options for that particulair Module. Each Module has differtent configuration options.
 
+Display Regions that are now shown on the page (because they are not part of the current template for instance) can still be edited via the "Additional Display Regions" button.
 
-### Saveing, Publishing, etc..
+### Saving, Publishing, etc..
 
 
 ## Full Edit
 
-To fully edit the Content of you site you need to go to the Masa CMS Admin.
+To fully edit the Content of your site you need to go to the Masa CMS Admin.
 
