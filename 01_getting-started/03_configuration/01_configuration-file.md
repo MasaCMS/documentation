@@ -287,7 +287,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option to encrypt the passwords using BCrypt, if set to <code>false</code> passwords are hashed instead.</dd>
 </dl>
 
 #### clientmanagement
@@ -298,7 +298,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### clientstorage
@@ -309,7 +309,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### confirmsaveasdraft
@@ -320,7 +320,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>When you navigate away without saveng an alert is shown if you want to save the changes as 'draft'.</dd>
 </dl>
 
 #### context
@@ -331,7 +331,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Masa CMS wil automatically configure this field when installed. If you move Masa CMS to a different location you must update this setting.</dd>
 </dl>
 
 #### cookiedomain
@@ -342,7 +342,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configures the domain of the cookie</dd>
 </dl>
 
 #### cookiepath
@@ -353,7 +353,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configures the domain of the cookie</dd>
 </dl>
 
 #### customtagpaths
@@ -364,7 +364,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configure the path in which the Customtags are located. Comma-delimited list.</dd>
 </dl>
 
 #### datasource
@@ -375,7 +375,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable datasource where Masa CMS should acces the database.</dd>
 </dl>
 
 #### dbcasesensitive
@@ -386,7 +386,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configure if your database is CaSe SeNsItIvE (like Oracle or Postgres)</dd>
 </dl>
 
 #### dbpassword
@@ -397,7 +397,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Do not use this setting if you have datasource configured.</dd>
 </dl>
 
 #### dbtype
@@ -408,7 +408,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configure which database type Masas CMS is running on. Supported options are 'MS SQL', 'MySQL', 'Postgres' and 'Oracle'</dd>
 </dl>
 
 #### dbtablespace
@@ -419,7 +419,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>USERS</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option only for Oracle databases</dd>
 </dl>
 
 #### dbusername
@@ -430,7 +430,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Do not use this setting if you have datasource configured.</dd>
 </dl>
 
 #### debuggingenabled
@@ -441,7 +441,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option wether so show CFML errors in the browser or use the files under <code>errortemplate</code> when set to <code>false</code></dd>
 </dl>
 
 #### defaultfilemode
@@ -452,7 +452,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>777</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>If Masa CMS is installed on a *nix type sytem the default file permissions are configured with this option</dd>
 </dl>
 
 #### enablemuratag
