@@ -45,7 +45,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>production</code></dd>
   <dt>Description</dt>
-  <dd>The mode in which Masa CMS is running determines which configuration is loaded.</dd>
+  <dd>The mode in which Masa CMS is running determines which configuration is loaded</dd>
 </dl>
 
 ### Mode Section
@@ -58,7 +58,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configures a seperate URL for the Masa CMS Admin</dd>
 </dl>
 
 #### admindir
@@ -69,7 +69,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>/admin</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configire a different directory for the Masa CSM Admin other than '/admin'. Masa CMS must be reloaded from the webroot for this change to have effect.</dd>
 </dl>
 
 #### adminemail
@@ -80,7 +80,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>The default email address for the Masa CMS Admin administrator.</dd>
 </dl>
 
 #### adminssl
@@ -91,7 +91,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configuration option wether a SSL certificate is present for the Masa CMS Admin</dd>
 </dl>
 
 #### allowedadmindomain
@@ -113,7 +113,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configuration option to display auto-update links in the Masa CMS Admin</dd>
 </dl>
 
 #### alloweddomain
@@ -146,7 +146,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>index.cfm, index.json, index.html</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Filenames that are allowed to be used in the index of Masa CMS</dd>
 </dl>
 
 #### allowlocalfiles
@@ -157,7 +157,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Allow wether local files may be used when importing into Masa CMS</dd>
 </dl>
 
 #### allowsimplehtmlforms
@@ -168,7 +168,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>When this value is set to <code>false</code> only forms are allowed that are build using the FormBuilder.</dd>
 </dl>
 
 #### alloweds2emaillist
@@ -190,7 +190,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable directory where the assets of your site are located</dd>
 </dl>
 
 #### assetpath
@@ -201,7 +201,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable URL where the assets of you sites are located.</dd>
 </dl>
 
 #### autodiscoverplugins
@@ -212,7 +212,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Let Masa CMS automatically scan for plugins and install them.</dd>
 </dl>
 
 #### autoresetpasswords
@@ -223,7 +223,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>When set to <code>true</code> then the password is reset of the user using the 'Lost Password' functionality. An e-mail with the new password is sent. Otherwise just an e-mail with a link to log in is sent to the user.</dd>
 </dl>
 
 #### autoupdatemode
@@ -234,7 +234,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>default</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Optionns are <code>default</code> and <code>preview</code>. This last option allows Beta releases to be used for the update.</dd>
 </dl>
 
 #### azureadclientid
