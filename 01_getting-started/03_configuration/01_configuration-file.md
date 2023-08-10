@@ -91,7 +91,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd>Configuration option wether a SSL certificate is present for the Masa CMS Admin</dd>
+  <dd>Configuration option whether a SSL certificate is present for the Masa CMS Admin</dd>
 </dl>
 
 #### allowedadmindomain
@@ -157,7 +157,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd>Allow wether local files may be used when importing into Masa CMS</dd>
+  <dd>Allow whether local files may be used when importing into Masa CMS</dd>
 </dl>
 
 #### allowsimplehtmlforms
@@ -441,7 +441,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd>Configurable option wether so show CFML errors in the browser or use the files under <code>errortemplate</code> when set to <code>false</code></dd>
+  <dd>Configurable option whether so show CFML errors in the browser or use the files under <code>errortemplate</code> config option when set to <code>false</code></dd>
 </dl>
 
 #### defaultfilemode
@@ -463,7 +463,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configure whether the content in the [m] tag is parsed. This is a global setting; you can overwrite this setting per site in the contentRenderer.cfc.</dd>
 </dl>
 
 #### enableoauth
@@ -485,7 +485,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd>hash of <code>getCurrentTemplatePath()</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>A placholder for developers to store an application-wide encryption key</dd>
 </dl>
 
 #### errortemplate
@@ -496,7 +496,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>/muraWRM/config/error.html</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>When <code>debuggingenabled=false</code> then the template in this path is used to display an error in the browser</dd>
 </dl>
 
 #### facebookclientid
@@ -529,7 +529,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option to set where to store Masa CMS files.</dd>
 </dl>
 
 #### fmshowapplicationroot
@@ -540,7 +540,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option whether the application root is shown in the File Manager</dd>
 </dl>
 
 #### fmshowsitefiles
@@ -551,7 +551,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd><dd>Configurable option whether the site files are shown in the File Manager</dd></dd>
 </dl>
 
 #### forceadminssl
@@ -562,7 +562,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Force Masa CMS Admin to use <code>https://</code></dd>
 </dl>
 
 #### githubclientid
@@ -617,7 +617,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option whether an URL in Masa CMS had hashed directory names in it.</dd>
 </dl>
 
 #### haslockablenodes
@@ -628,7 +628,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option to lock a content node when it is being edited; e.g. only one content manager at the time can edit one specific content item.</dd>
 </dl>
 
 #### hstsmaxage
@@ -639,7 +639,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>1200</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>HTTP Strict Transport Security setting</dd>
 </dl>
 
 #### imageinterpolation
@@ -650,7 +650,8 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>highQuality</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Specify which algoritms is used to resize the images in Masa CMS. Valid options are: highestQuality, highQuality, mediumQuality, highestPerformance, highPerformance, mediumPerformance, nearest, bilinear, bicubic, bessel, blackman, hamming, hanning, hermite, lanczos, mitchell, quadratic.  
+  </dd>
 </dl>
 
 #### indexfileinurls
@@ -672,7 +673,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### javasettingsloadpaths
@@ -683,7 +684,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>/requirements/lib</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### javasettingswatchextensions
@@ -694,7 +695,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>jar,class</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### javasettingswatchinterval
@@ -705,7 +706,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>60</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### locale
@@ -716,7 +717,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>server</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Used for rendering dates and times. Two valid optons: server and client</dd>
 </dl>
 
 #### loginstrikes
@@ -727,7 +728,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>4</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Number of login attempts a user has before being locked out</dd>
 </dl>
 
 #### mailserverip
@@ -738,7 +739,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>SMTP server IP</dd>
 </dl>
 
 #### mailserverpassword
@@ -749,7 +750,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>SMTP Server password</dd>
 </dl>
 
 #### mailserverpopport
@@ -760,7 +761,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>110</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>SMTP Server POP port</dd>
 </dl>
 
 #### mailserversmtpport
@@ -771,7 +772,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>25</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>SMTP Server port</dd>
 </dl>
 
 #### mailserverssl
@@ -782,7 +783,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Whether to use SSL or not when connecting to the SMTP server</dd>
 </dl>
 
 #### mailservertls
@@ -793,7 +794,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Whether to use TLS or not when connecting to the SMTP server</dd>
 </dl>
 
 #### mailserverusername
@@ -804,7 +805,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Username for the SMTP Server</dd>
 </dl>
 
 #### maxarchivedversions
@@ -815,7 +816,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>50</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option of how many versions of a content item to store.</dd>
 </dl>
 
 #### maxportalitems
@@ -826,7 +827,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>1000</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>The maximum number of items to use for pagination in Folder display</dd>
 </dl>
 
 #### maxsourceimagewidth
@@ -837,7 +838,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>4000</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>The maxium width of uploaded images that Masa CMS tries to store. Anyting beyond this size will be resized.</dd>
 </dl>
 
 #### mfa
@@ -848,7 +849,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Motha-Fock-A!</dd>
 </dl>
 
 #### mfaperdevice
@@ -859,7 +860,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Only one motherfocker per device.</dd>
 </dl>
 
 #### mfasendauthcode
@@ -870,7 +871,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Send an auth code to the motherfocker.</dd>
 </dl>
 
 #### notifywithversionlink
