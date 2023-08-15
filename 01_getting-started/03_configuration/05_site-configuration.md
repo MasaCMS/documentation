@@ -31,10 +31,13 @@ Here you can edit and manage Approval Chains. Approval Chains allow for a 'chain
 Here you can manage the Class Extensions. Class Extensions are a way to customize common objects within Masa CMS. So instead of a default Page content object, you can create a custom Blog content object, which is derived from the Page. In this way you can tailor the content objects in Masa CMS to the needs and topic of your site.
 
 ## Create Site Bundle
-You can create a Site Bundle of your Site. A Bundle includes a Site's architecture & content, all rendering files (display objects, themes, javascript, etc.). This way you can deploy content from one site to another site across instances. This can be usefull in a OTAP environment or creating a backup of the content of your site..
+You can create a Site Bundle of your Site. A Bundle includes a Site's architecture & content, all rendering files (display objects, themes, javascript, etc.). This way you can deploy content from one site to another site across instances. This can be usefull in a OTAP environment or creating a backup of the content of your site.
+![siteconfigcreatesitebundle](/assets/01_getting-started/03_configuration/05_site_configuration/site_configuration_create_sitebundle.png)  
+You can save the Site Bundle on the server or you can download it directly as a .zip file.
 
 ## Deploy Site Bundle
 After creating as Site Bundle, you can deploy the site bundles here. Remember that when deploying a site bundle that all content will be overwritten!
+![siteconfigdeploysitebundle](/assets/01_getting-started/03_configuration/05_site_configuration/site_configuration_deploy_sitebundle.png)  
 
 ## Web Service (REST)
 Masa CMS provides REST Webservices. This way you can create custom front-end clients and let Masa CMS provide the content for them. The content for these clients can then be managed in the Masa CMS Admin.  
