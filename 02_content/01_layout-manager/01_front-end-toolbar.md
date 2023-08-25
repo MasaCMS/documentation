@@ -47,7 +47,7 @@ This option is a dropdown menu with the following options:
 If you click this option then you can inline edit the page. 
 
 #### Editable fields
-The editable field wil light up with a red fieldname above it:  
+The editable field will light up with a red fieldname above it:  
 ![frontendtoolbarinlineedit](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_inline_edit_red.png)  
 You can edit this part of the page. When you are done editing click 'Done Editing' on the right of the page.  
 ![frontendtoolbardoneediting](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_inline_done_editing.png)  
@@ -65,7 +65,7 @@ A menu on the right of the page opens ups with all the configurable options for 
 Example for the Archive Navigation Module:  
 ![frontendtoolbarmodulearchiveexample](/assets/02_content/01_layout-manager/01_front-end-toolbar/front-end-toolbar_module_archive_example.png)  
 Each Module has different configurable options; e.g. the Module 'Call to Action' has different options than the Module 'Image'.
-After editing you also need to save your changes, either by publishing directly, saving to draft or saving to Change Set.
+After editing you also need to save your changes, either by publishing directly, saving to draft or saving to a Change Set.
 
 ### Full Edit
 Redirects to the Masa CMS Admin to edit the page there.
