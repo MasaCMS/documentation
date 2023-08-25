@@ -532,6 +532,20 @@ New in 7.4.3
   <dd>Configurable option to set where to store Masa CMS files.</dd>
 </dl>
 
+#### fmcaseinsensitive
+New in 7.4.4
+{: .label .label-orange }
+{: .no_toc }
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>Make the sorting of files in the FileManager case-insensitive.</dd>
+</dl>
+
 #### fmshowapplicationroot
 
 <dl>
