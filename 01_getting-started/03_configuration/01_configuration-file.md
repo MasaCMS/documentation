@@ -1378,3 +1378,17 @@ New in 7.4.3
   <dt>Description</dt>
   <dd></dd>
 </dl>
+
+#### wordfilter
+New in 7.4.4
+{: .label .label-orange }
+{: .no_toc }
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Customize the scriptProtectionFilter.</dd>
+</dl>
