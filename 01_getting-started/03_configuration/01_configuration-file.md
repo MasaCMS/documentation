@@ -69,7 +69,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>/admin</code></dd>
   <dt>Description</dt>
-  <dd>Configire a different directory for the Masa CSM Admin other than '/admin'. Masa CMS must be reloaded from the webroot for this change to have effect.</dd>
+  <dd>Configure a different directory for the Masa CSM Admin other than '/admin'. Masa CMS must be reloaded from the webroot for this change to have effect.</dd>
 </dl>
 
 #### adminemail
