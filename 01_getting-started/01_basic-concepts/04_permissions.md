@@ -13,10 +13,11 @@ permalink: /getting-started/basic-concepts/permissions/
 ## Overview
 There are four types of Permissions in Masa CMS.
 Permissions are managed in Masa CMS Admin.
+
 ### Users
 There are two type of Users:  
 1. Site Member; a User that only has access to the front-end of the site. Site members don't have access to the Masa CMS Admin.
-2. System user; a User that has access to the Masa CMS Admin.
+2. System User; a User that has access to the Masa CMS Admin.
 
 Users can be an Group Member of multiple Groups. Through a group memberships a User can aquire additional Permissions.
 
@@ -31,12 +32,14 @@ In this overview accces to the Content Manager is managed via Groups.
 ![permissionscontentmanager](/assets/01_getting-started/01_basic-concepts/04_permissions/permissions_content_manager.png)  
 
 Users in different Groups can have access to the Content Manager.
+
 ### Content Permissions
 In het Masa CMS Admin you can manage the Permissions of a content item via the 'Actions' menu on the top right the page.  
 ![permissionscontentedit](/assets/01_getting-started/01_basic-concepts/04_permissions/permissions_content_edit.png)  
 
 Here Permissions are managed through Groups.  
 ![permissionscontentpermissions](/assets/01_getting-started/01_basic-concepts/04_permissions/permissions_content_permissions.png)  
+
 ### Other permissions
 Permissions can be applied to the following items:
 1. Content Staging Permissions
