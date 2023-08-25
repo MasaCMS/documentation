@@ -15,6 +15,45 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.4.4
+### What's Changed
+{: .no_toc }
+
+* fix issue with validation of properties in inline edit by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#204](https://github.com/MasaCMS/MasaCMS/pull/204)
+
+### What's Changed
+* Add a PGP key for confidential vulnerability reprts. by [@jochemd](https://github.com/jochemd) in [#228](https://github.com/MasaCMS/MasaCMS/pull/228)
+* #161 wordfilter setting portcullis by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#227](https://github.com/MasaCMS/MasaCMS/pull/227)
+* Security improvements by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#235](https://github.com/MasaCMS/MasaCMS/pull/235)
+* Update filebrowser.cfc by [@jimblesphere](https://github.com/jimblesphere) in [#226](https://github.com/MasaCMS/MasaCMS/pull/226)
+* Fixed #230 Related Content Advanced Search by [@no3rdw](https://github.com/no3rdw) in [#231](https://github.com/MasaCMS/MasaCMS/pull/231)
+* Allow for custom objectconfigurator position options by [@no3rdw](https://github.com/no3rdw) in [#233](https://github.com/MasaCMS/MasaCMS/pull/233)
+
+### New Contributors
+* [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) made their first contribution in [#227](https://github.com/MasaCMS/MasaCMS/pull/227)
+
+**Full Changelog**: https://github.com/MasaCMS/MasaCMS/compare/7.4.3...7.4.4
+
+## 7.4.3
+### What's Changed
+{: .no_toc }
+
+* fix issue with validation of properties in inline edit by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#204](https://github.com/MasaCMS/MasaCMS/pull/204)
+* Update catnav.cfc to fix null pointer exception by [@no3rdw](https://github.com/no3rdw) in [#201](https://github.com/MasaCMS/MasaCMS/pull/201)
+* fixed keepMetaKeywords conditional by [@no3rdw](https://github.com/no3rdw) in [#199](https://github.com/MasaCMS/MasaCMS/pull/199)
+* #212 fix layout issue with managing categories when editing content node by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#213](https://github.com/MasaCMS/MasaCMS/pull/213)
+* #209 include inherited class extensions in condition to show or hide … by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#211](https://github.com/MasaCMS/MasaCMS/pull/211)
+* #208 fixing styling on notifyEditor by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#210](https://github.com/MasaCMS/MasaCMS/pull/210)
+* Added Category Name to Local Index Advanced Filter Field List by [@no3rdw](https://github.com/no3rdw) in [#215](https://github.com/MasaCMS/MasaCMS/pull/215)
+* improve condition to check if razuna is enabled before throwing a dep… by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#221](https://github.com/MasaCMS/MasaCMS/pull/221)
+* improve entityname sanitization by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#219](https://github.com/MasaCMS/MasaCMS/pull/219)
+* Feature/216 azure ad support for sso by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#217](https://github.com/MasaCMS/MasaCMS/pull/217)
+
+### New Contributors
+* [@no3rdw](https://github.com/no3rdw) made their first contribution in [#201](https://github.com/MasaCMS/MasaCMS/pull/201)
+
+**Full Changelog**: https://github.com/MasaCMS/MasaCMS/compare/7.4.2...7.4.3
+
 ## 7.4.2
 ### Security Vulnerability Fix
 {: .no_toc }
