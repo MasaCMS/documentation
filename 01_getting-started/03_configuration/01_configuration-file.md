@@ -45,7 +45,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>production</code></dd>
   <dt>Description</dt>
-  <dd>The mode in which Masa CMS is running determines which configuration is loaded.</dd>
+  <dd>The mode in which Masa CMS is running determines which configuration is loaded</dd>
 </dl>
 
 ### Mode Section
@@ -58,7 +58,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configures a seperate URL for the Masa CMS Admin</dd>
 </dl>
 
 #### admindir
@@ -69,7 +69,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>/admin</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configure a different directory for the Masa CSM Admin other than '/admin'. Masa CMS must be reloaded from the webroot for this change to have effect.</dd>
 </dl>
 
 #### adminemail
@@ -80,7 +80,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>The default email address for the Masa CMS Admin administrator.</dd>
 </dl>
 
 #### adminssl
@@ -91,7 +91,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configuration option whether a SSL certificate is present for the Masa CMS Admin</dd>
 </dl>
 
 #### allowedadmindomain
@@ -113,7 +113,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configuration option to display auto-update links in the Masa CMS Admin</dd>
 </dl>
 
 #### alloweddomain
@@ -146,7 +146,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>index.cfm, index.json, index.html</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Filenames that are allowed to be used in the index of Masa CMS</dd>
 </dl>
 
 #### allowlocalfiles
@@ -157,7 +157,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Allow whether local files may be used when importing into Masa CMS</dd>
 </dl>
 
 #### allowsimplehtmlforms
@@ -168,7 +168,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>When this value is set to <code>false</code> only forms are allowed that are build using the FormBuilder.</dd>
 </dl>
 
 #### alloweds2emaillist
@@ -190,7 +190,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable directory where the assets of your site are located</dd>
 </dl>
 
 #### assetpath
@@ -201,7 +201,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable URL where the assets of you sites are located.</dd>
 </dl>
 
 #### autodiscoverplugins
@@ -212,7 +212,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Let Masa CMS automatically scan for plugins and install them.</dd>
 </dl>
 
 #### autoresetpasswords
@@ -223,7 +223,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>When set to <code>true</code> then the password is reset of the user using the 'Lost Password' functionality. An e-mail with the new password is sent. Otherwise just an e-mail with a link to log in is sent to the user.</dd>
 </dl>
 
 #### autoupdatemode
@@ -234,7 +234,7 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>default</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Optionns are <code>default</code> and <code>preview</code>. This last option allows Beta releases to be used for the update.</dd>
 </dl>
 
 #### azureadclientid
@@ -287,7 +287,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option to encrypt the passwords using BCrypt, if set to <code>false</code> passwords are hashed instead.</dd>
 </dl>
 
 #### clientmanagement
@@ -298,7 +298,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### clientstorage
@@ -309,7 +309,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### confirmsaveasdraft
@@ -320,7 +320,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>When you navigate away without saveng an alert is shown if you want to save the changes as 'draft'.</dd>
 </dl>
 
 #### context
@@ -331,7 +331,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Masa CMS wil automatically configure this field when installed. If you move Masa CMS to a different location you must update this setting.</dd>
 </dl>
 
 #### cookiedomain
@@ -342,7 +342,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configures the domain of the cookie</dd>
 </dl>
 
 #### cookiepath
@@ -353,7 +353,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configures the domain of the cookie</dd>
 </dl>
 
 #### customtagpaths
@@ -364,7 +364,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configure the path in which the Customtags are located. Comma-delimited list.</dd>
 </dl>
 
 #### datasource
@@ -375,7 +375,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable datasource where Masa CMS should acces the database.</dd>
 </dl>
 
 #### dbcasesensitive
@@ -386,7 +386,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configure if your database is CaSe SeNsItIvE (like Oracle or Postgres)</dd>
 </dl>
 
 #### dbpassword
@@ -397,7 +397,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Do not use this setting if you have datasource configured.</dd>
 </dl>
 
 #### dbtype
@@ -408,7 +408,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configure which database type Masas CMS is running on. Supported options are 'MS SQL', 'MySQL', 'Postgres' and 'Oracle'</dd>
 </dl>
 
 #### dbtablespace
@@ -419,7 +419,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>USERS</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option only for Oracle databases</dd>
 </dl>
 
 #### dbusername
@@ -430,7 +430,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Do not use this setting if you have datasource configured.</dd>
 </dl>
 
 #### debuggingenabled
@@ -441,7 +441,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option whether so show CFML errors in the browser or use the files under <code>errortemplate</code> config option when set to <code>false</code></dd>
 </dl>
 
 #### defaultfilemode
@@ -452,7 +452,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>777</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>If Masa CMS is installed on a *nix type sytem the default file permissions are configured with this option</dd>
 </dl>
 
 #### enablemuratag
@@ -463,7 +463,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configure whether the content in the [m] tag is parsed. This is a global setting; you can overwrite this setting per site in the contentRenderer.cfc.</dd>
 </dl>
 
 #### enableoauth
@@ -485,7 +485,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd>hash of <code>getCurrentTemplatePath()</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>A placholder for developers to store an application-wide encryption key</dd>
 </dl>
 
 #### errortemplate
@@ -496,7 +496,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>/muraWRM/config/error.html</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>When <code>debuggingenabled=false</code> then the template in this path is used to display an error in the browser</dd>
 </dl>
 
 #### facebookclientid
@@ -529,7 +529,21 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option to set where to store Masa CMS files.</dd>
+</dl>
+
+#### fmcaseinsensitive
+New in 7.4.4
+{: .label .label-orange }
+{: .no_toc }
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>Make the sorting of files in the FileManager case-insensitive.</dd>
 </dl>
 
 #### fmshowapplicationroot
@@ -540,7 +554,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option whether the application root is shown in the File Manager</dd>
 </dl>
 
 #### fmshowsitefiles
@@ -551,7 +565,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd><dd>Configurable option whether the site files are shown in the File Manager</dd></dd>
 </dl>
 
 #### forceadminssl
@@ -562,7 +576,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Force Masa CMS Admin to use <code>https://</code></dd>
 </dl>
 
 #### githubclientid
@@ -617,7 +631,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option whether an URL in Masa CMS had hashed directory names in it.</dd>
 </dl>
 
 #### haslockablenodes
@@ -628,7 +642,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option to lock a content node when it is being edited; e.g. only one content manager at the time can edit one specific content item.</dd>
 </dl>
 
 #### hstsmaxage
@@ -639,7 +653,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>1200</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>HTTP Strict Transport Security setting</dd>
 </dl>
 
 #### imageinterpolation
@@ -650,7 +664,8 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>highQuality</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Specify which algoritms is used to resize the images in Masa CMS. Valid options are: highestQuality, highQuality, mediumQuality, highestPerformance, highPerformance, mediumPerformance, nearest, bilinear, bicubic, bessel, blackman, hamming, hanning, hermite, lanczos, mitchell, quadratic.  
+  </dd>
 </dl>
 
 #### indexfileinurls
@@ -672,7 +687,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### javasettingsloadpaths
@@ -683,7 +698,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>/requirements/lib</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### javasettingswatchextensions
@@ -694,7 +709,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>jar,class</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### javasettingswatchinterval
@@ -705,7 +720,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>60</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### locale
@@ -716,7 +731,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>server</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Used for rendering dates and times. Two valid optons: server and client</dd>
 </dl>
 
 #### loginstrikes
@@ -727,7 +742,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>4</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Number of login attempts a user has before being locked out</dd>
 </dl>
 
 #### mailserverip
@@ -738,7 +753,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>SMTP server IP</dd>
 </dl>
 
 #### mailserverpassword
@@ -749,7 +764,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>SMTP Server password</dd>
 </dl>
 
 #### mailserverpopport
@@ -760,7 +775,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>110</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>SMTP Server POP port</dd>
 </dl>
 
 #### mailserversmtpport
@@ -771,7 +786,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>25</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>SMTP Server port</dd>
 </dl>
 
 #### mailserverssl
@@ -782,7 +797,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Whether to use SSL or not when connecting to the SMTP server</dd>
 </dl>
 
 #### mailservertls
@@ -793,7 +808,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Whether to use TLS or not when connecting to the SMTP server</dd>
 </dl>
 
 #### mailserverusername
@@ -804,7 +819,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Username for the SMTP Server</dd>
 </dl>
 
 #### maxarchivedversions
@@ -815,7 +830,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>50</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option of how many versions of a content item to store.</dd>
 </dl>
 
 #### maxportalitems
@@ -826,7 +841,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>1000</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>The maximum number of items to use for pagination in Folder display</dd>
 </dl>
 
 #### maxsourceimagewidth
@@ -837,7 +852,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>4000</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>The maxium width of uploaded images that Masa CMS tries to store. Anything beyond this size will be resized.</dd>
 </dl>
 
 #### mfa
@@ -848,7 +863,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Legacy: not a production feature. Multi factor authentication</dd>
 </dl>
 
 #### mfaperdevice
@@ -859,7 +874,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Legacy: not a production feature. Multi factor authentication</dd>
 </dl>
 
 #### mfasendauthcode
@@ -870,7 +885,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Legacy: not a production feature. Multi factor authentication</dd>
 </dl>
 
 #### notifywithversionlink
@@ -881,7 +896,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Send a notification with a link for review. Either with a link to the version history page or to the version edit form.</dd>
 </dl>
 
 #### ormautomanagesession
@@ -892,7 +907,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>CFML ORM setting</dd>
 </dl>
 
 #### ormcfclocation
@@ -903,7 +918,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>CFML ORM setting</dd>
 </dl>
 
 #### ormdatasource
@@ -914,7 +929,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>CFML ORM setting</dd>
 </dl>
 
 #### ormdbcreate
@@ -925,7 +940,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>update</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>CFML ORM setting</dd>
 </dl>
 
 #### ormenabled
@@ -936,7 +951,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>CFML ORM setting</dd>
 </dl>
 
 #### ormeventhandling
@@ -947,7 +962,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>CFML ORM setting</dd>
 </dl>
 
 #### ormflushatrequestend
@@ -958,7 +973,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>CFML ORM setting</dd>
 </dl>
 
 #### ormsavemapping
@@ -969,7 +984,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>CFML ORM setting</dd>
 </dl>
 
 #### ormskipcfcwitherror
@@ -980,7 +995,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>CFML ORM setting</dd>
 </dl>
 
 #### ormusedbformapping
@@ -991,7 +1006,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>CFML ORM setting</dd>
 </dl>
 
 #### ping
@@ -1002,7 +1017,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Controles whether Masa CMS attempts to create Scheduled Tasks voor scheduled content, scheduled notifications, etc. Not all CFML servers allow Scheduled Tasks to be created programmatically.</dd>
 </dl>
 
 #### plugindir
@@ -1013,7 +1028,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option to tell Masa CMS where the plugin directory is.</dd>
 </dl>
 
 #### port
@@ -1024,7 +1039,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>${cgi.SERVER\_PORT</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>HTTP Port that Masa CMS runs on</dd>
 </dl>
 
 #### proxypassword
@@ -1035,7 +1050,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Settings for setting up a proxy</dd>
 </dl>
 
 #### proxyport
@@ -1046,7 +1061,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>${cgi.SERVER\_PORT</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Settings for setting up a proxy</dd>
 </dl>
 
 #### proxyserver
@@ -1057,7 +1072,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Settings for setting up a proxy</dd>
 </dl>
 
 #### proxyuser
@@ -1068,7 +1083,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Settings for setting up a proxy</dd>
 </dl>
 
 #### purgedrafts
@@ -1079,7 +1094,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option whether to remove all drafts if a new active version is published</dd>
 </dl>
 
 #### recaptchasitekey
@@ -1090,7 +1105,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Site Key for Google reCAPTCHA. Used when Site Settings are empty.</dd>
 </dl>
 
 #### recaptchasecret
@@ -1101,7 +1116,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Secret for Google reCAPTCHA. Used when Site Settings are empty.</dd>
 </dl>
 
 #### recaptchalanguage
@@ -1112,7 +1127,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>en</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Language setting for Google reCAPTCHA. Used when Site Settings are empty.</dd>
 </dl>
 
 #### rendermuraalerts
@@ -1123,7 +1138,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option whether to display alerts in the Masa CMS Admin</dd>
 </dl>
 
 #### requesttimeout
@@ -1134,7 +1149,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>1000</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### sameformfieldsasarray
@@ -1145,7 +1160,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### scriptprotect
@@ -1156,7 +1171,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### scriptprotectexceptions
@@ -1167,7 +1182,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>body,source,params</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Comma seperated list of field to ignore for scriptprotection</dd>
 </dl>
 
 #### securecookies
@@ -1178,7 +1193,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### sessioncookiesexpires
@@ -1189,7 +1204,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>never</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### sendfrommailserverusername
@@ -1200,7 +1215,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option whether to send email via the username in the <code>mailserverusername</code> setting</dd>
 </dl>
 
 #### sessionhistory
@@ -1211,7 +1226,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>0</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Number of days to store sessionhistory</dd>
 </dl>
 
 #### sessiontimeout
@@ -1222,7 +1237,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>180</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Application.cfc variable</dd>
 </dl>
 
 #### showadminloginhelp
@@ -1266,7 +1281,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>editor</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option whether a user has the permission to sort content. Two valid options: editor,author</dd>
 </dl>
 
 #### strictfactory
@@ -1277,7 +1292,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Masa CMS uses the DI/1 Framework. This controls the <code>strict</code> setting for this framework.</dd>
 </dl>
 
 #### stricthtml
@@ -1288,7 +1303,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option whether to allow HTML syntax in class extension attributes. Works together with the setting <code>stricthtmlexclude</code></dd>
 </dl>
 
 #### stricthtmlexclude
@@ -1299,7 +1314,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>List of excluded extended attributes that allow HTML Syntax. Does not apply when type is set to HTMLEditor of the extended attribute.</dd> 
 </dl>
 
 #### strongpasswordregex
@@ -1332,7 +1347,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option for location where uploaded files are temporarely stored</dd>
 </dl>
 
 #### title
@@ -1354,7 +1369,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option whether ot use the SMTP Settings in de CFML / Lucee Administrator or the SMT Settings in Masa CMS</dd>
 </dl>
 
 #### usefilemode
@@ -1365,7 +1380,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option whether to let Masa CMS set file permissions. Only applies to *nix based systems</dd> 
 </dl>
 
 #### windowdocumentdomain
@@ -1376,7 +1391,7 @@ New in 7.4.3
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd></dd>
+  <dd>Configurable option to set the <code>document.domain</code> for the Masa CMS Admin.  Useful for cross-domain issues.</dd>
 </dl>
 
 #### wordfilter
