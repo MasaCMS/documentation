@@ -182,6 +182,17 @@ You can find a reference for this configuration file below.
   <dd>List of email addresses of users that are set to super user when authenticating using SSO</dd>
 </dl>
 
+#### allowunicodeinfilenames
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>Allow filenames with unicode characters</dd>
+</dl>
+
 #### assetdir
 
 <dl>
@@ -234,8 +245,19 @@ You can find a reference for this configuration file below.
   <dt>Default</dt>
   <dd><code>default</code></dd>
   <dt>Description</dt>
-  <dd>Optionns are <code>default</code> and <code>preview</code>. This last option allows Beta releases to be used for the update.</dd>
+  <dd>Options are <code>default</code> and <code>preview</code>. This last option allows Beta releases to be used for the update.</dd>
 </dl>
+
+#### autoupdatesleep
+<dl>
+  <dt>Type</dt>
+  <dd>numeric</dd>
+  <dt>Default</dt>
+  <dd><code>empty</code></dd>
+  <dt>Description</dt>
+  <dd>Tells Masa CMS to pause for a number of seconds after updating the core. This is usefull for files to be synched across multiple servers.</dd>
+</dl>
+
 
 #### azureadclientid
 New in 7.4.3
@@ -288,6 +310,28 @@ New in 7.4.3
   <dd><code>true</code></dd>
   <dt>Description</dt>
   <dd>Configurable option to encrypt the passwords using BCrypt, if set to <code>false</code> passwords are hashed instead.</dd>
+</dl>
+
+#### bcryptlogrounds
+
+<dl>
+  <dt>Type</dt>
+  <dd>numeric</dd>
+  <dt>Default</dt>
+  <dd><code>10</code></dd>
+  <dt>Description</dt>
+  <dd>When BCrypt is being used, then this configures how many logrounds are used for adding salt to the encryption proces.</dd>
+</dl>
+
+#### bcryptreseedfrequency
+
+<dl>
+  <dt>Type</dt>
+  <dd>numeric</dd>
+  <dt>Default</dt>
+  <dd><code>60</code></dd>
+  <dt>Description</dt>
+  <dd>When BCrypt is being used, then this configures how often to re-seed in seconds.</dd>
 </dl>
 
 #### clientmanagement
@@ -664,7 +708,7 @@ New in 7.4.4
   <dt>Default</dt>
   <dd><code>highQuality</code></dd>
   <dt>Description</dt>
-  <dd>Specify which algoritms is used to resize the images in Masa CMS. Valid options are: highestQuality, highQuality, mediumQuality, highestPerformance, highPerformance, mediumPerformance, nearest, bilinear, bicubic, bessel, blackman, hamming, hanning, hermite, lanczos, mitchell, quadratic.  
+  <dd>Specify which algoritms is used to resize the images in Masa CMS. Valid options are: highestQuality, highQuality, mediumQuality, highestPerformance, highPerformance, mediumPerformance, nearest, bilinear, bicubic, bessel, blackman, hamming, hanning, hermite, lanczos, mitchell, quadratic.
   </dd>
 </dl>
 
@@ -1314,7 +1358,7 @@ New in 7.4.4
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd>List of excluded extended attributes that allow HTML Syntax. Does not apply when type is set to HTMLEditor of the extended attribute.</dd> 
+  <dd>List of excluded extended attributes that allow HTML Syntax. Does not apply when type is set to HTMLEditor of the extended attribute.</dd>
 </dl>
 
 #### strongpasswordregex
@@ -1380,7 +1424,7 @@ New in 7.4.4
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd>Configurable option whether to let Masa CMS set file permissions. Only applies to *nix based systems</dd> 
+  <dd>Configurable option whether to let Masa CMS set file permissions. Only applies to *nix based systems</dd>
 </dl>
 
 #### windowdocumentdomain
