@@ -952,6 +952,17 @@ New in 7.4.4
   <dd>HTTP Strict Transport Security setting</dd>
 </dl>
 
+#### htmleditortype
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty</code></dd>
+  <dt>Description</dt>
+  <dd>Default is empty. Other two options are 'none' and 'fckeditor'.</dd>
+</dl>
+
 #### imageinterpolation
 
 <dl>
@@ -964,6 +975,28 @@ New in 7.4.4
   </dd>
 </dl>
 
+#### imagequality
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>.95</code></dd>
+  <dt>Description</dt>
+  <dd>Setting for the quality of the images uploaded in Masa CMS. Value between 0 and 1. </dd>
+</dl>
+
+#### indexfile
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty</code></dd>
+  <dt>Description</dt>
+  <dd>Setting for which index file to use with Masa CMS. </dd>
+</dl>
+
 #### indexfileinurls
 
 <dl>
@@ -973,6 +1006,17 @@ New in 7.4.4
   <dd><code>true</code></dd>
   <dt>Description</dt>
   <dd>Display index.cfm in the URL.</dd>
+</dl>
+
+#### javaenabled
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>true</code></dd>
+  <dt>Description</dt>
+  <dd>Configure if Java is enabled in the current Masa Instance. Needed for loading Java Libraries</dd>
 </dl>
 
 #### javasettingsloadcoldfusionclasspath
@@ -1028,6 +1072,18 @@ New in 7.4.4
   <dd><code>server</code></dd>
   <dt>Description</dt>
   <dd>Used for rendering dates and times. Two valid optons: server and client</dd>
+</dl>
+
+
+#### lockablenodes
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>Setting whether the Allow Content Locking can be enabled per site in Site Settings.</dd>
 </dl>
 
 #### loginstrikes
