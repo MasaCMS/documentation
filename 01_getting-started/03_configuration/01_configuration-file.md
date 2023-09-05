@@ -334,6 +334,94 @@ New in 7.4.3
   <dd>When BCrypt is being used, then this configures how often to re-seed in seconds.</dd>
 </dl>
 
+#### broadcastclustercommands
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>When Masa CMS is using a cluster, broadcast cluster commmands.</dd>
+</dl>
+
+#### broadcastappreloads
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>When Masa CMS is using a cluster, broadcast app reloading.</dd>
+</dl>
+
+#### broadcastcachepurges
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>When Masa CMS is using a cluster, broadcast cache purges.</dd>
+</dl>
+
+#### bundledeployerroremail
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty</code></dd>
+  <dt>Description</dt>
+  <dd>If the deployment of a site bundle fails, a mail can be sent to an e-mail address with debugging information.</dd>
+</dl>
+
+#### bundleminspacerequired
+
+<dl>
+  <dt>Type</dt>
+  <dd>numeric</dd>
+  <dt>Default</dt>
+  <dd><code>1</code></dd>
+  <dt>Description</dt>
+  <dd>Before attempting to create a site bundle, check if the 'bundleminspacerequired' is available. If not, generate an error. Value is in Gb.</dd>
+</dl>
+
+#### cffpconfigfilename
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>cffp.ini.cfm</code></dd>
+  <dt>Description</dt>
+  <dd>Configure an alternate config file for CFFormProtect.</dd>
+</dl>
+
+#### contentgatewaytable
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>tcontent</code></dd>
+  <dt>Description</dt>
+  <dd>Configure an alternate database table for content, other than 'tcontent'.</dd>
+</dl>
+
+#### clearoldbroadcastcommands
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>When Masa CMS is using a cluster, clear the old broadcast commands.</dd>
+</dl>
+
 #### clientmanagement
 
 <dl>
@@ -400,6 +488,17 @@ New in 7.4.3
   <dd>Configures the domain of the cookie</dd>
 </dl>
 
+#### createrequireddirectories
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>true</code></dd>
+  <dt>Description</dt>
+  <dd>Setting whether to create the required directories needed for Masa CMS or not. Usefull in a clustered enviroment in which directories are already synched and not need to be created by Masa CMS.</dd>
+</dl>
+
 #### customtagpaths
 
 <dl>
@@ -409,6 +508,17 @@ New in 7.4.3
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
   <dd>Configure the path in which the Customtags are located. Comma-delimited list.</dd>
+</dl>
+
+#### customurlvardelimiters
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty</code></dd>
+  <dt>Description</dt>
+  <dd>Configure custom delimeter for URL variables.</dd>
 </dl>
 
 #### datasource
