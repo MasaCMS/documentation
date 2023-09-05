@@ -521,6 +521,38 @@ New in 7.4.3
   <dd>Configure custom delimeter for URL variables.</dd>
 </dl>
 
+#### dashboard
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>true</code></dd>
+  <dt>Description</dt>
+  <dd>Setting whether the Dashboard can be enabled per site in Site Settings. --> Edit Settings --> Modules</dd>
+</dl>
+
+#### dashboardcomments
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>true</code></dd>
+  <dt>Description</dt>
+  <dd>Show comments on the Dashboard in the Masa CMS Admin.</dd>
+</dl>
+
+#### datacollection
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>true</code></dd>
+  <dt>Description</dt>
+  <dd>Enable Data Collection Manager.</dd>
+</dl>
+
 #### datasource
 
 <dl>
@@ -609,6 +641,48 @@ New in 7.4.3
   <dd>If Masa CMS is installed on a *nix type sytem the default file permissions are configured with this option</dd>
 </dl>
 
+#### defaultlocale
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Configure a default locale.</dd>
+</dl>
+
+#### defaultthemeurl
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>https://github.com/MasaCMS/MasaBootstrap5/archive/main.zip</code></dd>
+  <dt>Description</dt>
+  <dd>When Masa CMS is stared for the first time, no Masa Theme is present and a Default Theme is downloaded. Currently this is the Masa Bootstrap 5 Theme.</dd>
+</dl>
+
+#### editablecomments
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>empty</code></dd>
+  <dt>Description</dt>
+  <dd>Setting whether a comment can be edited after it has been created.</dd>
+</dl>
+
+#### emailbroadcaster
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>empty</code></dd>
+  <dt>Description</dt>
+  <dd>Setting whether the EmailBroadcaster can be enabled per site in Site Settings. --> Edit Settings --> Modules</dd>
+</dl>
+
 #### enablemuratag
 
 <dl>
@@ -640,6 +714,17 @@ New in 7.4.3
   <dd>hash of <code>getCurrentTemplatePath()</code></dd>
   <dt>Description</dt>
   <dd>A placholder for developers to store an application-wide encryption key</dd>
+</dl>
+
+#### encryptpasswords
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>true</code></dd>
+  <dt>Description</dt>
+  <dd>Configure whether to encrypt the passwords for the users in the database.</dd>
 </dl>
 
 #### errortemplate
@@ -686,6 +771,40 @@ New in 7.4.3
   <dd>Configurable option to set where to store Masa CMS files.</dd>
 </dl>
 
+
+#### filestore
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>filedir</code></dd>
+  <dt>Description</dt>
+  <dd>Configuration where to store the files for Masa CMS. Default is 'filedir', the other option is 's3'.</dd>
+</dl>
+
+#### filestoreaccessinfo
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty</code></dd>
+  <dt>Description</dt>
+  <dd>Configuration string used when filestore='s3'. This is a string with all the access info for S3.</dd>
+</dl>
+
+#### filestoreendpoint
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>http://s3.amazonaws.com</code></dd>
+  <dt>Description</dt>
+  <dd>Configuration string used when filestore='s3'. This is a string with the endpoint for the S3 buecket to store the files.</dd>
+</dl>
+
 #### fmcaseinsensitive
 New in 7.4.4
 {: .label .label-orange }
@@ -719,7 +838,30 @@ New in 7.4.4
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd><dd>Configurable option whether the site files are shown in the File Manager</dd></dd>
+  <dd>Configurable option whether the site files are shown in the File Manager</dd>
+</dl>
+
+#### fmallowedextensions
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>a long list of extensions</code></dd>
+  <dt>Description</dt>
+  <dd>Comma seperated list of file extensions that are valid to upload using the FileManager in the Masa CMS Admin.</dd>
+</dl>
+
+
+#### fmpublicallowedextensions
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>also a long list of extensions</code></dd>
+  <dt>Description</dt>
+  <dd>Comma seperated list of file extensions that are valid to upload in the public front-end of Masa CMS, like in a Form.</dd>
 </dl>
 
 #### forceadminssl
