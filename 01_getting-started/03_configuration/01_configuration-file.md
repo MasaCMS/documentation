@@ -1174,6 +1174,38 @@ New in 7.4.4
   <dd>Username for the SMTP Server</dd>
 </dl>
 
+#### mailserverusernameemail
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Email address for the username for the SMTP Server</dd>
+</dl>
+
+#### managelinks
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>true</code></dd>
+  <dt>Description</dt>
+  <dd>When moving links in Masa CMS then references to this link are automatically updated.</dd>
+</dl>
+
+#### managesessioncookies
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>true</code></dd>
+  <dt>Description</dt>
+  <dd>Allows that sessions are managed through an Id set in the cookie of the brower.</dd>
+</dl>
+
+
 #### maxarchivedversions
 
 <dl>
@@ -1238,6 +1270,16 @@ New in 7.4.4
   <dd><code>true</code></dd>
   <dt>Description</dt>
   <dd>Legacy: not a production feature. Multi factor authentication</dd>
+</dl>
+
+#### mysqlengine
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>InnoDB</code></dd>
+  <dt>Description</dt>
+  <dd>Set which MySQL Engine to use when dbtype='MySQL'</dd>
 </dl>
 
 #### notifywithversionlink
