@@ -1436,6 +1436,17 @@ New in 7.4.4
   <dd>HTTP Port that Masa CMS runs on</dd>
 </dl>
 
+#### postbundles
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>Display a warning about 'posting' site bundles via direct upload, rather then placeing them on the webserver and then importing them.</dd>
+</dl>
+
 #### proxypassword
 
 <dl>
@@ -1469,6 +1480,17 @@ New in 7.4.4
   <dd>Settings for setting up a proxy</dd>
 </dl>
 
+#### proxyauthtype
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Settings for setting up a proxy. Can be empty or 'NTLM'</dd>
+</dl>
+
 #### proxyuser
 
 <dl>
@@ -1489,6 +1511,52 @@ New in 7.4.4
   <dd><code>true</code></dd>
   <dt>Description</dt>
   <dd>Configurable option whether to remove all drafts if a new active version is published</dd>
+</dl>
+
+
+#### razuna
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>Enable the usage of Razuna in Masa CMS. Disabled by default.</dd>
+</dl>
+
+#### readonlydatasource
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Set a readonly datasource</dd>
+</dl>
+
+#### readonlydbpassword
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Set a password for the readonly database</dd>
+</dl>
+
+
+#### readonlydbusername
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Set a username for the readonly database</dd>
 </dl>
 
 #### recaptchasitekey
@@ -1522,6 +1590,17 @@ New in 7.4.4
   <dd><code>en</code></dd>
   <dt>Description</dt>
   <dd>Language setting for Google reCAPTCHA. Used when Site Settings are empty.</dd>
+</dl>
+
+#### remoteipheader
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty</code></dd>
+  <dt>Description</dt>
+  <dd>Set the remote IP header</dd>
 </dl>
 
 #### rendermuraalerts
