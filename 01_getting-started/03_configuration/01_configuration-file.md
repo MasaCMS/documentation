@@ -1691,6 +1691,40 @@ New in 7.4.4
   <dd>Configurable option whether to send email via the username in the <code>mailserverusername</code> setting</dd>
 </dl>
 
+#### sendloginbcc
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>Send a BCC mail when a user requests a login link.</dd>
+</dl>
+
+#### serverport
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>emtpy</code></dd>
+  <dt>Description</dt>
+  <dd>Set the serverport for Masa CMS.</dd>
+</dl>
+
+
+#### sharableremotesessions
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>true</code></dd>
+  <dt>Description</dt>
+  <dd>Enable or disable shareable remote sessions</dd>
+</dl>
+
 #### sessionhistory
 
 <dl>
@@ -1735,6 +1769,17 @@ New in 7.4.4
   <dd>Display the assigned Extended Attributes of the Basic tab below the body, instead of being hidden behind the "Manage Extended Attributes" button.</dd>
 </dl>
 
+#### sitedir
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>sites</code></dd>
+  <dt>Description</dt>
+  <dd>Directory in which the sites are created. The default is 'sites'</dd>
+</dl>
+
 #### siteidinurls
 
 <dl>
@@ -1755,6 +1800,18 @@ New in 7.4.4
   <dd><code>editor</code></dd>
   <dt>Description</dt>
   <dd>Configurable option whether a user has the permission to sort content. Two valid options: editor,author</dd>
+</dl>
+
+
+#### strictextendeddata
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>true</code></dd>
+  <dt>Description</dt>
+  <dd>Check the datatype and value for when submitting extended data. (e.g. like in an extended attribute)</dd>
 </dl>
 
 #### strictfactory
@@ -1812,6 +1869,18 @@ New in 7.4.4
   <dd>Enforce strong password requirements.</dd>
 </dl>
 
+
+#### stub
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>emtpy</code></dd>
+  <dt>Description</dt>
+  <dd>Set the stub in Masa CMS</dd>
+</dl>
+
 #### tempdir
 
 <dl>
@@ -1834,6 +1903,29 @@ New in 7.4.4
   <dd>The application title, typically used in the HTML head section.</dd>
 </dl>
 
+#### tracksessioninnewthread
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>true</code></dd>
+  <dt>Description</dt>
+  <dd>Use a new thread when using session tracking. Can be disabled for performance reasons / locking issues.</dd>
+</dl>
+
+
+#### urltitledelim
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>-</code></dd>
+  <dt>Description</dt>
+  <dd>Delimeter used in creating the title for each page.</dd>
+</dl>
+
 #### usedefaultsmtpserver
 
 <dl>
@@ -1842,7 +1934,7 @@ New in 7.4.4
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd>Configurable option whether ot use the SMTP Settings in de CFML / Lucee Administrator or the SMT Settings in Masa CMS</dd>
+  <dd>Configurable option whether to use the SMTP Settings in de CFML / Lucee Administrator or the SMTP Settings in Masa CMS</dd>
 </dl>
 
 #### usefilemode
@@ -1854,6 +1946,18 @@ New in 7.4.4
   <dd><code>false</code></dd>
   <dt>Description</dt>
   <dd>Configurable option whether to let Masa CMS set file permissions. Only applies to *nix based systems</dd>
+</dl>
+
+
+#### uselegacysessions
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>Configurable option whether to use legacy sessions or not.</dd>
 </dl>
 
 #### windowdocumentdomain
@@ -1879,4 +1983,37 @@ New in 7.4.4
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
   <dd>Customize the scriptProtectionFilter.</dd>
+</dl>
+
+#### version
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>The number of the version in use.</code></dd>
+  <dt>Description</dt>
+  <dd>Version number</dd>
+</dl>
+
+#### webroot
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty</code></dd>
+  <dt>Description</dt>
+  <dd>Configures the webroot</dd>
+</dl>
+
+#### webrootmap
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>muraWRM</code></dd>
+  <dt>Description</dt>
+  <dd>Used for old Coldfusion MX 7 mapping. Do not use.</dd>
 </dl>
