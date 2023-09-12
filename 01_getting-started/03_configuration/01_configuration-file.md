@@ -1447,6 +1447,66 @@ New in 7.4.4
   <dd>Display a warning about 'posting' site bundles via direct upload, rather then placeing them on the webserver and then importing them.</dd>
 </dl>
 
+
+
+#### productionassetdir
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>-</dd>
+</dl>
+
+
+#### productionassetpath
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>-</dd>
+</dl>
+
+#### productiondatasource
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>-</dd>
+</dl>
+
+
+#### productionfiledir
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>-</dd>
+</dl>
+
+#### productionwebroot
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>-</dd>
+</dl>
+
+
 #### proxypassword
 
 <dl>
