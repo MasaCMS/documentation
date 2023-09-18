@@ -20,3 +20,4 @@ Apart from this theme you can create your own themes.
 In the Masa CMS Admin you can select the theme for you website under 'Site Settings' --> 'Edit Settings'.  
 ![](/assets/04_front-end-layout-manager/04_add-a-theme/theme_site_setting.png)  
 The options for the theme are automatically generated based on the [folder structure](/front-end-layout-manager/add-a-theme/folder-structure/).
+When you select a theme that has an 'eventHandler.cfc', be sure to 'Reload the Application'. Only then the changes will come in to effect.
