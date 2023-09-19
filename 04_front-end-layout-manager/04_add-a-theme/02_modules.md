@@ -10,4 +10,5 @@ permalink: /front-end-layout-manager/add-a-theme/modules/
 
 # Modules
 
-## Order of precedence
+Modules are a very usefull part of the Masa CMS. Masa CMS has numerous Modules build right into it.
+However there are several way to [create you own custom Modules](/customizing-extending-masa/modules/creating-custom-modules/). One of these ways is by creating them in your own Theme.
