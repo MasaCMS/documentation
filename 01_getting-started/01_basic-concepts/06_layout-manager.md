@@ -22,8 +22,8 @@ When the Layout Manager is active, a “pencil” icon will appear whenever the 
 This is both the “edit” button, and the “drag” handle for moving the Module up/down within the current container or to drag it into another container.  
 
 There are two types of Modules:  
-1. Containers:" acts as placeholders for other Modules 
-2. Functional Modules, such as Navigation or Collection.  
+1. Containers; acts as placeholders for other Modules 
+2. Functional Modules; such as Navigation or Collection.  
 
 Each Module has a "Configurator"; a menu of settings. This opens on the right side of the page when a Module is selected.
 
