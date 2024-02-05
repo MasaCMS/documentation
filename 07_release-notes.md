@@ -2,7 +2,7 @@
 layout: default
 title: Release notes
 nav_order: 7
-last_modified_date: 12-07-2023 10:30
+last_modified_date: 05-02-2024 09:00
 permalink: /release-notes/
 ---
 
@@ -15,13 +15,58 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.4.5
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+We've been informed about a critical vulnerability in Masa CMS.
+
+#### What is fixed ?
+{: .no_toc }
+* The mentioned vulnerability has been fixed.
+* Additional security improvements have been made.
+
+#### What versions are affected?
+{: .no_toc }
+Masa CMS versions 7.2, 7.3 and 7.4 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.4, you should update to version 7.4.5 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.12 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.7 immediately. This can be done by applying a manual update.
+
+### What's Changed
+{: .no_toc }
+
+* Also include content that is excluded from site search in the related… by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#241](https://github.com/MasaCMS/MasaCMS/pull/241)
+* Add jQuery for a11y checker plugin in CKEditor. We cannot alway rely … by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#243](https://github.com/MasaCMS/MasaCMS/pull/243)
+* Destroy CKEditor instances when closeing the modal. by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#250](https://github.com/MasaCMS/MasaCMS/pull/250)
+* Bugfix/code improvements by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in  [#267](https://github.com/MasaCMS/MasaCMS/pull/267)
+* Added an extra check if the javaLoader is actually available to load … by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#266](https://github.com/MasaCMS/MasaCMS/pull/266)
+* Update all jQuery v3.7.0 files to jQuery v3.7.1 files. by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#265](https://github.com/MasaCMS/MasaCMS/pull/265)
+*  Issue 235: object become unclickable by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#257](https://github.com/MasaCMS/MasaCMS/pull/257)
+* Put a maxlength on 'displayIntervalEvery'. by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#253](https://github.com/MasaCMS/MasaCMS/pull/253)
+* Added general improvments by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#264](https://github.com/MasaCMS/MasaCMS/pull/264)
+* Issue 261: lucee6 fixes by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#262](https://github.com/MasaCMS/MasaCMS/pull/262)
+* replaced sanitizeValue() call and updated sanitizedValue() by [@OriCat101](https://github.com/OriCat101) in [#259](https://github.com/MasaCMS/MasaCMS/pull/259)
+* Bugfix/rendering assets by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#268](https://github.com/MasaCMS/MasaCMS/pull/268)
+
+### New Contributors
+{: .no_toc }
+*   [@OriCat101](https://github.com/OriCat101) made their first contribution in [#259](https://github.com/MasaCMS/MasaCMS/pull/259)
+
+Full Changelog: [7.4.4...7.4.5](https://github.com/MasaCMS/MasaCMS/compare/7.4.4...7.4.5)
+
 ## 7.4.4
 ### What's Changed
 {: .no_toc }
 
 * fix issue with validation of properties in inline edit by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#204](https://github.com/MasaCMS/MasaCMS/pull/204)
-
-### What's Changed
 * Add a PGP key for confidential vulnerability reprts. by [@jochemd](https://github.com/jochemd) in [#228](https://github.com/MasaCMS/MasaCMS/pull/228)
 * #161 wordfilter setting portcullis by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#227](https://github.com/MasaCMS/MasaCMS/pull/227)
 * Security improvements by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#235](https://github.com/MasaCMS/MasaCMS/pull/235)
@@ -30,9 +75,10 @@ permalink: /release-notes/
 * Allow for custom objectconfigurator position options by [@no3rdw](https://github.com/no3rdw) in [#233](https://github.com/MasaCMS/MasaCMS/pull/233)
 
 ### New Contributors
+{: .no_toc }
 * [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) made their first contribution in [#227](https://github.com/MasaCMS/MasaCMS/pull/227)
 
-**Full Changelog**: https://github.com/MasaCMS/MasaCMS/compare/7.4.3...7.4.4
+Full Changelog: [7.4.3...7.4.4](https://github.com/MasaCMS/MasaCMS/compare/7.4.3...7.4.4)
 
 ## 7.4.3
 ### What's Changed
@@ -50,9 +96,10 @@ permalink: /release-notes/
 * Feature/216 azure ad support for sso by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#217](https://github.com/MasaCMS/MasaCMS/pull/217)
 
 ### New Contributors
+{: .no_toc }
 * [@no3rdw](https://github.com/no3rdw) made their first contribution in [#201](https://github.com/MasaCMS/MasaCMS/pull/201)
 
-**Full Changelog**: https://github.com/MasaCMS/MasaCMS/compare/7.4.2...7.4.3
+Full Changelog: [7.4.2...7.4.3](https://github.com/MasaCMS/MasaCMS/compare/7.4.2...7.4.3)
 
 ## 7.4.2
 ### Security Vulnerability Fix
