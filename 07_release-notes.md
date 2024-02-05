@@ -62,6 +62,58 @@ Masa CMS versions 7.2, 7.3 and 7.4 are affected.
 
 Full Changelog: [7.4.4...7.4.5](https://github.com/MasaCMS/MasaCMS/compare/7.4.4...7.4.5)
 
+## 7.3.12
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+We've been informed about a critical vulnerability in Masa CMS.
+
+#### What is fixed ?
+{: .no_toc }
+* The mentioned vulnerability has been fixed.
+* Additional security improvements have been made.
+
+#### What versions are affected?
+{: .no_toc }
+Masa CMS versions 7.2, 7.3 and 7.4 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.4, you should update to version 7.4.5 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.12 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.7 immediately. This can be done by applying a manual update.
+
+Full Changelog: [7.3.11...7.3.12](https://github.com/MasaCMS/MasaCMS/compare/7.3.11...7.3.12)
+
+## 7.2.7
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+We've been informed about a critical vulnerability in Masa CMS.
+
+#### What is fixed ?
+{: .no_toc }
+* The mentioned vulnerability has been fixed.
+* Additional security improvements have been made.
+
+#### What versions are affected?
+{: .no_toc }
+Masa CMS versions 7.2, 7.3 and 7.4 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.4, you should update to version 7.4.5 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.12 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.7 immediately. This can be done by applying a manual update.
+
+Full Changelog: [7.2.6...7.2.7](https://github.com/MasaCMS/MasaCMS/compare/7.2.6...7.2.7)
+
 ## 7.4.4
 ### What's Changed
 {: .no_toc }
