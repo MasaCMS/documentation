@@ -683,13 +683,24 @@ New in 7.4.3
   <dd>Setting whether the EmailBroadcaster can be enabled per site in Site Settings. --> Edit Settings --> Modules</dd>
 </dl>
 
+#### enabledynamiccontent
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>Enable usage of script, object, applet, embed, layer, ilayer, frameset, param, meta, base, xss, marquee in content.</dd>
+</dl>
+
 #### enablemuratag
 
 <dl>
   <dt>Type</dt>
   <dd>boolean</dd>
   <dt>Default</dt>
-  <dd><code>true</code></dd>
+  <dd><code>false</code></dd>
   <dt>Description</dt>
   <dd>Configure whether the content in the [m] tag is parsed. This is a global setting; you can overwrite this setting per site in the contentRenderer.cfc.</dd>
 </dl>
@@ -1447,8 +1458,6 @@ New in 7.4.4
   <dd>Display a warning about 'posting' site bundles via direct upload, rather then placeing them on the webserver and then importing them.</dd>
 </dl>
 
-
-
 #### productionassetdir
 
 <dl>
@@ -1459,7 +1468,6 @@ New in 7.4.4
   <dt>Description</dt>
   <dd>-</dd>
 </dl>
-
 
 #### productionassetpath
 
@@ -1482,7 +1490,6 @@ New in 7.4.4
   <dt>Description</dt>
   <dd>-</dd>
 </dl>
-
 
 #### productionfiledir
 
@@ -1780,7 +1787,7 @@ New in 7.4.4
   <dt>Type</dt>
   <dd>boolean</dd>
   <dt>Default</dt>
-  <dd><code>true</code></dd>
+  <dd><code>false</code></dd>
   <dt>Description</dt>
   <dd>Enable or disable shareable remote sessions</dd>
 </dl>
