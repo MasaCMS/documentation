@@ -47,10 +47,6 @@ Masa CMS versions 7.2, 7.3 and 7.4 are affected.
 * Disable enableMuraTag, enableDynamicContent and sharableRemoteSessions by default
 * Additional security improvements have been made
 
-### New Contributors
-{: .no_toc }
-*   [@ptutty](https://github.com/ptutty) made their first contribution in [#281](https://github.com/MasaCMS/MasaCMS/pull/281)
-
 Full Changelog: [7.4.5...7.4.6](https://github.com/MasaCMS/MasaCMS/compare/7.4.5...7.4.6)
 
 ## 7.3.13
@@ -65,7 +61,6 @@ We've been informed about multiple high and critical vulnerabilities in Masa CMS
 #### What is fixed ?
 {: .no_toc }
 * The mentioned vulnerabilities have been fixed.
-* Additional security improvements have been made.
 
 #### What versions are affected?
 {: .no_toc }
@@ -77,6 +72,12 @@ Masa CMS versions 7.2, 7.3 and 7.4 are affected.
 * If you’re on Masa CMS 7.4, you should update to version 7.4.6 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
 * If you’re on Masa CMS 7.3, you should update to version 7.3.13 immediately. This can be done by applying a manual update.
 * If you’re on Masa CMS 7.2, you should update to version 7.2.8 immediately. This can be done by applying a manual update.
+
+### What's Changed
+{: .no_toc }
+
+* Disable enableMuraTag, enableDynamicContent and sharableRemoteSessions by default
+* Additional security improvements have been made
 
 Full Changelog: [7.3.12...7.3.13](https://github.com/MasaCMS/MasaCMS/compare/7.3.12...7.3.13)
 
@@ -92,7 +93,6 @@ We've been informed about multiple high and critical vulnerabilities in Masa CMS
 #### What is fixed ?
 {: .no_toc }
 * The mentioned vulnerabilities have been fixed.
-* Additional security improvements have been made.
 
 #### What versions are affected?
 {: .no_toc }
@@ -104,6 +104,12 @@ Masa CMS versions 7.2, 7.3 and 7.4 are affected.
 * If you’re on Masa CMS 7.4, you should update to version 7.4.6 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
 * If you’re on Masa CMS 7.3, you should update to version 7.3.13 immediately. This can be done by applying a manual update.
 * If you’re on Masa CMS 7.2, you should update to version 7.2.8 immediately. This can be done by applying a manual update.
+
+### What's Changed
+{: .no_toc }
+
+* Disable enableMuraTag, enableDynamicContent and sharableRemoteSessions by default
+* Additional security improvements have been made
 
 Full Changelog: [7.2.7...7.2.8](https://github.com/MasaCMS/MasaCMS/compare/7.2.7...7.2.8)
 
