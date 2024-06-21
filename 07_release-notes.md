@@ -15,6 +15,33 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.4.7
+
+### What's Changed
+{: .no_toc }
+
+- Fix: site bundle files query invalid syntax by [@ryan-carmody](https://github.com/ryan-carmody) in [#310](https://github.com/MasaCMS/MasaCMS/pull/310)
+- Fix the enableDynamicContent setting by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#303](https://github.com/MasaCMS/MasaCMS/pull/303)
+- Typo fix in filemanager by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#309](https://github.com/MasaCMS/MasaCMS/pull/309)
+- Create a complete admin path returnURL to redirect too. by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#318](https://github.com/MasaCMS/MasaCMS/pull/318)
+- ApiUtility - component not found on upgrade. Needs to be uppercase A by [@ptutty](https://github.com/ptutty) in [#281](https://github.com/MasaCMS/MasaCMS/pull/281)
+- Add '"swiss german (switzerland)"' to resourceBundleFactory by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#312](https://github.com/MasaCMS/MasaCMS/pull/312)
+- Remove unneeded 'Browse Assets' button. by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#300](https://github.com/MasaCMS/MasaCMS/pull/300)
+- Fix issue in imagedetails.cfm by [@bdavieswbs](https://github.com/bdavieswbs) in [#295](https://github.com/MasaCMS/MasaCMS/pull/295)
+- File Browser Update by [@wtconsulting](https://github.com/wtconsulting) in [#311](https://github.com/MasaCMS/MasaCMS/pull/311)
+
+
+### New Contributors
+{: .no_toc }
+
+* [@ryan-carmody](https://github.com/ryan-carmody) made their first contribution in [#310](https://github.com/MasaCMS/MasaCMS/pull/310)
+* [@ptutty](https://github.com/ptutty) made their first contribution in [#281](<(https://github.com/MasaCMS/MasaCMS/pull/281)>)
+* [@bdavieswbs](https://github.com/bdavieswbs) made their first contribution in [#295](https://github.com/MasaCMS/MasaCMS/pull/295)
+* [@wtconsulting](https://github.com/wtconsulting) made their first contribution in [#311](https://github.com/MasaCMS/MasaCMS/pull/311)
+
+Full Changelog: [7.4.6...7.4.7](https://github.com/MasaCMS/MasaCMS/compare/7.4.6...7.4.7)
+
+
 ## 7.4.6
 
 ### Security Vulnerability Fix
