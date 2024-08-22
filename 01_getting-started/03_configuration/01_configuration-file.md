@@ -771,6 +771,28 @@ New in 7.4.3
   <dd>Oauth client secret for Facebook SSO configuration</dd>
 </dl>
 
+#### filebrowsereditlist
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>txt,html,htm,css,less,scss</code></dd>
+  <dt>Description</dt>
+  <dd>Configure which file extensions can be edited in the File Browser of the Masa CMS Admin.</dd>
+</dl>
+
+#### filebrowserimagelist
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>gif,jpg,jpeg,png</code></dd>
+  <dt>Description</dt>
+  <dd>Configure which file extensions are treated like images in the File Browser of the Masa CMS Admin</dd>
+</dl>
+
 #### filedir
 
 <dl>
