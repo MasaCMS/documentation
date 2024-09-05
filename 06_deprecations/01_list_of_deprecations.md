@@ -13,7 +13,7 @@ The following functionality is deprecated as of Masa CMS 7.4.8
 
 ## Unsupported Locales
 
-In the MasacMS Admin under 'Site Settings' you can set the Locale for your site.
+In the Masa CMS Admin under 'Site Settings' you can set the Locale for your site.
 
 However not all these Locales are supported in het Masa CMS Admin when working with date selection.
 
@@ -21,7 +21,7 @@ In the dropdown of Locales we have inidicated these unsupported locales with the
 
 ![](/assets/06_deprecations/list_of_deprecations/deprecations_supported_locales.png)
 
-We advise you to check if your Locale is supported and if not update your site to a supported Locale.
+We advise you to check if your Locale is supported and if not to update your site to a supported Locale.
 
 ---
 
