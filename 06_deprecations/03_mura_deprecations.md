@@ -8,7 +8,7 @@ permalink: /deprecations/mura-deprecations/
 ---
 
 # Mura Deprecation
-Following is a list of files and functions that already have been deprecated in Mura and are inhered by Masa CMS.
+Following is a list of files and functions that already have been deprecated in Mura and are inherited by Masa CMS.
 Please check which applies to your situation and update your code accordingly.
 No warnings are logged for these existing deprecations.
 
