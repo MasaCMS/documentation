@@ -1096,17 +1096,6 @@ New in 7.4.4
   <dd>Application.cfc variable</dd>
 </dl>
 
-#### keepmetakeywords
-
-<dl>
-  <dt>Type</dt>
-  <dd>boolean</dd>
-  <dt>Default</dt>
-  <dd><code>false</code></dd>
-  <dt>Description</dt>
-  <dd>Setting to enable the field 'Meta Keywords' in content</dd>
-</dl>
-
 #### locale
 
 <dl>
