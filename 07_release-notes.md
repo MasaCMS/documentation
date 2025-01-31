@@ -15,6 +15,27 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.4.8
+
+### What's Changed
+{: .no_toc }
+
+- Unsupported deprecated locales by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#332](https://github.com/MasaCMS/MasaCMS/pull/332)
+- Bugfix filebrowser by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#336](https://github.com/MasaCMS/MasaCMS/pull/336)
+- Upgrade fw1 update servicelist by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#331](https://github.com/MasaCMS/MasaCMS/pull/331)
+- Add deprecation warning for 'UnSupportedLocale' by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#334](https://github.com/MasaCMS/MasaCMS/pull/334)
+- Try / Catch reading the fileinfo for an alleged image. by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#337](https://github.com/MasaCMS/MasaCMS/pull/337)
+- Add support for "open in new window" option within folder grid layout by [@titiscan](https://github.com/titiscan) in [#338](https://github.com/MasaCMS/MasaCMS/pull/338)
+- Update ConfigBean to set a default on mfadayslinkvalid by [@wtconsulting](https://github.com/wtconsulting) in [#329](https://github.com/MasaCMS/MasaCMS/pull/329)
+- Update filebrowser.js by [@wtconsulting](https://github.com/wtconsulting) in [#328](https://github.com/MasaCMS/MasaCMS/pull/328)
+
+### New Contributors
+{: .no_toc }
+
+* [@titiscan](https://github.com/titiscan) made their first contribution in [#310](https://github.com/MasaCMS/MasaCMS/pull/338)
+
+Full Changelog: [7.4.7...7.4.8](https://github.com/MasaCMS/MasaCMS/compare/7.4.7...7.4.8)
+
 ## 7.4.7
 
 ### What's Changed
