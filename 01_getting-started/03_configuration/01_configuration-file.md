@@ -287,6 +287,20 @@ New in 7.4.3
   <dd>Oauth client secret for Azure AD SSO configuration</dd>
 </dl>
 
+#### azureadtenant
+New in 7.4.9
+{: .label .label-orange }
+{: .no_toc }
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>empty string</code></dd>
+  <dt>Description</dt>
+  <dd>Oauth multi-tenant setting for Azure AD SSO configuration. Use one of the following values: <code>common, organizations, consumers</code></dd>
+</dl>
+
 #### azureadtenantid
 New in 7.4.3
 {: .label .label-orange }
