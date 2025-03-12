@@ -288,7 +288,7 @@ New in 7.4.3
 </dl>
 
 #### azureadtenant
-New in 7.4.9
+New in 7.5
 {: .label .label-orange }
 {: .no_toc }
 
