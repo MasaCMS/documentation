@@ -9,6 +9,16 @@ permalink: /deprecations/list-of_deprecations/
 
 # List of Deprecations
 
+The following functionality is deprecated as of Masa CMS 7.5
+
+## Support for LegacySessions
+
+The support of legacysession with the setting `uselegacysessions=true` in the settings.ini.cfm is deprecated.
+These code constructs are very old, are no longer supported, and will be removed in the future.
+We advise not to use this setting anymore.
+
+---
+
 The following functionality is deprecated as of Masa CMS 7.4.8
 
 ## Unsupported Locales
