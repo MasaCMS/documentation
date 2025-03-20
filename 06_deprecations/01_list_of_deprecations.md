@@ -11,6 +11,14 @@ permalink: /deprecations/list-of_deprecations/
 
 The following functionality is deprecated as of Masa CMS 7.5
 
+## Setting ACL for an image when uploading to S3
+
+When uploading images in Masa CMS then new images are created with different sizes based of this new image.
+If you have configured Masa CMS to upload these images to S3 then Masa CMS will also try to set the ACL of those new images.
+The settings are: group='all' and 'permission=read'.
+Setting the ACL on these images is deprecated and will be removed in the future.
+You will have to make changes to the configuration of your S3 bucket in AWS.
+
 ## Support for Non BCrypt Passwords
 
 The support of not using BCrypt Passwords with the setting `bcryptpasswords=false` in the settings.ini.cfm is deprecated.
