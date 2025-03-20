@@ -11,6 +11,12 @@ permalink: /deprecations/list-of_deprecations/
 
 The following functionality is deprecated as of Masa CMS 7.5
 
+## Support for Non BCrypt Passwords
+
+The support of not using BCrypt Passwords with the setting `bcryptpasswords=false` in the settings.ini.cfm is deprecated.
+Please use BCrypt to hash your passwords. When updating this setting to `true`, bear in mind that you will need to reset all your passwords on your Masa installation. You can use the 'Forget your password?' functionality for this.
+The old non-bcrypt way of hashing passwords is obsolete and will be removed in the future.
+
 ## Support for LegacySessions
 
 The support of legacysession with the setting `uselegacysessions=true` in the settings.ini.cfm is deprecated.
