@@ -11,25 +11,23 @@ permalink: /deprecations/list-of_deprecations/
 
 The following functionality is deprecated as of Masa CMS 7.5
 
-## Setting ACL for an image when uploading to S3
+## ACL Settings for Image Uploads to S3
 
-When uploading images in Masa CMS then new images are created with different sizes based of this new image.
-If you have configured Masa CMS to upload these images to S3 then Masa CMS will also try to set the ACL of those new images.
-The settings are: group='all' and 'permission=read'.
-Setting the ACL on these images is deprecated and will be removed in the future.
-You will have to make changes to the configuration of your S3 bucket in AWS.
+When uploading images in Masa CMS, new images are created in various sizes based on the original image. If you have configured Masa CMS to upload these images to S3, it will attempt to set the Access Control List (ACL) for these images. The default settings are:
 
-## Support for Non BCrypt Passwords
+- Group: all
+- Permission: read
 
-The support of not using BCrypt Passwords with the setting `bcryptpasswords=false` in the settings.ini.cfm is deprecated.
-Please use BCrypt to hash your passwords. When updating this setting to `true`, bear in mind that you will need to reset all your passwords on your Masa installation. You can use the 'Forget your password?' functionality for this.
-The old non-bcrypt way of hashing passwords is obsolete and will be removed in the future.
+Please note that setting the ACL for these images is deprecated and will be removed in a future release. To ensure continued functionality, you will need to update the configuration of your S3 bucket in AWS.
 
-## Support for LegacySessions
+## Deprecation of Non-BCrypt Password Support
 
-The support of legacysession with the setting `uselegacysessions=true` in the settings.ini.cfm is deprecated.
-These code constructs are very old, are no longer supported, and will be removed in the future.
-We advise not to use this setting anymore.
+The use of non-BCrypt passwords, controlled by the setting `bcryptpasswords=false` in `settings.ini.cfm`, is now deprecated. We strongly recommend switching to BCrypt for password hashing. When enabling this setting (`bcryptpasswords=true`), please be aware that you will need to reset all user passwords in your Masa installation. You can do this using the "Forgot your password?" functionality.
+Note that the old, non-BCrypt password hashing method will be removed in a future release.
+
+## Deprecation of Legacy Session Support
+
+The use of legacy sessions, controlled by the setting `uselegacysessions=true` in `settings.ini.cfm`, is deprecated. These legacy session mechanisms are outdated, unsupported, and will be removed in a future version. We recommend discontinuing the use of this setting.
 
 ---
 
