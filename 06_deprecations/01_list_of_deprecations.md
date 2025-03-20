@@ -9,6 +9,28 @@ permalink: /deprecations/list-of_deprecations/
 
 # List of Deprecations
 
+The following functionality is deprecated as of Masa CMS 7.5
+
+## ACL Settings for Image Uploads to S3
+
+When uploading images in Masa CMS, new images are created in various sizes based on the original image. If you have configured Masa CMS to upload these images to S3, it will attempt to set the Access Control List (ACL) for these images. The default settings are:
+
+- Group: all
+- Permission: read
+
+Please note that setting the ACL for these images is deprecated and will be removed in a future release. To ensure continued functionality, you will need to update the configuration of your S3 bucket in AWS.
+
+## Deprecation of Non-BCrypt Password Support
+
+The use of non-BCrypt passwords, controlled by the setting `bcryptpasswords=false` in `settings.ini.cfm`, is now deprecated. We strongly recommend switching to BCrypt for password hashing. When enabling this setting (`bcryptpasswords=true`), please be aware that you will need to reset all user passwords in your Masa installation. You can do this using the "Forgot your password?" functionality.
+Note that the old, non-BCrypt password hashing method will be removed in a future release.
+
+## Deprecation of Legacy Session Support
+
+The use of legacy sessions, controlled by the setting `uselegacysessions=true` in `settings.ini.cfm`, is deprecated. These legacy session mechanisms are outdated, unsupported, and will be removed in a future version. We recommend discontinuing the use of this setting.
+
+---
+
 The following functionality is deprecated as of Masa CMS 7.4.8
 
 ## Unsupported Locales
