@@ -15,6 +15,35 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.5.0
+
+### What's Changed
+{: .no_toc }
+
+- Azure multitenant ad by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#351](https://github.com/MasaCMS/MasaCMS/pull/351)
+- Defer module.js to avoid blocking page rendering by [@nolanerck](https://github.com/nolanerck) in [#352](https://github.com/MasaCMS/MasaCMS/pull/352)
+- Fix incorrect syntax by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#355](https://github.com/MasaCMS/MasaCMS/pull/355)
+- Fix filebrowser path for browsing files with CKEditor by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#356](https://github.com/MasaCMS/MasaCMS/pull/356)
+- Add context to jquery.min.js path by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#362](https://github.com/MasaCMS/MasaCMS/pull/362)
+- Upgrade 7.4.8 error by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#359](https://github.com/MasaCMS/MasaCMS/pull/359)
+- Implement indexfileinapi setting correctly by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#363](https://github.com/MasaCMS/MasaCMS/pull/363)
+- Update dependancies by [@plimpens](https://github.com/plimpens) in [#360](https://github.com/MasaCMS/MasaCMS/pull/360)
+- Add 'UseLegacySessions' setting to deprecation warnings by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#368](https://github.com/MasaCMS/MasaCMS/pull/368)
+- Set size of the password field in tusers table to 100 instead of 50. by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#371](https://github.com/MasaCMS/MasaCMS/pull/371)
+- Add 'NonBCryptPasswords' setting to deprecation warnings by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#369](https://github.com/MasaCMS/MasaCMS/pull/369)
+- Deprecate setstoreacl by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#370](https://github.com/MasaCMS/MasaCMS/pull/370)
+- Update hash encrypt encode v2 by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#364](https://github.com/MasaCMS/MasaCMS/pull/364)
+- Fix saving the canonical url by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#373](https://github.com/MasaCMS/MasaCMS/pull/373)
+
+
+### New Contributors
+{: .no_toc }
+
+* [@plimpens](https://github.com/plimpens) made their first contribution in [#360](https://github.com/MasaCMS/MasaCMS/pull/360)
+
+Full Changelog: [7.4.8...7.5.0](https://github.com/MasaCMS/MasaCMS/compare/7.4.8...7.5.0)
+
+
 ## 7.4.8
 
 ### What's Changed
