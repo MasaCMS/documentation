@@ -15,6 +15,24 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.5.1
+
+### What's Changed
+{: .no_toc }
+
+- Fixed ACF Remote Functions for userBean.cfc by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) 
+- Fixed ACF Remote Functions for filebrowser.cfc by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu)
+- Fixed a very smal JS bug on an emai by [@jeroenweareorangeeu](https://github.com/jeroenweareorangeeu) in [#364](https://github.com/MasaCMS/MasaCMS/pull/364)
+- Use correct variable for deferred module by [@boris-schwarz](https://github.com/boris-schwarz) in [#382](https://github.com/MasaCMS/MasaCMS/pull/382)
+- replace configbean usage in setup process by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#386](https://github.com/MasaCMS/MasaCMS/pull/386)
+
+### New Contributors
+{: .no_toc }
+
+* [@boris-schwarz](https://github.com/boris-schwarz) made their first contribution in [#382](https://github.com/MasaCMS/MasaCMS/pull/382)
+
+Full Changelog: [7.5.0...7.5.1](https://github.com/MasaCMS/MasaCMS/compare/7.5.0...7.5.1)
+
 ## 7.5.0
 
 ### What's Changed
