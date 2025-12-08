@@ -2,7 +2,7 @@
 layout: default
 title: Release notes
 nav_order: 7
-last_modified_date: 05-02-2024 09:00
+last_modified_date: 08-12-2025 10:00
 permalink: /release-notes/
 ---
 
@@ -14,6 +14,124 @@ permalink: /release-notes/
 
 - TOC
 {:toc}
+
+
+## 7.5.2
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+We've been informed about a high vulnerability in Masa CMS.
+
+#### What is fixed ?
+{: .no_toc }
+The mentioned vulnerability has been fixed. A few bugs are fixed as well
+
+#### What versions are affected?
+{: .no_toc }
+Masa CMS versions 7.2, 7.3, 7.4 and 7.5 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+- If you’re on Masa CMS 7.5, you should update to version 7.5.2 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+- If you’re on Masa CMS 7.4, you should update to version 7.4.9 immediately. This can be done by applying a manual update.
+- If you’re on Masa CMS 7.3, you should update to version 7.3.14 immediately. This can be done by applying a manual update.
+- If you’re on Masa CMS 7.2, you should update to version 7.2.9 immediately. This can be done by applying a manual update.
+
+### What's Changed
+{: .no_toc }
+- Fixes Bug [#395](https://github.com/MasaCMS/MasaCMS/issues/395) key [columns] doesn't exist (beanFeed) by [@kb3hcg](https://github.com/kb3hcg) in [#396](https://github.com/MasaCMS/MasaCMS/pull/396)
+- Add default parameters for objectParams by [@titiscan](https://github.com/titiscan) in [#400](https://github.com/MasaCMS/MasaCMS/pull/400)
+- Skip empty styles in content rendering by [@titiscan](https://github.com/titiscan) in [#399](https://github.com/MasaCMS/MasaCMS/pull/399)
+- Fix Shadowbox styling and functionality issues by [@titiscan](https://github.com/titiscan) in [#402](https://github.com/MasaCMS/MasaCMS/pull/402)
+
+
+### New Contributors
+{: .no_toc }
+- [@kb3hcg](https://github.com/kb3hcg) made their first contribution in [#396](https://github.com/MasaCMS/MasaCMS/pull/396)
+
+Full Changelog: [7.5.1...7.5.2](https://github.com/MasaCMS/MasaCMS/compare/7.5.1...7.5.2)
+
+## 7.4.9
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+We've been informed about a high vulnerability in Masa CMS.
+
+#### What is fixed ?
+{: .no_toc }
+The mentioned vulnerability has been fixed. 
+
+#### What versions are affected?
+{: .no_toc }
+Masa CMS versions 7.2, 7.3, 7.4 and 7.5 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+- If you’re on Masa CMS 7.5, you should update to version 7.5.2 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+- If you’re on Masa CMS 7.4, you should update to version 7.4.9 immediately. This can be done by applying a manual update.
+- If you’re on Masa CMS 7.3, you should update to version 7.3.14 immediately. This can be done by applying a manual update.
+- If you’re on Masa CMS 7.2, you should update to version 7.2.9 immediately. This can be done by applying a manual update.
+
+Full Changelog: [7.4.8...7.4.9](https://github.com/MasaCMS/MasaCMS/compare/7.4.8...7.4.9)
+
+## 7.3.14
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+We've been informed about a high vulnerability in Masa CMS.
+
+#### What is fixed ?
+{: .no_toc }
+The mentioned vulnerability has been fixed. 
+
+#### What versions are affected?
+{: .no_toc }
+Masa CMS versions 7.2, 7.3, 7.4 and 7.5 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+- If you’re on Masa CMS 7.5, you should update to version 7.5.2 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+- If you’re on Masa CMS 7.4, you should update to version 7.4.9 immediately. This can be done by applying a manual update.
+- If you’re on Masa CMS 7.3, you should update to version 7.3.14 immediately. This can be done by applying a manual update.
+- If you’re on Masa CMS 7.2, you should update to version 7.2.9 immediately. This can be done by applying a manual update.
+
+Full Changelog: [7.3.13..7.3.14](https://github.com/MasaCMS/MasaCMS/compare/7.3.13...7.3.14)
+
+## 7.2.9
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+We've been informed about a high vulnerability in Masa CMS.
+
+#### What is fixed ?
+{: .no_toc }
+The mentioned vulnerability has been fixed. 
+
+#### What versions are affected?
+{: .no_toc }
+Masa CMS versions 7.2, 7.3, 7.4 and 7.5 are affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+- If you’re on Masa CMS 7.5, you should update to version 7.5.2 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+- If you’re on Masa CMS 7.4, you should update to version 7.4.9 immediately. This can be done by applying a manual update.
+- If you’re on Masa CMS 7.3, you should update to version 7.3.14 immediately. This can be done by applying a manual update.
+- If you’re on Masa CMS 7.2, you should update to version 7.2.9 immediately. This can be done by applying a manual update.
+
+Full Changelog: [7.2.8...7.2.9](https://github.com/MasaCMS/MasaCMS/compare/7.2.8...7.2.9)
+
 
 ## 7.5.1
 
