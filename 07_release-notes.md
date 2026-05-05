@@ -16,6 +16,46 @@ permalink: /release-notes/
 {:toc}
 
 
+## 7.5.4
+
+### What's Changed
+{: .no_toc }
+
+- Allow dots in field names for sorting validation by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#424](https://github.com/MasaCMS/MasaCMS/pull/424)
+
+Full Changelog: [7.5.3...7.5.4](https://github.com/MasaCMS/MasaCMS/compare/7.5.3...7.5.4)
+
+
+## 7.4.11
+
+### What's Changed
+{: .no_toc }
+
+- Allow dots in field names for sorting validation by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#424](https://github.com/MasaCMS/MasaCMS/pull/424)
+
+Full Changelog: [7.4.11...7.4.10](https://github.com/MasaCMS/MasaCMS/compare/7.4.11...7.4.10)
+
+
+## 7.3.16
+
+### What's Changed
+{: .no_toc }
+
+- Allow dots in field names for sorting validation by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#424](https://github.com/MasaCMS/MasaCMS/pull/424)
+
+Full Changelog: [7.3.16...7.3.15](https://github.com/MasaCMS/MasaCMS/compare/7.3.16...7.3.15)
+
+
+## 7.2.11
+
+### What's Changed
+{: .no_toc }
+
+- Allow dots in field names for sorting validation by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#424](https://github.com/MasaCMS/MasaCMS/pull/424)
+
+Full Changelog: [7.2.11...7.2.10](https://github.com/MasaCMS/MasaCMS/compare/7.2.11...7.2.10)
+
+
 ## 7.5.3
 
 ### Security Vulnerability Fix
