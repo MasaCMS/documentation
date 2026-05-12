@@ -16,6 +16,116 @@ permalink: /release-notes/
 {:toc}
 
 
+## 8.0.0-alpha.1
+
+{: .warning }
+This is an alpha release. It is not intended for production use. Breaking changes are expected.
+
+### Overview
+{: .no_toc }
+
+Masa CMS 8.0 is a major release focused on **expanded engine support**, **security hardening**, and **removal of deprecated features**. This alpha release marks the first milestone of the 8.0 series and adds support for Adobe ColdFusion 2025, Lucee 7, and BoxLang, alongside significant clean-up of legacy code.
+
+### New: Supported CFML Engines
+{: .no_toc }
+
+Masa CMS 8.0 expands the list of supported CFML engines:
+
+- **Adobe ColdFusion 2025** — now officially supported
+- **Lucee 7** — now officially supported
+- **BoxLang** — now officially supported
+
+### BoxLang Compatibility
+{: .no_toc }
+
+Masa CMS 8.0 introduces broad compatibility with BoxLang. Extensive changes have been made across the codebase to ensure Masa CMS runs correctly on the BoxLang engine.
+
+{: .important }
+**Database creation is not supported in the BoxLang installation wizard.** When installing Masa CMS on BoxLang, the database must be created manually before running the setup.
+
+### Security Improvements
+{: .no_toc }
+
+- BCrypt log rounds increased from 10 to 12 for stronger password hashing
+- **Encryption default changed to SHA-256** — the default hash algorithm is now SHA-256 (previously MD5)
+- **All passwords are now hashed with BCrypt** — the `encryptPasswords` Java-enabled setting has been removed; BCrypt is always used
+- CSRF token generation hardened
+
+### Dropped Engine Support
+{: .no_toc }
+
+{: .important }
+Masa CMS 8.0 drops support for older CFML engines. Please upgrade your engine before migrating to 8.0.
+
+The following CFML engines are **no longer supported** as of 8.0:
+
+- **Adobe ColdFusion 2021 and earlier** — Adobe ColdFusion 2023 or 2025 is required
+- **Lucee 5.4 and earlier** — Lucee 6 or 7 is required
+
+### Breaking Changes & Removals
+{: .no_toc }
+
+The following features and settings have been **removed** in 8.0:
+
+- **Legacy Sessions removed** — the `UseLegacySessions` setting has been removed. This was deprecated in 7.5. Only modern session management is supported going forward.
+- **AWS S3 ACL support removed** — the `storeSetACL` setting and S3 ACL handling have been removed from application settings.
+- **Razuna integration removed** — the Razuna file manager integration and its CKEditor plugin have been fully removed.
+- **Non-BCrypt password functionality removed** — the `bCryptPassword` setting and the Java-enabled `encryptPasswords` option have been removed. BCrypt is now the only supported password hashing method.
+- **Unsupported locales** removed
+- Outdated Docker setup files removed
+
+### Testing
+{: .no_toc }
+
+- TestBox dependency updated to version 6.5.0
+- Test runner (`runner.cfm`) enhanced with detailed coverage options
+- New unit tests added for `utility.cfc` date helper functions
+- `contentIntervals.cfc` test coverage significantly expanded (including `alignToWeekday` and `GetNthDayOfMonth`)
+- Unit tests added for blockfactor validation
+
+Full Changelog: [7.5.4...8.0.0-alpha.1](https://github.com/MasaCMS/MasaCMS/compare/7.5.4...8.0.0-alpha.1)
+
+
+## 7.5.4
+
+### What's Changed
+{: .no_toc }
+
+- Allow dots in field names for sorting validation by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#424](https://github.com/MasaCMS/MasaCMS/pull/424)
+
+Full Changelog: [7.5.3...7.5.4](https://github.com/MasaCMS/MasaCMS/compare/7.5.3...7.5.4)
+
+
+## 7.4.11
+
+### What's Changed
+{: .no_toc }
+
+- Allow dots in field names for sorting validation by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#424](https://github.com/MasaCMS/MasaCMS/pull/424)
+
+Full Changelog: [7.4.11...7.4.10](https://github.com/MasaCMS/MasaCMS/compare/7.4.11...7.4.10)
+
+
+## 7.3.16
+
+### What's Changed
+{: .no_toc }
+
+- Allow dots in field names for sorting validation by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#424](https://github.com/MasaCMS/MasaCMS/pull/424)
+
+Full Changelog: [7.3.16...7.3.15](https://github.com/MasaCMS/MasaCMS/compare/7.3.16...7.3.15)
+
+
+## 7.2.11
+
+### What's Changed
+{: .no_toc }
+
+- Allow dots in field names for sorting validation by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#424](https://github.com/MasaCMS/MasaCMS/pull/424)
+
+Full Changelog: [7.2.11...7.2.10](https://github.com/MasaCMS/MasaCMS/compare/7.2.11...7.2.10)
+
+
 ## 7.5.3
 
 ### Security Vulnerability Fix
