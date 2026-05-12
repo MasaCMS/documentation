@@ -15,6 +15,11 @@ permalink: /getting-started/installation/production-server/
 - Access to a MySQL 5+, PostgreSQL 8+, Microsoft SQL 2000+ or Oracle 10g+ database server and the ability to add a new database
 - Ability to add a Datasource (DSN) to ColdFusion/Lucee administrator
 
+{: .note}
+**Adobe ColdFusion 2023+**: When running Masa CMS on Adobe ColdFusion 2023 or higher (Java 11+), you must add the following JVM argument to your `jvm.config` file:
+`--add-opens=java.base/java.util.zip=ALL-UNNAMED`
+This is required to allow Adobe ColdFusion to access Java's internal ZIP handling classes through reflection.
+
 ## Installation
 Installing Masa CMS couldn't be easier. Follow the instructions below and you'll be up and running in minutes.
 
