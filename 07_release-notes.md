@@ -54,7 +54,7 @@ If an immediate upgrade is not possible, review the workarounds in the security 
 * SQL injection protection improvements
 * Redirect improvements
 
-**Full Changelog**: https://github.com/MasaCMS/MasaCMS/compare/7.5.4...7.5.5
+Full Changelog: [7.5.4...7.5.5](https://github.com/MasaCMS/MasaCMS/compare/7.5.4...7.5.5)
 
 
 ## 7.4.12
@@ -96,7 +96,7 @@ If an immediate upgrade is not possible, review the workarounds in the security 
 * SQL injection protection improvements
 * Redirect improvements
 
-**Full Changelog**: https://github.com/MasaCMS/MasaCMS/compare/7.4.11...7.4.12
+Full Changelog: [7.4.11...7.4.12](https://github.com/MasaCMS/MasaCMS/compare/7.4.11...7.4.12)
 
 
 ## 7.3.17
@@ -138,7 +138,7 @@ If an immediate upgrade is not possible, review the workarounds in the security 
 * SQL injection protection improvements
 * Redirect improvements
 
-**Full Changelog**: https://github.com/MasaCMS/MasaCMS/compare/7.3.16...7.3.17
+Full Changelog: [7.3.16...7.3.17](https://github.com/MasaCMS/MasaCMS/compare/7.3.16...7.3.17)
 
 
 ## 7.2.12
@@ -180,7 +180,7 @@ If an immediate upgrade is not possible, review the workarounds in the security 
 * SQL injection protection improvements
 * Redirect improvements
 
-**Full Changelog**: https://github.com/MasaCMS/MasaCMS/compare/7.2.11...7.2.12
+Full Changelog: [7.2.11...7.2.12](https://github.com/MasaCMS/MasaCMS/compare/7.2.11...7.2.12)
 
 
 ## 8.0.0-alpha.1
