@@ -15,6 +15,173 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.5.5
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical, high and moderate vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4 and 7.5 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.5, you should update to version 7.5.5 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.12 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.17 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.12 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Expression Evaluation improvements
+* Privilege escalation improvements
+* SSRF improvements
+* SQL injection protection improvements
+* Redirect improvements
+
+**Full Changelog**: https://github.com/MasaCMS/MasaCMS/compare/7.5.4...7.5.5
+
+
+## 7.4.12
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical, high and moderate vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4 and 7.5 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.5, you should update to version 7.5.5 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.12 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.17 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.12 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Expression Evaluation improvements
+* Privilege escalation improvements
+* SSRF improvements
+* SQL injection protection improvements
+* Redirect improvements
+
+**Full Changelog**: https://github.com/MasaCMS/MasaCMS/compare/7.4.11...7.4.12
+
+
+## 7.3.17
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical, high and moderate vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4 and 7.5 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.5, you should update to version 7.5.5 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.12 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.17 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.12 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Expression Evaluation improvements
+* Privilege escalation improvements
+* SSRF improvements
+* SQL injection protection improvements
+* Redirect improvements
+
+**Full Changelog**: https://github.com/MasaCMS/MasaCMS/compare/7.3.16...7.3.17
+
+
+## 7.2.12
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical, high and moderate vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4 and 7.5 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.5, you should update to version 7.5.5 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.12 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.17 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.12 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Expression Evaluation improvements
+* Privilege escalation improvements
+* SSRF improvements
+* SQL injection protection improvements
+* Redirect improvements
+
+**Full Changelog**: https://github.com/MasaCMS/MasaCMS/compare/7.2.11...7.2.12
+
 
 ## 8.0.0-alpha.1
 
