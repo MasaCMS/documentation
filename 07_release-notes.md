@@ -15,6 +15,51 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 8.0.0-alpha.2
+
+{: .warning }
+This is an alpha release. It is not intended for production use. Breaking changes are expected.
+
+### Overview
+{: .no_toc }
+
+This release brings the 8.0 alpha line up to date with the security fixes shipped in Masa CMS 7.5.5. It contains no additional features on top of 8.0.0-alpha.1.
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+
+The multiple critical, high and moderate vulnerabilities fixed in Masa CMS 7.5.5 also affected the 8.0.0-alpha.1 codebase.
+
+#### What is fixed ?
+{: .no_toc }
+
+* The vulnerabilities fixed in 7.5.5 have been merged into the 8.0 alpha line.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS 8.0.0-alpha.1 is affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+* If you're evaluating Masa CMS 8.0.0-alpha.1, you should upgrade to 8.0.0-alpha.2.
+
+### What's Changed
+{: .no_toc }
+
+* Expression Evaluation improvements
+* Privilege escalation improvements
+* SSRF improvements
+* SQL injection protection improvements
+* Redirect improvements
+
+Full Changelog: [8.0.0-alpha.1...8.0.0-alpha.2](https://github.com/MasaCMS/MasaCMS/compare/8.0.0-alpha.1...8.0.0-alpha.2)
+
+
 ## 7.5.5
 
 ## Security Vulnerability Fix
