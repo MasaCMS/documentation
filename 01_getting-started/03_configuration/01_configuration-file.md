@@ -52,13 +52,17 @@ You can find a reference for this configuration file below.
 
 #### admindomain
 
+Updated in 7.6.0
+{: .label .label-orange }
+{: .no_toc }
+
 <dl>
   <dt>Type</dt>
-  <dd>string</dd>
+  <dd>list</dd>
   <dt>Default</dt>
   <dd><code>empty string</code></dd>
   <dt>Description</dt>
-  <dd>Configures a seperate URL for the Masa CMS Admin</dd>
+  <dd>Configures seperate URL(s) for the Masa CMS Admin</dd>
 </dl>
 
 #### admindir
