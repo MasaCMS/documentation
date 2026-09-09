@@ -15,6 +15,27 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 7.6
+
+### What's Changed
+
+#### New features
+
+* Allow for setting 'admindomain' to be a list
+
+#### Bug fixes
+
+* Set correct oderNo when inserting content with topOrBottom set to "bottom" by @boris-schwarz in https://github.com/MasaCMS/MasaCMS/pull/415
+* 449 content type templates from global modules are never found settingsbeancfc property typo by @guustnieuwenhuis in https://github.com/MasaCMS/MasaCMS/pull/450
+* Shared file pool ur ls generate incorrect paths causing 404 errors by @guustnieuwenhuis in https://github.com/MasaCMS/MasaCMS/pull/452
+* Enhance sanitizeHref function to improve security and handle edge cases for URL sanitization
+* Additional tests for sanitizehref by @guustnieuwenhuis in https://github.com/MasaCMS/MasaCMS/pull/453
+
+Thank you @jindalvinay and @lbojko81 for your help with the bug fixes.
+
+**Full Changelog**: https://github.com/MasaCMS/MasaCMS/compare/7.5.5...7.6.0
+
+
 ## 8.0.0-alpha.2
 
 {: .warning }
