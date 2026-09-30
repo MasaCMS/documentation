@@ -681,6 +681,51 @@ New in 7.4.3
   <dd>When Masa CMS is stared for the first time, no Masa Theme is present and a Default Theme is downloaded. Currently this is the Masa Bootstrap 5 Theme.</dd>
 </dl>
 
+#### deniedbundleassetextensions
+
+New in 7.6.1
+{: .label .label-orange }
+{: .no_toc }
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>cfm,cfml,cfc,cfs,cfr,jsp,jspx,php,php3,php4,php5,phtml,phps,asp,aspx,ashx,asmx,sh,bash,bat,cmd,exe,pl,py,rb,jar,war,class</code></dd>
+  <dt>Description</dt>
+  <dd>Comma separated list of executable file extensions that are rejected when a content bundle unpacks files into a site's asset or file directory. This prevents executable files (such as CFML templates) from being written to a web-served location where they could be run. Intentional site/theme templates in a full bundle are still allowed (they extract to the theme directory, not the asset directory). Add extensions here to further restrict what may be imported.</dd>
+</dl>
+
+#### deniedbundleconfigfiles
+
+New in 7.6.1
+{: .label .label-orange }
+{: .no_toc }
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>.htaccess,.htpasswd,.htgroups,.htdigest,web.config,.user.ini,httpd.conf,php.ini</code></dd>
+  <dt>Description</dt>
+  <dd>Comma separated list of server-configuration file names that are rejected in any content bundle, including full site bundles. These files can change server behaviour and are never a legitimate part of a theme or asset, so they are refused regardless of the archive type. Matched against each entry's file name.</dd>
+</dl>
+
+#### deniedfeedjointables
+
+New in 7.6.1
+{: .label .label-orange }
+{: .no_toc }
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>tusers,tusersmemb,tusergroups,tsettings,tusersession,toauthtokens,tremembertokens,tpermissions,tsessiontracking,tredirects,toauthclients,tuserremotesessions,tuserdevice</code></dd>
+  <dt>Description</dt>
+  <dd>Comma separated list of database tables that public feed queries may never join to, aggregate over, group by, or sort on. This applies to the content feed, the generic entity feed, and the user feed, and protects sensitive tables (users, settings, permissions, session/redirect/OAuth tokens, etc.) from being referenced through feed parameters. Add your own sensitive custom tables to this list if needed.</dd>
+</dl>
+
 #### editablecomments
 <dl>
   <dt>Type</dt>
