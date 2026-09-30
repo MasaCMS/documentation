@@ -15,6 +15,249 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 8.0.0-alpha.3
+
+{: .warning }
+This is an alpha release. It is not intended for production use. Breaking changes are expected.
+
+### Overview
+{: .no_toc }
+
+This release brings the 8.0 alpha line up to date with the security fixes shipped in Masa CMS 7.6.1. It contains some additional features on top of 8.0.0-alpha.2.
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+
+The multiple critical and high vulnerabilities fixed in Masa CMS 7.6.1 also affected the 8.0.0-alpha.2 codebase.
+
+#### What is fixed ?
+{: .no_toc }
+
+* The vulnerabilities fixed in 7.6.1 have been merged into the 8.0 alpha line.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS 8.0.0-alpha.2 is affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+* If you're evaluating Masa CMS 8.0.0-alpha.2, you should upgrade to 8.0.0-alpha.3.
+
+### What's Changed
+{: .no_toc }
+
+* Unauthenticated Path Traversal improvements
+* Unauthenticated Remote Code Execution improvements
+* Add tests for local file storage and asset browser functionality by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#458](https://github.com/MasaCMS/MasaCMS/pull/458)
+* Add nginx configuration file for URL rewriting rules by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#460](https://github.com/MasaCMS/MasaCMS/pull/460)
+
+**Full Changelog**: [8.0.0-alpha.2...8.0.0-alpha.3](https://github.com/MasaCMS/MasaCMS/compare/8.0.0-alpha.2...8.0.0-alpha.3)
+
+
+## 7.6.1
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical and high vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4, 7.5 and 7.6 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.6, you should update to version 7.6.1 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.5, you should update to version 7.5.6 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.13 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.18 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.13 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Unauthenticated Path Traversal improvements
+* Unauthenticated Remote Code Execution improvements
+
+**Full Changelog**: [7.6.0...7.6.1](https://github.com/MasaCMS/MasaCMS/compare/7.6.0...7.6.1)
+
+
+## 7.5.6
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical and high vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4, 7.5 and 7.6 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.6, you should update to version 7.6.1 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.5, you should update to version 7.5.6 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.13 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.18 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.13 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Unauthenticated Path Traversal improvements
+* Unauthenticated Remote Code Execution improvements
+
+**Full Changelog**: [7.5.5...7.5.6](https://github.com/MasaCMS/MasaCMS/compare/7.5.5...7.5.6)
+
+
+## 7.4.13
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical and high vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4, 7.5 and 7.6 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.6, you should update to version 7.6.1 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.5, you should update to version 7.5.6 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.13 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.18 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.13 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Unauthenticated Path Traversal improvements
+* Unauthenticated Remote Code Execution improvements
+
+**Full Changelog**: [7.4.12...7.4.13](https://github.com/MasaCMS/MasaCMS/compare/7.4.12...7.4.13)
+
+
+## 7.3.18
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical and high vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4, 7.5 and 7.6 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.6, you should update to version 7.6.1 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.5, you should update to version 7.5.6 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.13 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.18 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.13 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Unauthenticated Path Traversal improvements
+* Unauthenticated Remote Code Execution improvements
+
+**Full Changelog**: [7.3.17...7.3.18](https://github.com/MasaCMS/MasaCMS/compare/7.3.17...7.3.18)
+
+
+## 7.2.13
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical and high vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4, 7.5 and 7.6 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.6, you should update to version 7.6.1 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.5, you should update to version 7.5.6 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.13 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.18 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.13 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Unauthenticated Path Traversal improvements
+* Unauthenticated Remote Code Execution improvements
+
+**Full Changelog**: [7.2.12...7.2.13](https://github.com/MasaCMS/MasaCMS/compare/7.2.12...7.2.13)
+
 
 ## 8.0.0-alpha.2
 
