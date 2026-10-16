@@ -4,7 +4,7 @@ title: File Browser
 nav_order: 9
 grand_parent: Content
 parent: Managing content
-last_modified_date: 12-01-2022 09:00
+last_modified_date: 16-10-2026 13:00
 permalink: /content/managing-content/filebrowser/
 ---
 
@@ -52,6 +52,9 @@ On the left side of the filename of each file there are three dots. Click on the
 * Rename; rename the file. Note: You can not change the extension of the file.
 * Download; download the file.
 * Delete: delete the file from the file system.
+
+{: .note}
+As of Masa CMS 8.0, you can't rename a file or folder to a name that is already used in the same folder. The existing file or folder is not overwritten.
 
 ### Editing an image file
 If the file is an image, it can be edited in the File Browser.

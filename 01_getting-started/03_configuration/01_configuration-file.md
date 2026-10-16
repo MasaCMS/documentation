@@ -4,7 +4,7 @@ title: Configuration file
 nav_order: 1
 grand_parent: Getting started
 parent: Configuration
-last_modified_date: 24-07-2023 13:00
+last_modified_date: 16-10-2026 13:00
 permalink: /getting-started/configuration/configuration-file/
 ---
 # Configuration file
@@ -870,16 +870,22 @@ New in 7.6.1
 
 #### filestore
 
+{: .warning}
+The 's3' option is no longer supported as of Masa CMS 8.0. Files are stored through a storage service instead: by default on the local file system, or in another storage backend (such as S3) through a custom storage service.
+
 <dl>
   <dt>Type</dt>
   <dd>string</dd>
   <dt>Default</dt>
   <dd><code>filedir</code></dd>
   <dt>Description</dt>
-  <dd>Configuration where to store the files for Masa CMS. Default is 'filedir', the other option is 's3'.</dd>
+  <dd>Configuration where to store the files for Masa CMS. Default is 'filedir'.</dd>
 </dl>
 
 #### filestoreaccessinfo
+
+{: .warning}
+This setting is no longer used as of Masa CMS 8.0, because the 's3' option of `filestore` has been removed.
 
 <dl>
   <dt>Type</dt>
@@ -892,13 +898,16 @@ New in 7.6.1
 
 #### filestoreendpoint
 
+{: .warning}
+This setting is no longer used as of Masa CMS 8.0, because the 's3' option of `filestore` has been removed.
+
 <dl>
   <dt>Type</dt>
   <dd>string</dd>
   <dt>Default</dt>
   <dd><code>http://s3.amazonaws.com</code></dd>
   <dt>Description</dt>
-  <dd>Configuration string used when filestore='s3'. This is a string with the endpoint for the S3 buecket to store the files.</dd>
+  <dd>Configuration string used when filestore='s3'. This is a string with the endpoint for the S3 bucket to store the files.</dd>
 </dl>
 
 #### fmcaseinsensitive
