@@ -871,7 +871,7 @@ New in 7.6.1
 #### filestore
 
 {: .warning}
-The 's3' option is no longer supported as of Masa CMS 8.0. Files are stored through a storage service instead: by default on the local file system, or in another storage backend (such as S3) through a custom storage service.
+The 's3' option is no longer supported as of Masa CMS 8.0. Files are stored through a storage service instead: by default on the local file system, or in another storage backend (such as S3) through a [custom storage service](/customizing-extending-masa/file-storage/).
 
 <dl>
   <dt>Type</dt>

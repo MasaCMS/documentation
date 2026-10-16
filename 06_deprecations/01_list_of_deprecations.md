@@ -14,7 +14,7 @@ The following functionality is deprecated as of Masa CMS 7.5
 ## ACL Settings for Image Uploads to S3
 
 {: .warning}
-Removed in Masa CMS 8.0, together with the built-in S3 file store (`filestore=s3`). To store files in S3, use a custom storage service.
+Removed in Masa CMS 8.0, together with the built-in S3 file store (`filestore=s3`). To store files in S3, use a [custom storage service](/customizing-extending-masa/file-storage/).
 
 When uploading images in Masa CMS, new images are created in various sizes based on the original image. If you have configured Masa CMS to upload these images to S3, it will attempt to set the Access Control List (ACL) for these images. The default settings are:
 

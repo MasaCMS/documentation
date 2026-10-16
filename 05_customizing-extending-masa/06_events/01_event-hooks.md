@@ -4,7 +4,7 @@ title: Event hooks
 nav_order: 1
 grand_parent: Customizing/Extending Masa
 parent: Events
-last_modified_date: 11-01-2021 10:00
+last_modified_date: 16-10-2026 13:00
 permalink: /customizing-extending-masa/events/event-hooks/
 ---
 
@@ -278,7 +278,7 @@ The name of an event hook is descriptive and already gives away a lot of informa
 | onAfterFileUpload         | _New in 7.3_ |
 | onAfterFileEdit           | _New in 7.3_ |
 | onAfterFileUpdate         | _New in 7.3_ |
-| onAfterFileDelete         | _New in 7.3_ |
+| onAfterFileDelete         | _New in 7.3_. Fired after a file or folder is deleted in the File Browser. `m.event('fileBrowser')` holds `name`, `path`, `parent`, `type` (`file` or `directory`), `size`, `lastModified` and `filePath`. |
 | onAfterFileRename         | _New in 7.3_ |
 
 ### Form-specific Events
