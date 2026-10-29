@@ -15,6 +15,249 @@ permalink: /release-notes/
 - TOC
 {:toc}
 
+## 8.0.0-alpha.4
+
+{: .warning }
+This is an alpha release. It is not intended for production use. Breaking changes are expected.
+
+### Overview
+{: .no_toc }
+
+This release brings the 8.0 alpha line up to date with the security fixes shipped in Masa CMS 7.6.2. It contains some additional features on top of 8.0.0-alpha.3.
+
+### Security Vulnerability Fix
+{: .no_toc }
+
+#### What was the issue ?
+{: .no_toc }
+
+The multiple critical and high vulnerabilities fixed in Masa CMS 7.6.2 also affected the 8.0.0-alpha.3 codebase.
+
+#### What is fixed ?
+{: .no_toc }
+
+* The vulnerabilities fixed in 7.6.2 have been merged into the 8.0 alpha line.
+
+#### What versions are affected?
+{: .no_toc }
+
+Masa CMS 8.0.0-alpha.3 is affected.
+
+#### What should you upgrade ?
+{: .no_toc }
+
+* If you're evaluating Masa CMS 8.0.0-alpha.3, you should upgrade to 8.0.0-alpha.4.
+
+### What's Changed
+{: .no_toc }
+
+* Unauthenticated Cross-Site Request Forgery improvements
+* Remove dead settingsBundle component by [@plimpens](https://github.com/plimpens) in [#469](https://github.com/MasaCMS/MasaCMS/pull/469)
+* Document nginx webroot and CF handoff requirements by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#477](https://github.com/MasaCMS/MasaCMS/pull/477)
+* Fix filebrowser edit, update, rename and CKEditor upload on Adobe ColdFusion by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#471](https://github.com/MasaCMS/MasaCMS/pull/471)
+* Make category spec isolate itself across runs by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#474](https://github.com/MasaCMS/MasaCMS/pull/474)
+* Make content interval specs isolate themselves across runs by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#476](https://github.com/MasaCMS/MasaCMS/pull/476)
+* Fix/ckeditor quick upload response by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#479](https://github.com/MasaCMS/MasaCMS/pull/479)
+
+**Full Changelog**: [8.0.0-alpha.3...8.0.0-alpha.4](https://github.com/MasaCMS/MasaCMS/compare/8.0.0-alpha.3...8.0.0-alpha.4)
+
+
+## 7.6.2
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical and high vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+* Fix/ckeditor quick upload response by [@guustnieuwenhuis](https://github.com/guustnieuwenhuis) in [#479](https://github.com/MasaCMS/MasaCMS/pull/479)
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4, 7.5 and 7.6 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.6, you should update to version 7.6.2 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.5, you should update to version 7.5.7 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.14 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.19 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.14 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Unauthenticated Cross-Site Request Forgery improvements
+
+**Full Changelog**: [7.6.1...7.6.2](https://github.com/MasaCMS/MasaCMS/compare/7.6.1...7.6.2)
+
+
+## 7.5.7
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical and high vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4, 7.5 and 7.6 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.6, you should update to version 7.6.2 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.5, you should update to version 7.5.7 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.14 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.19 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.14 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Unauthenticated Cross-Site Request Forgery improvements
+
+**Full Changelog**: [7.5.6...7.5.7](https://github.com/MasaCMS/MasaCMS/compare/7.5.6...7.5.7)
+
+
+## 7.4.14
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical and high vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4, 7.5 and 7.6 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.6, you should update to version 7.6.2 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.5, you should update to version 7.5.7 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.14 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.19 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.14 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Unauthenticated Cross-Site Request Forgery improvements
+
+**Full Changelog**: [7.4.13...7.4.14](https://github.com/MasaCMS/MasaCMS/compare/7.4.13...7.4.14)
+
+
+## 7.3.19
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical and high vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4, 7.5 and 7.6 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.6, you should update to version 7.6.2 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.5, you should update to version 7.5.7 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.14 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.19 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.14 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Unauthenticated Cross-Site Request Forgery improvements
+
+**Full Changelog**: [7.3.18...7.3.19](https://github.com/MasaCMS/MasaCMS/compare/7.3.18...7.3.19)
+
+
+## 7.2.14
+
+## Security Vulnerability Fix
+{: .no_toc }
+
+### What was the issue ?
+{: .no_toc }
+
+We've been informed multiple critical and high vulnerabilities in Masa CMS.
+
+### What is fixed ?
+{: .no_toc }
+
+* The mentioned vulnerabilities have been fixed.
+
+### What versions are affected?
+{: .no_toc }
+
+Masa CMS versions 7.2, 7.3, 7.4, 7.5 and 7.6 are affected.
+
+### What should you upgrade ?
+{: .no_toc }
+
+* If you’re on Masa CMS 7.6, you should update to version 7.6.2 immediately. This can be done by using the “Update Masa CMS Core” option in the menu of the Masa CMS Administrator or by applying a manual update.
+* If you’re on Masa CMS 7.5, you should update to version 7.5.7 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.4, you should update to version 7.4.14 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.3, you should update to version 7.3.19 immediately. This can be done by applying a manual update.
+* If you’re on Masa CMS 7.2, you should update to version 7.2.14 immediately. This can be done by applying a manual update.
+
+If an immediate upgrade is not possible, review the workarounds in the security advisories.
+
+## What's Changed
+{: .no_toc }
+
+* Unauthenticated Cross-Site Request Forgery improvements
+
+**Full Changelog**: [7.2.13...7.2.14](https://github.com/MasaCMS/MasaCMS/compare/7.2.13...7.2.14)
+
+
 ## 8.0.0-alpha.3
 
 {: .warning }
