@@ -16,7 +16,7 @@ Masa CMS is backward compatible with Mura CMS. Migrating is as easy as executing
 To migrate from Mura CMS to Masa CMS, execute the following steps:
 
 * locate the `config/settings.ini.cfm` file in your project
-* search for the `autoupdateurl` setting in this file
+* search for the [`autoupdateurl`](/getting-started/configuration/configuration-file/#autoupdateurl) setting in this file (add it if it isn't there)
 * update its value to `https://github.com/MasaCMS/MasaCMS/archive/main.zip`
 * login to the Mura administrator
 * reload application
