@@ -262,6 +262,17 @@ Updated in 7.6.0
   <dd>Tells Masa CMS to pause for a number of seconds after updating the core. This is usefull for files to be synched across multiple servers.</dd>
 </dl>
 
+#### autoupdateurl
+
+<dl>
+  <dt>Type</dt>
+  <dd>string</dd>
+  <dt>Default</dt>
+  <dd><code>https://github.com/MasaCMS/MasaCMS/archive/main.zip</code></dd>
+  <dt>Description</dt>
+  <dd>URL of the zip archive that is downloaded when executing an "update core" in the Masa CMS Admin. When <a href="/getting-started/upgrade-from-mura-to-masa-cms/">upgrading from Mura CMS</a>, set this to <code>https://github.com/MasaCMS/MasaCMS/archive/main.zip</code>.</dd>
+</dl>
+
 
 #### azureadclientid
 New in 7.4.3
