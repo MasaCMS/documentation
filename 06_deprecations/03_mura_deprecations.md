@@ -3,7 +3,7 @@ layout: default
 title: Mura Deprecations
 nav_order: 3
 parent: Deprecations
-last_modified_date: 20-12-2021 13:00
+last_modified_date: 16-10-2026 13:00
 permalink: /deprecations/mura-deprecations/
 ---
 
@@ -118,8 +118,12 @@ In the file ``core/mura/configBean.cfc`` the following functions are deprecated:
 Please use the functions in ``core/mura/dbUtility.cfc`` instead.
 
 ### s3.cfc
+
+{: .warning}
+Removed in Masa CMS 8.0.
+
 The file ``core/mura/content/file/s3.cfc`` is deprecated.
-Pleas use different solution for interacting with S3.
+Please use a different solution for interacting with S3.
 
 ### Deprecated arguments in function ``getAdvancedSearch`` in userGateway.cfc and userManager.cfc
 In the files ``core/mura/user/userGateway.cfc`` and ``core/mura/userGateway.cfc  `` the following arguments are deprecated for the function ``getAdvancedSearch``:

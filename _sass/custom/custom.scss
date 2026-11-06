@@ -1,0 +1,4 @@
+// Tables with multi-line cells: add `{: .valign-top }` on the line after the table.
+.valign-top td {
+  vertical-align: top;
+}
