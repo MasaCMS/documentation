@@ -278,8 +278,9 @@ The name of an event hook is descriptive and already gives away a lot of informa
 | onAfterFileUpload         | _New in 7.3_ |
 | onAfterFileEdit           | _New in 7.3_ |
 | onAfterFileUpdate         | _New in 7.3_ |
-| onAfterFileDelete         | _New in 7.3_. Fired after a file or folder is deleted in the File Browser. `m.event('fileBrowser')` holds `name`, `path`, `parent`, `type` (`file` or `directory`), `size`, `lastModified` and `filePath`. |
+| onAfterFileDelete         | _New in 7.3_.<br>Fired after a file or folder is deleted in the File Browser. `m.event('fileBrowser')` holds `name`, `path`, `parent`, `type` (`file` or `directory`), `size`, `lastModified` and `filePath`.<br>_Changed in 8.0_:<br>Folder deletes carry the same keys; before 8.0 only `filePath` was set for folders. |
 | onAfterFileRename         | _New in 7.3_ |
+{: .valign-top }
 
 ### Form-specific Events
 
