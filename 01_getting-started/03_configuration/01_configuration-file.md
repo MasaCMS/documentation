@@ -358,7 +358,7 @@ New in 7.4.3
   <dt>Type</dt>
   <dd>boolean</dd>
   <dt>Default</dt>
-  <dd><code>false</code></dd>
+  <dd><code>true</code></dd>
   <dt>Description</dt>
   <dd>When Masa CMS is using a cluster, broadcast cluster commmands.</dd>
 </dl>
@@ -369,7 +369,7 @@ New in 7.4.3
   <dt>Type</dt>
   <dd>boolean</dd>
   <dt>Default</dt>
-  <dd><code>false</code></dd>
+  <dd><code>true</code></dd>
   <dt>Description</dt>
   <dd>When Masa CMS is using a cluster, broadcast app reloading.</dd>
 </dl>
@@ -380,7 +380,7 @@ New in 7.4.3
   <dt>Type</dt>
   <dd>boolean</dd>
   <dt>Default</dt>
-  <dd><code>false</code></dd>
+  <dd><code>true</code></dd>
   <dt>Description</dt>
   <dd>When Masa CMS is using a cluster, broadcast cache purges.</dd>
 </dl>
@@ -724,6 +724,17 @@ New in 7.6.1
   <dd><code>tusers,tusersmemb,tusergroups,tsettings,tusersession,toauthtokens,tremembertokens,tpermissions,tsessiontracking,tredirects,toauthclients,tuserremotesessions,tuserdevice</code></dd>
   <dt>Description</dt>
   <dd>Comma separated list of database tables that public feed queries may never join to, aggregate over, group by, or sort on. This applies to the content feed, the generic entity feed, and the user feed, and protects sensitive tables (users, settings, permissions, session/redirect/OAuth tokens, etc.) from being referenced through feed parameters. Add your own sensitive custom tables to this list if needed.</dd>
+</dl>
+
+#### disableadmin
+
+<dl>
+  <dt>Type</dt>
+  <dd>boolean</dd>
+  <dt>Default</dt>
+  <dd><code>false</code></dd>
+  <dt>Description</dt>
+  <dd>Disables the Masa CMS Admin on this server. Requests to the admin directory are handled as a regular front-end request for that path, which normally results in a 404 page. The front-end editing tools, which rely on the admin, are not available either. Useful for public-facing servers in a cluster where content is managed on a separate authoring server. Masa CMS must be reloaded for this change to take effect.</dd>
 </dl>
 
 #### editablecomments
@@ -1343,7 +1354,7 @@ New in 7.4.4
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd>Legacy: not a production feature. Multi factor authentication</dd>
+  <dd>Enables multi-factor authentication. After entering a valid username and password, users must also enter an authorization code before they are logged in. By default, Masa CMS generates this code and sends it to the user by email (see <code>mfasendauthcode</code>). A module such as <a href="https://github.com/MasaCMS/MasaAuthenticator">MasaAuthenticator</a> can verify codes from an authenticator app instead. When enabled, the "remember me" automatic login is not used.</dd>
 </dl>
 
 #### mfaperdevice
@@ -1354,7 +1365,7 @@ New in 7.4.4
   <dt>Default</dt>
   <dd><code>false</code></dd>
   <dt>Description</dt>
-  <dd>Legacy: not a production feature. Multi factor authentication</dd>
+  <dd>When multi-factor authentication is enabled (<code>mfa=true</code>), users can mark a device as trusted after entering an authorization code. Later logins from that device only require a username and password. Devices are recognized by a browser cookie.</dd>
 </dl>
 
 #### mfasendauthcode
@@ -1365,7 +1376,7 @@ New in 7.4.4
   <dt>Default</dt>
   <dd><code>true</code></dd>
   <dt>Description</dt>
-  <dd>Legacy: not a production feature. Multi factor authentication</dd>
+  <dd>When multi-factor authentication is enabled (<code>mfa=true</code>), send the generated authorization code to the user by email. Set to <code>false</code> when a module, such as <a href="https://github.com/MasaCMS/MasaAuthenticator">MasaAuthenticator</a>, verifies codes from an authenticator app instead.</dd>
 </dl>
 
 #### mysqlengine

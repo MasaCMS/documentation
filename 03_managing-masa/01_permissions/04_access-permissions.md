@@ -10,4 +10,7 @@ permalink: /managing-masa/permissions/access-permissions/
 
 # Access permissions
 
+{: .warning}
+Restricting content in Masa CMS does not protect uploaded files on disk. If you restrict File content items, make sure direct web access to the file cache folder is blocked. See [Restrict access to the cache folder](/getting-started/security/restrict-cache-folder-access/).
+
 ## Granting / revoking content permissions
